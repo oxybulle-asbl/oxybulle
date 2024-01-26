@@ -1,0 +1,38 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[main]]
+name = "A propos"
+url = "a-propos/"
+weight = 2
+
+[[main]]
+name = "Activités"
+url = "activites/"
+weight = 3
+
+[[main]]
+weight = 5
+name = "Contact"
+url = "contact"
+
+# footer menu
+[[footer]]
+name = "A propos"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Nous soutenir"
+url = "sections/_nous-soutenir/"
+weight = 2
+
+[[footer]]
+name = "Mentions légales"
+url = "mentionslegales/"
+weight = 3

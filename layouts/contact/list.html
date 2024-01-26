@@ -1,0 +1,144 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+  <section class="section-sm">
+    <div class="container">
+      <div class="row">
+        <div class="md:col-10 lg:col-6 mx-auto">
+				
+		<div class="mb-6">
+          <h3>S'inscrire à la newsletter <span class="text-red-500">*</span></h3>
+		  Pour se tenir informer de nos actualités et actions, et les partager avec votre entourage.<br>
+		  Votre email ne sera jamais communiqué à des tiers. <br>
+		  Se désabonner est possible à tout moment. 
+	    </div>
+		<div class="mb-6">
+	{{ with site.Params.subscription }}
+    {{ if .enable }}
+      
+	  	  <!-- subscription form -->  
+      <form
+        action="{{ .mailchimp_form_action | safeURL }}"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        novalidate="novalidate">
+        <div class="input-group w-75 mx-auto mb-3">
+          <input
+            type="email"
+            name="EMAIL"
+            placeholder="votre@email.com"
+            class="form-input"
+            id="mce-EMAIL"
+            aria-required="true"
+            autocomplete="off"
+            required />&emsp;
+			</div>
+			<div>
+          <button
+            class="btn btn-primary"
+            name="subscribe"
+            id="mc-embedded-subscribe">
+            {{ .button_label }}
+          </button>
+        </div>
+        <input
+          type="hidden"
+          name="EMAILTYPE"
+          id="mce-EMAILTYPE-0"
+          value="html" />
+        <div style="position:absolute;left:-5000px" aria-hidden="true">
+          <input type="text" name="{{ .name }}" tabindex="-1" />
+        </div>
+      </form>
+      <div id="mce-responses" class="clear">
+        <div
+          class="response text-white"
+          id="mce-error-response"
+          style="display:none"></div>
+        <div
+          class="response text-white"
+          id="mce-success-response"
+          style="display:none"></div>
+      </div>
+      <script
+        type="text/javascript"
+        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+      <!-- /subscription form -->
+    {{ end }}
+  {{ end }}
+	<br><br>
+		---
+	</div>	
+ 	<div class="mb-6">
+	 <h3>Nous contacter</h3>
+		 Pour en savoir plus sur le volontariat,<br>
+ 		 Pour partager une idée d'activités ou de récolte de fond, ou, <br>
+		 Pour tout autre demande.<br>
+ 	</div>
+          <form action="{{ site.Params.contact_form_action }}" method="POST">
+            <div class="mb-6">
+              <label for="name" class="form-label">
+                Prénom Nom <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="Jeanne Dupont"
+                type="text" />
+            </div>
+            <div class="mb-6">
+              <label for="email" class="form-label">
+                Email <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="votre@email.com"
+                type="email" />
+            </div>
+            <div class="mb-6">
+              <label for="message" class="form-label">
+                Message <span class="text-red-500">*</span>
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-input"
+                placeholder="Votre message..."
+                rows="8"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Soumettre</button>
+          </form>
+		  <br>
+		  	<div class="mb-6">
+      <div class="content">
+            {{ .Content }}
+      </div>
+    </div>
+    </div>
+    </div>
+  	</div>
+</section>
+
+  <!-- google map -->
+  {{ with site.Params.google_map }}
+    {{ if .enable }}
+      <div
+        id="map"
+        style="height: 400px;"
+        data-latitude="{{ .map_latitude }}"
+        data-longitude="{{ .map_longitude }}"
+        data-marker="{{ .map_marker | relURL }}"
+        data-marker-name="{{ site.Title }}"></div>
+    {{ end }}
+  {{ end }}
+
+
+  {{ if site.Params.google_map.enable }}
+    {{ $gmap:= resources.Get "plugins/maps/google-map.js" }}
+    <script defer src="{{ $gmap.RelPermalink }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places"></script>
+  {{ end }}
+
+{{ end }}
