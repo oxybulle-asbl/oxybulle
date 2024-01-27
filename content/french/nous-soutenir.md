@@ -66,7 +66,9 @@ Un don de plus de 40 € (annuel) est déductible.
 
 ☝️ Il est ***impératif*** de nous laisser en **communication** votre Prénom, NOM, adresse, email ou numéro de registre national + DON.  Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
 
-​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. Vos contributions nous permettent de fonctionner. **Nous souhaiterions aller encore plus loin, et offrir une bulle d'air à l'ensemble des enfants des maisons d'accueil de la province de Namur**. On doit donc doubler notre taille ! 
+​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. 
+
+Nous souhaiterions **aller encore plus loin**, et **offrir** une **bulle d'air** à tous les enfants** des maisons d'accueil de la province de **Namur**. On doit donc doubler notre taille ! 
 
 {{< button label="Don en ligne (Sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
 
