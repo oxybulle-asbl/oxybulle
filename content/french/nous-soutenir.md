@@ -32,13 +32,13 @@ Concrètement, **devenir volontaire** se fait en **plusieurs étapes** : un prem
 
 Vous habitez en Belgique ou ailleurs et vous avez envie de rejoindre le comité de soutien ou être tenu au courant des prochaines ventes ? Vous avez une idée de récolte de fonds à partager ?
 
-Le **comité de soutien** d’Oxybulle regroupe une **vingtaine de personnes** de tous âges qui **organisent** avec dynamisme 💥 des **ventes et des événements** au profit d’Oxybulle.
+Le **comité de soutien** d’Oxybulle regroupe une **vingtaine de personnes** de tous âges qui **organisent** avec dynamisme 💥 des **ventes et des événements** pour financer les activités extra-scolaires des enfants.
 
 **Rejoignez notre comité** pour :
 
 - **Co-organiser et/ou parrainer** des **événements de collecte de fonds** (concerts, spectacles, tombolas, enchères, ....)
-- **Participer** à l'effort de **vente** de **produits du terroir** (jus de pommet et poire, chocolats, autres produits locaux, etc.) dont les bénéfices sont reversés à l'association 
-- **Proposer des lieux et des activités sympas** aux alentours de Namur (expos, pièces de théâtre, avant-premières, récoltes dans vos vergers...) ou ailleurs
+- **Participer** à l'effort de **vente** de **produits du terroir** (jus de pomme et poire, chocolats, autres produits locaux, etc.) dont les bénéfices sont reversés à l'association 
+- **Proposer des lieux pour des chouettes activités** aux alentours de Namur (expos, pièces de théâtre, avant-premières, récoltes dans vos vergers...) ou ailleurs
 - **Venir** à nos grands **événements annuels**
 - **Partager les initiatives** du comité auprès de vos proches et dans votre réseau professionnel
 
@@ -64,9 +64,9 @@ BIC: GKCCBEBB
 
 Un don de plus de 40 € (annuel) est déductible.
 
-☝️ Il est ***impératif*** de nous laisser en **communication** votre Prénom, NOM, adresse, email ou numéro de registre national + DON.  Sans cela, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
+☝️ Il est ***impératif*** de nous laisser en **communication** votre Prénom, NOM, adresse, email ou numéro de registre national + DON.  Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
 
-​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. Vos contributions nous permettent de fonctionner. **Nous souhaiterions aller encore plus loin, et offrir les mêmes services à l'ensemble des foyers de la province de Namur**.
+​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. Vos contributions nous permettent de fonctionner. **Nous souhaiterions aller encore plus loin, et offrir une bulle d'air à l'ensemble des enfants des maisons d'accueil de la province de Namur**. On doit donc doubler notre taille ! 
 
 {{< button label="Don en ligne (Sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
 

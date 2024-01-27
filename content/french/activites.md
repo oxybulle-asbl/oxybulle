@@ -1,7 +1,7 @@
 ---
 title: "S'amuser et apprendre"
 meta_title: "Activités"
-description: "Des activités de loisir avec des petits groupes d'enfants et du soutien scolaire sont co-organisées et animées par des volontaires bénévoles."
+description: "Des activités de loisir avec des petits groupes d'enfants et du soutien scolaire sont co-organisées et animées par des volontaires."
 draft: false
 ---
 
@@ -11,9 +11,9 @@ Conçues sur mesure selon les besoins et capacités de chaque jeune, les activit
 
 Elles ont lieu le plus souvent à l'extérieur des foyers et sont organisées en petits groupes, par tranche d'âge. Au programme : accrobranche, escalade, excursions ludiques et pédagogiques, dans les villes, à la mer, dans les forêts, séances de cinéma, ateliers créatifs de bricolage ou de cuisine, spectacles, bowling, visites de musées, etc. Le but est d'explorer le monde sportif, culturel, artistique et naturel, avec respect tout en s'amusant !
 
-Selon l'inventivité des participants, les activités peuvent durer de quelques heures à une journée complète. Les initiatives sont adaptées au fil du temps, des affinités se nouant.
+Les activités peuvent durer de quelques heures à une journée complète. Elles sont adaptées au fil du temps, selon les affinités et les envies des participants. 
 
-Une participation régulière des volontaires est encouragée pour tisser des liens durables avec les enfants et les accompagner dans la découverte et le partage de moments épanouissants.
+Une présence régulière des volontaires est encouragée pour établir un lien de confiance avec les enfants et ainsi, les accompagner dans la découverte et le partage de souvenirs mémorables et positifs.
 
 ### Le soutien scolaire
 

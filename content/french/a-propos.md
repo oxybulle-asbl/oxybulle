@@ -10,11 +10,11 @@ Notre **mission** est d’**offrir**, aux enfants des maisons d'accueil de la pr
 
 ### Valeurs
 
-Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagement auprès des jeunes et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous plaçons en eux et qu'ils peuvent placer en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
+Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagement auprès des jeunes et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous accordons à chacun·e et que chacun·e peut avoir en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
 
 ### Equipe
 
-Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeunes), de [**volontaires**](#Volontaires), du [**personnel éducatif**](#foyers) des foyers d'accueil, de membres d'un [**comité de soutien**](#comité), de [**mécènes**](#mécènes), et d'un [**organe de gestion** ](#gestion).
+Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeunes), de [**volontaires**](#volontaires), du [**personnel éducatif**](#personnel-éducatif-et-maisons-d'acceuil) des foyers d'accueil, de membres d'un [**comité de soutien**](#comité), de [**mécènes**](#mécènes), et d'un [**organe de gestion** ](#gestion).
 
 {{< image src="images/oxybulle-b.png" caption="" alt="Ballade en vélo le long de la Meuse ; spectacle festival Namur en mai-LeDelta ; visite du musée de Tervueren" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Ballade en vélo le long de la Meuse ; Spectacle au Delta dans le cadre du festival Namur en mai ; Visite du musée de Tervueren ; Après-midi sportive accro-branche"  webp="false" >}}
 
@@ -42,9 +42,9 @@ Formés à l'accompagnement de ce public fragile, les volontaires d'Oxybulle son
 
 #### Personnel éducatif et maisons d’accueil 
 
-Educateurs, assistant sociaux, coordinateurs, psychologues, ... se relaient  au quotidien 24h sur 24, 365 jours par an auprès des jeunes pour les aider à surmonter les épreuves et l'éloignement de la cellule familiale. 
+Educateurs, assistant sociaux, coordinateurs, psychologues, ... se relaient au quotidien 24h sur 24, 365 jours par an auprès des jeunes pour les aider à surmonter les épreuves et l'éloignement de la cellule familiale. 
 
-Les moyens financiers mis à disposition par les pouvoirs publics ne sont malheureusement pas suffisants pour répondre à l'ensemble des besoins des jeunes. En conséquence, les activités extra-scolaires ne sont souvent pas la priorité au sein des foyers malgré la bonne volonté des professionnels. 
+Les moyens financiers et humains mis à disposition par les pouvoirs publics ne sont malheureusement pas suffisants pour répondre aux besoins de sortie et de suivi scolaire des enfants. Les activités extra-scolaires sont donc laissées pour compte, malgré la volonté et le dynamisme des professionnels. 
 
 Les maisons d’accueil partenaires s'inscrivent dans le cadre du Décret du 4 mars 1991 et du Décret du 18 janvier 2018 portant le Code de l'aide à la jeunesse. Ce sont principalement des Services Résidentiels Généraux (SRG) et des Projets Pédagogiques Particuliers (PPP), situés dans la province de Namur.
 
@@ -54,11 +54,11 @@ En moyenne, ces foyers accueillent une quinzaine de jeunes, dont l'âge peut all
 
 Des personnes motivées et animées par le désir de contribuer à un meilleur vivre ensemble, de Belgique et d'ailleurs, se regroupent dans un comité destiné à soutenir l'association. 
 
-A ce jour, une vingtaine de membres de tous âges participent selon leurs propres moyens. Certains partagent leurs contacts ou idées de mécènes potentiels, d'autres co-organisent des événements et des ventes au profit des enfants d’Oxybulle. 
+A ce jour, une vingtaine de membres de tous âges participent selon leurs propres moyens. Certains partagent leurs contacts ou idées de mécènes potentiels, d'autres co-organisent des événements et des ventes pour financer les activités extra-scolaires des enfants. 
 
 #### Mécènes
 
-Oxybulle est parrainée par des fondations et entreprises mécènes, des dons de particuliers et un comité de soutien. Oxybulle les remercie tout particulièrement.  
+Oxybulle est parrainée par des fondations et entreprises mécènes ainsi que par des dons de particuliers. Oxybulle les remercie tout particulièrement.  
 
 {{< image src="images/oxybulle-s1.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Nos mécènes"  webp="false" >}}
 
