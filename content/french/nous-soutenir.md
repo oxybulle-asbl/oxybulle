@@ -68,7 +68,7 @@ Un don de plus de 40 € (annuel) est déductible.
 
 ​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. Vos contributions nous permettent de fonctionner. **Nous souhaiterions aller encore plus loin, et offrir les mêmes services à l'ensemble des foyers de la province de Namur**.
 
-{{< button label="Don en ligne" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
+{{< button label="Don en ligne (Sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
 
 {{< button label="Contactez-nous et inscrivez-vous à la newsletter" link="contact/" style="solid" >}}
 

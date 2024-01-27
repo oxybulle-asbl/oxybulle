@@ -1,6 +1,6 @@
 ---
 title: "Mentions légales"
-meta_title: ""
+meta_title: "Mentions légales"
 description: ""
 draft: false
 ---
@@ -19,20 +19,17 @@ draft: false
 
 ### Site Web & Cookies (RGPD)
 
-🚀 Le site web est construit sous forme de site statique grâce au générateur open source Hugo et au thème HugoPlate.
+🚀 Le site web est construit sous forme de site statique grâce au générateur open source Hugo et au thème [HugoPlate](https://zeon.studio/).
 
-🌍 L'architecture statique pré-générée nécessite peu de traitement côté serveur, permettant des chargements de pages plus rapides, une consommation d'énergie réduite et une empreinte carbone inférieure par rapport aux sites dynamiques.
+⚖️ Le code est sous licence [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE), à l’exception des textes et images propriétaires.
 
-⚡ Les fichiers sources sont versionnés sur GitHub et déployés automatiquement sur Netlify. Le nom de domaine est hébergé par OVH.
+🌍 L’architecture statique pré-générée nécessite peu de traitement côté serveur, permettant des chargements de pages plus rapides, une consommation d’énergie réduite et une empreinte carbone inférieure par rapport aux sites dynamiques.
+
+⚡ Les fichiers sources sont versionnés sur [GitHub](https://github.com/oxybulle) et déployés automatiquement sur [Netlify](https://netlify.app). Le nom de domaine est hébergé par [OVH](https://www.ovh.com/fr).
 
 📝 Le contenu est rédigé en Markdown, un format simple et lisible converti en HTML. Markdown facilite et accélère la création et la mise à jour du contenu.
 
-⚖️ Le code est sous licence CC BY-NC 4.0, à l'exception des textes et images propriétaires.
+🍪 Aucun cookie utilisé. Le traffic est mesuré par Google Analytics.
 
-🍪 Aucun cookie utilisé. Le traffic est mesuré. 
+🔆 Les utilisateurs peuvent basculer en mode sombre pour réduire la fatigue oculaire et la consommation d’énergie sur écrans OLED.
 
-🔆 Les utilisateurs peuvent basculer en mode sombre pour réduire la fatigue oculaire et la consommation d'énergie sur écrans OLED.
-
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.

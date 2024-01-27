@@ -10,7 +10,7 @@ Notre **mission** est d’**offrir**, aux enfants des maisons d'accueil de la pr
 
 ### Valeurs
 
-Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagment auprès des jeunes et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous plaçons en eux et qu'ils peuvent placer en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
+Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagement auprès des jeunes et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous plaçons en eux et qu'ils peuvent placer en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
 
 ### Equipe
 
@@ -20,7 +20,7 @@ Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeu
 
 #### Jeunes
 
-Les jeunes , âgés de 3 à 18 ans, proviennent de contextes familiaux difficiles. Pris en charge par des structures d'accueil spécialisées, ils sont entourés de personnes attentives - éducateurs, psychologues, ... - qui les accompagnent au quotidien.
+Les jeunes soutenus, âgés de 3 à 18 ans, proviennent de contextes familiaux difficiles. Pris en charge par des structures d'accueil spécialisées, ils sont entourés de personnes attentives - éducateurs, psychologues, ... - qui les accompagnent au quotidien.
 
 La durée de leur séjour est variable: certains ne font que passer quelques jours ou mois quand d'autres y résident jusqu'à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d'autres ne bénéficient plus de contacts avec leurs proches.
 
@@ -28,9 +28,9 @@ Consciente des besoins spécifiques de ces jeunes, Oxybulle leur propose un espa
 
 #### Volontaires
 
- Les volontaires sont avec les jeunes au cœur de la démarche d'Oxybulle.  Agés de 18 à 70 ans (et plus!), ces personnes bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer des [activités](/activites) qui leur sont destinées. 
+ Les volontaires sont avec les jeunes au cœur de la démarche d'Oxybulle.  Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer des [activités](/activites) qui leur sont destinées. 
 
-Dans un esprit de partage (curiosité, passions, hobbies), les volontaires proposent des [**activités de loisirs**](/activites) ou  dispensent du [**soutien scolaire**](/activites) sur-mesure (devoirs, études, révisions, etc.). 
+Dans un esprit de partage (curiosité, passions, hobbies), les volontaires proposent des [**activités de loisirs**](/activites) ou dispensent du [**soutien scolaire**](/activites) sur-mesure (devoirs, études, révisions, etc.). 
 
 Concrètement, les bénévoles :
 
@@ -48,7 +48,7 @@ Les moyens financiers mis à disposition par les pouvoirs publics ne sont malheu
 
 Les maisons d’accueil partenaires s'inscrivent dans le cadre du Décret du 4 mars 1991 et du Décret du 18 janvier 2018 portant le Code de l'aide à la jeunesse. Ce sont principalement des Services Résidentiels Généraux (SRG) et des Projets Pédagogiques Particuliers (PPP), situés dans la province de Namur.
 
-En moyenne, ces foyers accueillent une quinzaine d'enfants et de jeunes, dont l'âge peut aller du nouveau-né à 18 voire 20 ans.
+En moyenne, ces foyers accueillent une quinzaine de jeunes, dont l'âge peut aller du nouveau-né à 18 voire 20 ans.
 
 #### Membres du comité de soutien
 
@@ -58,7 +58,7 @@ A ce jour, une vingtaine de membres de tous âges participent selon leurs propre
 
 #### Mécènes
 
-Oxybulle est principalement parrainée par des entreprises mécènes, des initiatives privées, par des personnalités publiques, un comité de soutien et de nombreux particuliers. Oxybulle les remercie tout particulièrement.  
+Oxybulle est parrainée par des fondations et entreprises mécènes, des dons de particuliers et un comité de soutien. Oxybulle les remercie tout particulièrement.  
 
 {{< image src="images/oxybulle-s1.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Nos mécènes"  webp="false" >}}
 
