@@ -7,22 +7,20 @@ draft: false
 
 ### Les activités de loisir
 
-Conçues sur mesure selon les besoins et capacités de chaque jeune, les activités récréatives d’Oxybulle visent à créer du lien, à leur faire découvrir leur environnement et vivre de nouvelles expériences de façon ludique.
+Conçues sur mesure selon les besoins et capacités de chaque jeune, les activités récréatives d’Oxybulle visent à créer du lien, à leur faire découvrir leur environnement et vivre de nouvelles expériences de façon ludique. 
 
-Au programme : accrobranche, escalade, excursions ludiques et pédagogiques, dans les villes, à la mer, dans les forêts, séances de cinéma, ateliers créatifs de bricolage ou de cuisine, spectacles, bowling, visites de musées, etc. Par petits groupes d'âge, ces activités - à caractère artistique, culturel, sportif ou environnemental - ont lieu le plus souvent à l'extérieur de leur foyer.
+Elles ont lieu le plus souvent à l'extérieur des foyers et sont organisées en petits groupes, par tranche d'âge. Au programme : accrobranche, escalade, excursions ludiques et pédagogiques, dans les villes, à la mer, dans les forêts, séances de cinéma, ateliers créatifs de bricolage ou de cuisine, spectacles, bowling, visites de musées, etc. Le but est d'explorer le monde sportif, culturel, artistique et naturel, avec respect tout en s'amusant !
 
-Reflets de l'inventivité des volontaires, ces activités peuvent durer de quelques heures à une journée complète. Les initiatives sont adaptées au fil du temps, des affinités se nouant entre les volontaires et les enfants.
+Selon l'inventivité des participants, les activités peuvent durer de quelques heures à une journée complète. Les initiatives sont adaptées au fil du temps, des affinités se nouant.
 
-Une participation régulière des volontaires est encouragée pour tisser des liens durables avec les enfants qu'ils accompagnent dans la découverte et le partage d'activités récréatives épanouissantes.
+Une participation régulière des volontaires est encouragée pour tisser des liens durables avec les enfants et les accompagner dans la découverte et le partage de moments épanouissants.
 
 ### Le soutien scolaire
 
-Le soutien scolaire consiste en des séances hebdomadaires individuelles entre un jeune et un volontaire. Moment privilégié où, dans le calme, les enfants et les adolescents bénéficient d'une écoute et d'une attention personnalisée qui permettent de (re)tisser un lien de confiance, propice au progrès.
+Le soutien scolaire prend la forme de séances hebdomadaires individuelles entre jeunes et volontaires. Ce sont des moments privilégiés et calmes, où les enfants et les adolescents bénéficient d'une écoute attentive et d'une attention personnalisée propice au progrès.
 
-L’objectif consiste à redonner confiance et curiosité aux jeunes, en stimulant leur envie d'apprendre via des méthodes ludiques valorisant davantage leurs efforts que les résultats.
+L’objectif consiste éveiller la curiosité des jeunes, à prendre confiance en soi. Il s'agit de stimuler l'envie d'apprendre via des méthodes ludiques valorisant davantage l'effort que le résultat.
 
-Concrètement, au sein des maisons d'accueil et dans un local dédié garantissant tranquillité, les volontaires accompagnent les jeunes dans leurs devoirs et leurs apprentissages, en fonction des leurs besoins, leurs niveaux scolaires et les matières à réviser. Cet accompagnement sur-mesure vise la progression dans un climat de confiance.
-
-La dimension individuelle de ce suivi permet d'offrir aux enfants un cadre confidentiel où ils se sentent complices, pleinement considérés et soutenus.
+Concrètement, au sein des maisons d'accueil et dans un local adapté, garantissant la tranquillité, un accompagnement sur-mesure est proposé à chaque jeune. La dimension individuelle de ce suivi permet de leur offrir un cadre confidentiel et complice.
 
 {{< image src="images/oxybulle-a.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
