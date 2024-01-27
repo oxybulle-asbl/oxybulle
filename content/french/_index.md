@@ -14,9 +14,9 @@ banner:
 features:
   - title: ""
     image: "/images/oxybulle-cover-2.png"
-    content: "[<u>**Oxybulle**</u>](a-propos/), c'est :" 
+    content: "[**<u>Oxybulle</u>**,](a-propos/) c'est :" 
     bulletpoints:
-      - "[**une centaine de jeunes** plus joyeux, mieux dans leur peau](/a-propos/)"
+      - "[**une centaine de jeunes** écoutés et soutenus](/a-propos/)"
       - "[**13 maisons d'accueil et leurs équipes** à l'écoute](/a-propos/)"
       - "[**une vingtaine de volontaires** formidables](/a-propos/)"
       - "[des **mécènes** solidaires](/a-propos/)"
