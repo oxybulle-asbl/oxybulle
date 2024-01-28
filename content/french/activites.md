@@ -13,7 +13,7 @@ Elles ont lieu le plus souvent à l'extérieur des foyers et sont organisées en
 
 Les activités peuvent durer de quelques heures à une journée complète. Elles sont adaptées au fil du temps, selon les affinités et les envies des participants. 
 
-Une présence régulière des volontaires est encouragée pour établir un lien de confiance avec les enfants et ainsi, les accompagner dans la découverte et le partage de souvenirs mémorables et positifs.
+Une présence régulière des volontaires est encouragée pour établir un lien de confiance avec les enfants et ainsi, les accompagner dans la découverte et le partage de souvenirs positifs.
 
 ### Le soutien scolaire
 

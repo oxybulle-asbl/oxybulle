@@ -20,35 +20,32 @@ Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeu
 
 #### Jeunes
 
-Les jeunes soutenus, âgés de 3 à 18 ans, proviennent de contextes familiaux difficiles. Pris en charge par des structures d'accueil spécialisées, ils sont entourés de personnes attentives - éducateurs, psychologues, ... - qui les accompagnent au quotidien.
+Les jeunes soutenus, âgés de 3 à 18 ans, proviennent de contextes familiaux difficiles. Pris en charge par des structures d’accueil spécialisées, ils sont entourés de personnes attentives - éducateurs, psychologues, … - qui les accompagnent au quotidien.
 
-La durée de leur séjour est variable: certains ne font que passer quelques jours ou mois quand d'autres y résident jusqu'à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d'autres ne bénéficient plus de contacts avec leurs proches.
+La durée de leur séjour est variable: certains ne font que passer quelques jours ou mois quand d’autres y résident jusqu’à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d’autres ne bénéficient plus de contacts avec leurs proches.
 
-Consciente des besoins spécifiques de ces jeunes, Oxybulle leur propose un espace d'expression et d'épanouissement personnel à travers des activités récréatives créatrices de liens, ainsi que des opportunités d'apprentissage et de découverte du monde extérieur.
-
+Consciente des besoins spécifiques de ces jeunes, Oxybulle leur propose un espace d’expression et d’épanouissement personnel à travers des activités récréatives créatrices de liens, ainsi que des opportunités d’apprentissage et de découverte du monde extérieur.
 #### Volontaires
 
-Les volontaires sont avec les jeunes au cœur de la démarche d'Oxybulle.  Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer des [activités](/activites) qui leur sont destinées. 
+Les volontaires sont avec les jeunes au cœur de la démarche d’Oxybulle. Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées.
 
-Dans un esprit de partage (curiosité, passions, hobbies), les volontaires proposent des [**activités de loisirs**](/activites) ou dispensent du [**soutien scolaire**](/activites) sur-mesure (devoirs, études, révisions, etc.). 
+Dans un esprit de partage (curiosité, passions, hobbies), il s'agit d'encadrer des **activités de loisirs** ou dispenser du **soutien scolaire** sur-mesure (devoirs, études, révisions, etc.).
 
 Concrètement, les bénévoles :
 
-- Co-organisent, animent et encadrent des activités récréatives adaptées aux enfants ou aux adolescents : sorties culturelles, journées sportives, ateliers créatifs, découverte de la nature, etc. L'objectif est de leur faire vivre des expériences enrichissantes, sources d'épanouissement.
-- Assurent un soutien scolaire individuel aux jeunes qui en ont besoin. Par un accompagnement régulier, à raison d'une à deux heures par semaine, les volontaires contribuent à renforcer la confiance de chaque enfant en sa capacité d'apprentissage.
-- Tissent une relation de confiance unique avec chaque jeune. Par l'écoute et l'attention qu'ils leur portent, ils les aident à reprendre confiance en eux et à se (re)construire.
+- Co-organisent, animent et encadrent des activités récréatives adaptées aux enfants ou aux adolescents : sorties culturelles, journées sportives, ateliers créatifs, découverte de la nature, etc. L’objectif est de leur faire vivre des expériences enrichissantes, sources d’épanouissement.
+- Assurent un soutien scolaire individuel à ceux et celles qui en ont besoin. Il s'agit d'accompagnements réguliers, à raison d’une à deux heures par semaine, qui contribuent à renforcer la confiance de chaque enfant en sa capacité d’apprentissage.
+- Tissent une relation unique avec chaque jeune. L’écoute et l’attention individuelle les aident à grandir dans un cadre convivial et bienveillant.
 
-Formés à l'accompagnement de ce public fragile, les volontaires d'Oxybulle sont essentiels pour donner au coup de pouce aux jeunes afin qu'ils puissent s'épanouir à travers des activités divertissantes et un soutien bienveillant.
+Formés à l’accompagnement de ce public fragile, les volontaires d’Oxybulle contribuent à l'épanouissement des enfants, des adultes responsables en devenir. 
 
 #### Personnel éducatif et maisons d’accueil 
 
-Educateurs, assistants sociaux, coordinateurs, psychologues, ... se relaient au quotidien 24h sur 24, 365 jours par an auprès des jeunes pour les aider à surmonter les épreuves et l'éloignement de la cellule familiale. 
+Educateurs, assistants sociaux, coordinateurs, psychologues, … se relaient auprès des jeunes, 24h sur 24, 365 jours par an, pour les aider à surmonter les épreuves et l’éloignement de leurs cellules familiales respectives. En moyenne, ces foyers accueillent une quinzaine d'enfants et/ou adolescents.
 
-Les moyens financiers et humains mis à disposition par les pouvoirs publics ne sont malheureusement pas suffisants pour répondre aux besoins de sortie et de suivi scolaire des enfants. Les activités extra-scolaires sont donc laissées pour compte, malgré la volonté et le dynamisme des professionnels. 
+Les moyens financiers et humains mis à disposition par les pouvoirs publics ne sont malheureusement pas suffisants pour répondre aux besoins de sortie et de suivi extrascolaire des enfants. En conséquence, les activités à l'extérieur des foyers sont très réduites, malgré la volonté et le dynamisme des équipes.
 
-Les maisons d’accueil partenaires s'inscrivent dans le cadre du Décret du 4 mars 1991 et du Décret du 18 janvier 2018 portant le Code de l'aide à la jeunesse. Ce sont principalement des Services Résidentiels Généraux (SRG) et des Projets Pédagogiques Particuliers (PPP), situés dans la province de Namur.
-
-En moyenne, ces foyers accueillent une quinzaine de jeunes, dont l'âge peut aller du nouveau-né à 18 voire 20 ans.
+Les maisons d’accueil partenaires s’inscrivent dans le cadre du Décret du 4 mars 1991 et du Décret du 18 janvier 2018 portant le Code de l’aide à la jeunesse. Ce sont principalement des Services Résidentiels Généraux (SRG) et des Projets Pédagogiques Particuliers (PPP), situés dans la province de Namur.
 
 #### Membres du comité de soutien
 
