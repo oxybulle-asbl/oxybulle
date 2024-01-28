@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Offrir une bulle d'air<br>à des enfants et des ados"
-  content: "[<u>**Oxybulle**</u>](a-propos/) est une **association** sans but lucratif qui propose des [**<u>activités récréatives**</u>](activites/) et du [<u>**soutien scolaire**</u>](activites/) aux [<u>**enfants et ados**</u>](a-propos) des **maisons d'acceuil** qui n’ont pas la chance de grandir en famille."
+  content: "[<u>**Oxybulle**</u>](a-propos/) est une **association** sans but lucratif qui propose des [**<u>activités récréatives**</u>](activites/) et du [<u>**soutien scolaire**</u>](activites/) aux [<u>**enfants et ados**</u>](a-propos) des **maisons d'accueil** qui n’ont pas la chance de grandir en famille."
   image: "/images/oxybulle-cover-1.png"
   button:
     enable: false
