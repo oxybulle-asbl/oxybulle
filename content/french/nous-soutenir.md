@@ -68,7 +68,7 @@ Un don de plus de 40 € (annuel) est déductible.
 
 ​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. Vos contributions nous permettent d'exister.
 
-Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** une **bulle d'air** à **tous les enfants** des maisons d'accueil situées dans la province de **Namur**. Avec 13 maisons partenaires, on en est seulement à la moitié. On doit donc **doubler** 📈 nos capacités ! Avec vous.  
+Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** une **bulle d'air** à **<u>tous</u> les enfants** des maisons d'accueil situées dans la province de **Namur**. Avec 13 maisons partenaires, on en est seulement à la moitié. On doit donc **doubler** 📈 nos capacités ! Avec vous.  
 
 {{< button label="Don en ligne (Sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
 
