@@ -1,7 +1,7 @@
 ---
 title: "S'amuser et apprendre"
 meta_title: "Activités"
-description: "Des activités de loisir avec des petits groupes d'enfants et du soutien scolaire sont co-organisées et animées par des volontaires."
+description: "Des **activités** de **loisir** et du **soutien scolaire** sont co-organisées et animées par des volontaires."
 draft: false
 ---
 

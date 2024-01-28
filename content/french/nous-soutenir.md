@@ -1,7 +1,7 @@
 ---
 title: "Comment nous soutenir"
 meta_title: "Nous soutenir"
-description: "Les fonds récoltés par Oxybulle et son comité de soutien sont destinés au financement des activités proposées aux jeunes et au fonctionnement de l'association."
+description: "Les **fonds** récoltés par Oxybulle et son comité de soutien sont destinés au **financement** des **activités** proposées aux jeunes et au **fonctionnement** de l'association."
 draft: false
 ---
 **Nous avons besoin de vous** pour continuer à **proposer** régulièrement des **activités «&nbsp;extra&nbsp;» ordinaires** aux enfants, de veiller au suivi et à la **coordination** des activités avec les maisons d'accueil mais aussi de **former** nos **volontaires**. 

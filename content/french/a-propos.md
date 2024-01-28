@@ -1,12 +1,12 @@
 ---
 title: "A propos"
 meta_title: "A propos"
-description: "Active depuis 2018 dans la province de Namur, Oxybulle est une association sans but lucratif"
+description: "**Oxybulle** est une **association** sans but lucratif, active **depuis 2018** dans la **province de Namur**"
 draft: false
 ---
 ### Mission
 
-Notre **mission** est d’**offrir**, aux enfants des maisons d'accueil, des **expériences ré-créatives, riches de rencontres, d’apprentissages et de moments de qualité** partagés avec nos volontaires. 
+Notre **mission** est d’**offrir** aux enfants des maisons d'accueil, des **expériences ré-créatives, riches de rencontres, d’apprentissages et de moments de qualité** partagés avec nos volontaires. 
 
 ### Valeurs
 
@@ -28,7 +28,7 @@ Consciente des besoins spécifiques de ces jeunes, Oxybulle leur propose un espa
 
 #### Volontaires
 
- Les volontaires sont avec les jeunes au cœur de la démarche d'Oxybulle.  Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer des [activités](/activites) qui leur sont destinées. 
+Les volontaires sont avec les jeunes au cœur de la démarche d'Oxybulle.  Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer des [activités](/activites) qui leur sont destinées. 
 
 Dans un esprit de partage (curiosité, passions, hobbies), les volontaires proposent des [**activités de loisirs**](/activites) ou dispensent du [**soutien scolaire**](/activites) sur-mesure (devoirs, études, révisions, etc.). 
 
@@ -42,7 +42,7 @@ Formés à l'accompagnement de ce public fragile, les volontaires d'Oxybulle son
 
 #### Personnel éducatif et maisons d’accueil 
 
-Educateurs, assistant sociaux, coordinateurs, psychologues, ... se relaient au quotidien 24h sur 24, 365 jours par an auprès des jeunes pour les aider à surmonter les épreuves et l'éloignement de la cellule familiale. 
+Educateurs, assistants sociaux, coordinateurs, psychologues, ... se relaient au quotidien 24h sur 24, 365 jours par an auprès des jeunes pour les aider à surmonter les épreuves et l'éloignement de la cellule familiale. 
 
 Les moyens financiers et humains mis à disposition par les pouvoirs publics ne sont malheureusement pas suffisants pour répondre aux besoins de sortie et de suivi scolaire des enfants. Les activités extra-scolaires sont donc laissées pour compte, malgré la volonté et le dynamisme des professionnels. 
 
