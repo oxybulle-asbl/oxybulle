@@ -1,16 +1,16 @@
 ---
 title: "A propos"
 meta_title: "A propos"
-description: "Active depuis 2018, Oxybulle est une association sans but lucratif qui soutient les enfants des maisons d’accueil de la province de Namur."
+description: "Active depuis 2018 dans la province de Namur, Oxybulle est une association sans but lucratif"
 draft: false
 ---
 ### Mission
 
-Notre **mission** est d’**offrir**, aux enfants des maisons d'accueil de la province de Namur, des **expériences ré-créatives, riches de rencontres, d’apprentissages et de moments de qualité** partagés avec nos volontaires. 
+Notre **mission** est d’**offrir**, aux enfants des maisons d'accueil, des **expériences ré-créatives, riches de rencontres, d’apprentissages et de moments de qualité** partagés avec nos volontaires. 
 
 ### Valeurs
 
-Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagement auprès des jeunes et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous accordons à chacun·e et que chacun·e peut avoir en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
+Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagement et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous accordons à chaque jeune et que chaque jeune peut avoir en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
 
 ### Equipe
 

@@ -2,12 +2,12 @@
 # Banner
 banner:
   title: "Offrir une bulle d'air<br>à des enfants et des ados"
-  content: "[<u>**Oxybulle**</u>](a-propos/) est une **association** sans but lucratif qui propose des [**<u>activités récréatives**</u>](activites/) et du [<u>**soutien scolaire**</u>](activites/) aux [<u>**enfants et ados**</u>](a-propos) de la province de **Namur** qui n’ont pas la chance de grandir en famille."
+  content: "[<u>**Oxybulle**</u>](a-propos/) est une **association** sans but lucratif qui propose des [**<u>activités récréatives**</u>](activites/) et du [<u>**soutien scolaire**</u>](activites/) aux [<u>**enfants et ados**</u>](a-propos) des **maisons d'acceuil** qui n’ont pas la chance de grandir en famille."
   image: "/images/oxybulle-cover-1.png"
   button:
     enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Nous soutenir"
+    link: "/soutenir"
 
 
 # Features
@@ -16,12 +16,12 @@ features:
     image: "/images/oxybulle-cover-2.png"
     content: "[**<u>Oxybulle</u>**,](a-propos/) c'est :" 
     bulletpoints:
-      - "[**une centaine de jeunes** soutenus](/a-propos/)"
-      - "[**13 maisons d'accueil et leurs équipes** à l'écoute](/a-propos/)"
-      - "[**une vingtaine de volontaires** formidables](/a-propos/)"
-      - "[des **mécènes** solidaires](/a-propos/)"
-      - "[un **comité de soutien** actif composé d'une quinzaine membres enthousiastes et efficaces](/a-propos/)"
-      - "[une **coordinatrice** à 3/5e temps et un **conseil d'administration** passionné et engagé](/a-propos/)"
+      - "**une centaine de jeunes** soutenus"
+      - "**13 maisons d'accueil** de la province de Namur et leurs **équipes** à l'écoute"
+      - "**une vingtaine de volontaires** formidables"
+      - "des **mécènes** solidaires"
+      - "un **comité de soutien** actif composé d'une quinzaine membres enthousiastes et efficaces"
+      - "une **coordinatrice** à 3/5e temps et un **conseil d'administration** passionné et engagé"
     button:
       enable: true
       label: "Nous soutenir"
