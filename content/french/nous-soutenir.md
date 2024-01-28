@@ -39,7 +39,7 @@ Le **comité de soutien** d’Oxybulle regroupe une **vingtaine de personnes** d
 - **Co-organiser et/ou parrainer** des **événements de collecte de fonds** (concerts, spectacles, tombolas, enchères, ....)
 - **Participer** à l'effort de **vente** de **produits du terroir** (jus de pomme et poire, chocolats, autres produits locaux, etc.) dont les bénéfices sont reversés à l'association 
 - **Proposer des lieux pour des chouettes activités** aux alentours de Namur (expos, pièces de théâtre, avant-premières, récoltes dans vos vergers...) ou ailleurs
-- **Venir** à nos grands **événements annuels**
+- **Venir** à nos **événements**
 - **Partager les initiatives** du comité auprès de vos proches et dans votre réseau professionnel
 
 Pour contacter le comité :  
@@ -66,9 +66,9 @@ Un don de plus de 40 € (annuel) est déductible.
 
 ☝️ Il est ***impératif*** de nous laisser en **communication** votre Prénom, NOM, adresse, email ou numéro de registre national + DON.  Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
 
-​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. 
+​**Merci** du fond du coeur ❤️ à tous celles et ceux, anonymes ou autres, qui soutiennent les activités pour les jeunes. Vos contributions nous permettent d'exister.
 
-Nous souhaiterions **aller encore plus loin**, et **offrir** une **bulle d'air** à tous les enfants** des maisons d'accueil de la province de **Namur**. On doit donc doubler notre taille ! 
+Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** une **bulle d'air** à **tous les enfants** des maisons d'accueil situées dans la province de **Namur**. Avec 13 maisons partenaires, on en est seulement à la moitié. On doit donc **doubler** 📈 nos capacités ! Avec vous.  
 
 {{< button label="Don en ligne (Sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
 

@@ -12,7 +12,7 @@ Notre **mission** est d’**offrir** aux enfants des maisons d'accueil, des **ex
 
 Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagement et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous accordons à chaque jeune et que chaque jeune peut avoir en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
 
-### Equipe
+### Bulle
 
 Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeunes), de [**volontaires**](#volontaires), du [**personnel éducatif**](#personnel-éducatif-et-maisons-d'acceuil) des foyers d'accueil, de membres d'un [**comité de soutien**](#comité), de [**mécènes**](#mécènes), et d'un [**organe de gestion** ](#gestion).
 
@@ -25,6 +25,7 @@ Les jeunes soutenus, âgés de 3 à 18 ans, proviennent de contextes familiaux d
 La durée de leur séjour est variable: certains ne font que passer quelques jours ou mois quand d’autres y résident jusqu’à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d’autres ne bénéficient plus de contacts avec leurs proches.
 
 Consciente des besoins spécifiques de ces jeunes, Oxybulle leur propose un espace d’expression et d’épanouissement personnel à travers des activités récréatives créatrices de liens, ainsi que des opportunités d’apprentissage et de découverte du monde extérieur.
+
 #### Volontaires
 
 Les volontaires sont avec les jeunes au cœur de la démarche d’Oxybulle. Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées.
@@ -37,7 +38,7 @@ Concrètement, les bénévoles :
 - Assurent un soutien scolaire individuel à ceux et celles qui en ont besoin. Il s'agit d'accompagnements réguliers, à raison d’une à deux heures par semaine, qui contribuent à renforcer la confiance de chaque enfant en sa capacité d’apprentissage.
 - Tissent une relation unique avec chaque jeune. L’écoute et l’attention individuelle les aident à grandir dans un cadre convivial et bienveillant.
 
-Formés à l’accompagnement de ce public fragile, les volontaires d’Oxybulle contribuent à l'épanouissement des enfants, des adultes responsables en devenir. 
+Formés à l’accompagnement bienveillant de ces jeunes, les volontaires d’Oxybulle sont témoins privilégiés de leur cheminement vers l’âge adulte, semant des graines d’humanité sur leur passage.
 
 #### Personnel éducatif et maisons d’accueil 
 
