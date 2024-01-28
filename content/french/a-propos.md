@@ -1,7 +1,7 @@
 ---
 title: "A propos"
 meta_title: "A propos"
-description: "**Oxybulle** est une **association** sans but lucratif, active **depuis 2018** dans la **province de Namur**"
+description: "**Oxybulle** est une **association** sans but lucratif, active **depuis 2018** dans la **province de Namur**."
 draft: false
 ---
 ### Mission
