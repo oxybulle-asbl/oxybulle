@@ -18,28 +18,42 @@
     {{ if .enable }}
       
 <!-- subscription form -->  
-      <form
-        action="{{ .mailchimp_form_action | safeURL }}"
-        method="post"
-        id="mc-embedded-subscribe-form"
-        name="mc-embedded-subscribe-form"
-        novalidate="novalidate"
-        target="_blank">
-        <div class="input-group w-75 mx-auto mb-3">
-
-   
-
-   <label for="name" class="form-label">Prénom Nom</label>
-
+	<form
+      action="{{ .mailchimp_form_action | safeURL }}"
+      method="post"
+      id="mc-embedded-subscribe-form"
+      name="mc-embedded-subscribe-form"
+      novalidate="novalidate"
+      target="_blank">
+    
+  <div class="input-group w-75 mx-auto mb-3">
+   <label for="name" class="form-label">Prénom</label>
           <input type="text" 
             name="FNAME"
-            placeholder="Charlie Thot"
+            placeholder="Camille"
             class="form-input" 
             id="mce-FNAME" 
             aria-required="true"
             autocomplete="on" 
             required />
-         </div>
+			
+			</div>
+			
+<div class="input-group w-75 mx-auto mb-3">
+<label for="name" class="form-label">Nom</label>
+
+<input type="text" 
+  name="LNAME"
+  placeholder="Thot" 
+  class="form-input" 
+  id="mce-LNAME"  
+  aria-required="true"
+  autocomplete="on" 
+  required /> 
+
+</div>
+
+<div class="input-group w-75 mx-auto mb-3">
 
  <label for="name" class="form-label">Email<span class="text-red-500">*</span></label>
 
@@ -52,7 +66,8 @@
             aria-required="true"
             autocomplete="on"
             required />
-         </div>
+			
+			</div>
 
 <div style="position:absolute;left:-5000px" aria-hidden="true">
 
@@ -65,21 +80,25 @@ type="submit"
 name="subscribe" 
 id="mc-embedded-subscribe" 
 class="btn btn-primary" 
-value="{{ .button_label }}">
+value="{{ .button_label }}">  
 
       <div id="mce-responses" class="clear">
         <div
-          class="response text-white"
+          class="text-red-500"
           id="mce-error-response"
           style="display:none"></div>
         <div
-          class="response text-white"
+          class="text-red-500"
           id="mce-success-response"
           style="display:none"></div>
       </div>
+
       <script
         type="text/javascript"
         src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+      
+</form>
+
       <!-- /subscription form -->
     {{ end }}
   {{ end }}
