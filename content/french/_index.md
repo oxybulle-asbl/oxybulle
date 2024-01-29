@@ -16,21 +16,21 @@ features:
     image: "/images/oxybulle-cover-2.png"
     content: "[**<u>Oxybulle</u>**,](a-propos/) c'est :" 
     bulletpoints:
-      - "**une centaine de jeunes** soutenus"
+      - "**une centaine de jeunes** soutenus chaque année"
       - "**les équipes des 13 maisons d'accueil** partenaires, de la province de Namur"
       - "**une vingtaine de volontaires** formidables"
       - "des **mécènes** solidaires"
-      - "un **comité de soutien** actif composé d'une quinzaine membres enthousiastes et efficaces"
+      - "un **comité de soutien** composé d'une quinzaine de membres enthousiastes et efficaces"
       - "une **coordinatrice** à 3/5e temps et un **conseil d'administration** passionné et engagé"
     button:
       enable: true
       label: "Nous soutenir"
       link: "nous-soutenir/"
-  - title: "Vente d'oeufs de Paques - Oxychoc"
+  - title: "Vente d'oeufs de Paques - OxyChoc"
     image: "/images/oxybulle-c-1.png"
-    content: "📆 Du **15 mars** au **15 avril 2024** <br> 📑 Organisée par le comité de soutien <br> <br>Cette année encore, l'artisan Galler de Ciney nous offre 🎁 la marge bénéficiaire de la vente de 30 kilos d'oeufs en chocolat de sa production. <br><br>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches.	"
+    content: "📆 Du **15 février** au **15 mars 2024** <br> 📑 Organisée par le comité de soutien <br> <br>Cette année encore, l'artisan Galler de Ciney nous offre 🎁 une partie de la marge bénéficiaire de la vente d'oeufs en chocolat de sa production. <br><br>Un chocolat de **qualité** pour vous faire **plaisir**,comme **cadeau** à vos proches ou aux jeunes."
     bulletpoints:
-      - "Points d'enlèvement à proximité"
+      - "Points d'enlèvement à Bruxelles, Namur et dans le Brabant wallon"
       - "Destiné à financer les activités des jeunes"
     button:
       enable: true
