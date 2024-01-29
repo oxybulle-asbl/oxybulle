@@ -4,24 +4,45 @@
     <div class="container">
       <div class="row">
         <div class="md:col-10 lg:col-6 mx-auto">
-				
-		<div class="mb-6">
-          <h3>S'inscrire à la newsletter <span class="text-red-500">*</span></h3>
-		  Pour se tenir informer de nos actualités et actions, et les partager avec votre entourage.<br>
-		  Votre email ne sera jamais communiqué à des tiers. <br>
-		  Se désabonner est possible à tout moment. 
-	    </div>
-		<div class="mb-6">
-	{{ with site.Params.subscription }}
+
+            <div class="mb-6">
+             <h3>S'inscrire à la newsletter <span class="text-red-500">*</span></h3>
+              Pour se tenir informer de nos actualités et actions, et les partager avec votre entourage.<br>
+              Votre email ne sera jamais communiqué à des tiers. <br>
+              Se désabonner est possible à tout moment. 
+             </div>
+            
+<div class="mb-6">
+    
+{{ with site.Params.subscription }}
     {{ if .enable }}
       
-	  	  <!-- subscription form -->  
+<!-- subscription form -->  
       <form
         action="{{ .mailchimp_form_action | safeURL }}"
         method="post"
         id="mc-embedded-subscribe-form"
-        novalidate="novalidate">
+        name="mc-embedded-subscribe-form"
+        novalidate="novalidate"
+        target="_blank">
         <div class="input-group w-75 mx-auto mb-3">
+
+   
+
+   <label for="name" class="form-label">Prénom Nom</label>
+
+          <input type="text" 
+            name="FNAME"
+            placeholder="Charlie Thot"
+            class="form-input" 
+            id="mce-FNAME" 
+            aria-required="true"
+            autocomplete="on" 
+            required />
+         </div>
+
+ <label for="name" class="form-label">Email<span class="text-red-500">*</span></label>
+
           <input
             type="email"
             name="EMAIL"
@@ -29,26 +50,23 @@
             class="form-input"
             id="mce-EMAIL"
             aria-required="true"
-            autocomplete="off"
-            required />&emsp;
-			</div>
-			<div>
-          <button
-            class="btn btn-primary"
-            name="subscribe"
-            id="mc-embedded-subscribe">
-            {{ .button_label }}
-          </button>
-        </div>
-        <input
-          type="hidden"
-          name="EMAILTYPE"
-          id="mce-EMAILTYPE-0"
-          value="html" />
-        <div style="position:absolute;left:-5000px" aria-hidden="true">
-          <input type="text" name="{{ .name }}" tabindex="-1" />
-        </div>
-      </form>
+            autocomplete="on"
+            required />
+         </div>
+
+<div style="position:absolute;left:-5000px" aria-hidden="true">
+
+<input type="text" name="{{ .mailchimp_form_name }}" tabindex="-1" value="">
+    </div>
+
+  <div>
+<input 
+type="submit" 
+name="subscribe" 
+id="mc-embedded-subscribe" 
+class="btn btn-primary" 
+value="{{ .button_label }}">
+
       <div id="mce-responses" class="clear">
         <div
           class="response text-white"
@@ -66,8 +84,10 @@
     {{ end }}
   {{ end }}
 	<br><br>
-		---
-	</div>	
+		
+	
+---
+
  	<div class="mb-6">
 	 <h3>Nous contacter</h3>
 		 Pour en savoir plus sur le volontariat,<br>
@@ -83,7 +103,7 @@
                 id="name"
                 name="name"
                 class="form-input"
-                placeholder="Jeanne Dupont"
+                placeholder="Claude Dupont"
                 type="text" />
             </div>
             <div class="mb-6">

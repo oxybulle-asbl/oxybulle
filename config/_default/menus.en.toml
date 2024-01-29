@@ -24,12 +24,12 @@ url = "contact"
 # footer menu
 [[footer]]
 name = "A propos"
-url = "about/"
+url = "a-propos/"
 weight = 1
 
 [[footer]]
 name = "Nous soutenir"
-url = "sections/_nous-soutenir/"
+url = "nous-soutenir/"
 weight = 2
 
 [[footer]]
