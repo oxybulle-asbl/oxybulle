@@ -1,13 +1,14 @@
 ---
 title: "Comment nous soutenir"
 meta_title: "Nous soutenir"
-description: "Les **fonds** récoltés par Oxybulle et son comité de soutien sont destinés au **financement** des **activités** proposées aux jeunes et au **fonctionnement** de l'association."
+description: "**Nous avons besoin de vous** pour continuer à **proposer** régulièrement des **activités «&nbsp;extra&nbsp;» ordinaires** aux enfants, de veiller au suivi et à la **coordination** des activités avec les maisons d'accueil mais aussi de **former** nos **volontaires**."
 draft: false
 ---
 {{< image src="images/oxybulle-s.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
-**Nous avons besoin de vous** pour continuer à **proposer** régulièrement des **activités «&nbsp;extra&nbsp;» ordinaires** aux enfants, de veiller au suivi et à la **coordination** des activités avec les maisons d'accueil mais aussi de **former** nos **volontaires**. 
+<br>
+Les **fonds** récoltés par Oxybulle et son comité de soutien sont destinés au **financement** des **activités** proposées aux jeunes et au **fonctionnement** de l'association."
 
-A ce jour, Oxybulle ne bénéficie d'[aucun subside récurrent](/images/oxybulle.pdf).
+A ce jour, Oxybulle ne bénéficie d'[aucun subside récurrent](/images/oxybulle.pdf)
 
 {{< accordion "Devenir volontaire" >}} 
 

@@ -15,6 +15,8 @@ Les activités peuvent durer de quelques heures à une journée complète. Elles
 
 Une présence régulière des volontaires est encouragée pour établir un lien de confiance avec les enfants et ainsi, les accompagner dans la découverte et le partage de souvenirs positifs.
 
+{{< image src="images/oxybulle-a.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+
 ### Le soutien scolaire
 
 Le soutien scolaire prend la forme de séances hebdomadaires individuelles entre jeunes et volontaires. Ce sont des moments privilégiés et calmes, où les enfants et les adolescents bénéficient d'une écoute attentive et d'une attention personnalisée propice au progrès.
@@ -23,4 +25,3 @@ L’objectif consiste éveiller la curiosité des jeunes, à prendre confiance e
 
 Concrètement, au sein des maisons d'accueil et dans un local adapté, garantissant la tranquillité, un accompagnement sur-mesure est proposé à chaque jeune. La dimension individuelle de ce suivi permet de leur offrir un cadre confidentiel et complice.
 
-{{< image src="images/oxybulle-a.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}

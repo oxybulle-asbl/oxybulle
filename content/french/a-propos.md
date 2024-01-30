@@ -20,17 +20,15 @@ Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeu
 
 #### Jeunes
 
-Les jeunes soutenus, âgés de 3 à 18 ans, proviennent de contextes familiaux difficiles. Pris en charge par des structures d’accueil spécialisées, ils sont entourés de personnes attentives - éducateurs, psychologues, … - qui les accompagnent au quotidien.
+Les jeunes soutenus, âgés de 3 à 18 ans, vivent des contextes familiaux difficiles. Pris en charge par des structures d’accueil spécialisées, ils sont entourés de personnes attentives - éducatrices et éducateurs, psychologues, … - qui les accompagnent au quotidien.
 
-La durée de leur séjour est variable: certains ne font que passer quelques jours ou mois quand d’autres y résident jusqu’à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d’autres ne bénéficient plus de contacts avec leurs proches.
+La durée de leur séjour de ces foyers est variable: les enfants y passent quelques jours ou quelques mois, quand d’autres y résident jusqu’à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d’autres ne bénéficient plus de contacts avec leurs proches.
 
-Consciente des besoins spécifiques de ces jeunes, Oxybulle leur propose un espace d’expression et d’épanouissement personnel à travers des activités récréatives créatrices de liens, ainsi que des opportunités d’apprentissage et de découverte du monde extérieur.
+Consciente des leurs besoins spécifiques, Oxybulle leur propose un **espace d’expression** et d’**épanouissement** personnel à travers des [activités](/activites) récréatives **créatrices de liens**, ainsi que des **opportunités d’apprentissage et de découverte du monde extérieur**.
 
 #### Volontaires
 
-Les volontaires sont avec les jeunes au cœur de la démarche d’Oxybulle. Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées.
-
-Dans un esprit de partage (curiosité, passions, hobbies), il s'agit d'encadrer des **activités de loisirs** ou dispenser du **soutien scolaire** sur-mesure (devoirs, études, révisions, etc.).
+Les volontaires sont avec les jeunes au cœur de la démarche d’Oxybulle. Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées, dans un esprit de curiosité et de partage.
 
 Concrètement, les bénévoles :
 
