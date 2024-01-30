@@ -22,13 +22,13 @@ Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeu
 
 Les jeunes soutenus, âgés de 3 à 18 ans, vivent des contextes familiaux difficiles. Pris en charge par des structures d’accueil spécialisées, ils sont entourés de personnes attentives - éducatrices et éducateurs, psychologues, … - qui les accompagnent au quotidien.
 
-La durée de leur séjour de ces foyers est variable: les enfants y passent quelques jours ou quelques mois, quand d’autres y résident jusqu’à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d’autres ne bénéficient plus de contacts avec leurs proches.
+La durée de leur séjour dans ces foyers est variable: les enfants y passent quelques jours ou quelques mois, quand d’autres y résident jusqu’à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d’autres ne bénéficient plus de contacts avec leurs proches.
 
 Consciente des leurs besoins spécifiques, Oxybulle leur propose un **espace d’expression** et d’**épanouissement** personnel à travers des [activités](/activites) récréatives **créatrices de liens**, ainsi que des **opportunités d’apprentissage et de découverte du monde extérieur**.
 
 #### Volontaires
 
-Les volontaires sont avec les jeunes au cœur de la démarche d’Oxybulle. Agés de 18 à 70 ans (et plus!), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées, dans un esprit de curiosité et de partage.
+Les volontaires sont avec les jeunes au cœur de la démarche d’Oxybulle. Agés de 18 à 70 ans (et plus), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées, dans un esprit de curiosité et de partage.
 
 Concrètement, les bénévoles :
 
@@ -36,7 +36,7 @@ Concrètement, les bénévoles :
 - Assurent un soutien scolaire individuel à ceux et celles qui en ont besoin. Il s'agit d'accompagnements réguliers, à raison d’une à deux heures par semaine, qui contribuent à renforcer la confiance de chaque enfant en sa capacité d’apprentissage.
 - Tissent une relation unique avec chaque jeune. L’écoute et l’attention individuelle les aident à grandir dans un cadre convivial et bienveillant.
 
-Formés à l’accompagnement bienveillant de ces jeunes, les volontaires d’Oxybulle sont témoins privilégiés de leur cheminement vers l’âge adulte, semant des graines d’humanité sur leur passage.
+Formés et soutenus dans leur accompagnement, les volontaires d’Oxybulle sont des témoins privilégiés du cheminement des jeunes vers l’âge adulte, semant des graines d’humanité sur leur passage.
 
 #### Personnel éducatif et maisons d’accueil 
 
@@ -48,21 +48,21 @@ Les maisons d’accueil partenaires s’inscrivent dans le cadre du Décret du 4
 
 #### Membres du comité de soutien
 
-Des personnes motivées et animées par le désir de contribuer à un meilleur vivre ensemble, de Belgique et d'ailleurs, se regroupent dans un comité destiné à soutenir l'association. 
+Des personnes motivées et animées par le désir de contribuer à un meilleur vivre ensemble, forment un comité destiné à soutenir l'association. 
 
-A ce jour, une vingtaine de membres de tous âges participent selon leurs propres moyens. Certains partagent leurs contacts ou idées de mécènes potentiels, d'autres co-organisent des événements et des ventes pour financer les activités extra-scolaires des enfants. 
+A ce jour, une vingtaine de membres de tous âges participent selon leurs propres disponibilités. Certains partagent leurs contacts ou idées de mécènes potentiels, d'autres co-organisent des événements et des ventes pour financer les activités extra-scolaires des enfants. 
 
 #### Mécènes
 
-Oxybulle est parrainée par des fondations et entreprises mécènes ainsi que par des dons de particuliers. Oxybulle les remercie tout particulièrement.  
+Oxybulle est parrainée ponctuellement par des fondations et des entreprises mécènes ainsi que par des dons de particuliers. Oxybulle les remercie tout particulièrement.  
 
 {{< image src="images/oxybulle-s1.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Nos mécènes"  webp="false" >}}
 
 #### Organe de gestion
 
-Née d’une initiative privée, Oxybulle est une **association belge, autonome, neutre, apolitique, n’appartenant à aucun courant religieux ni philosophique.**
+Née d’une initiative privée, l’asbl est coordonnée par une personne employée à temps partiel, encadrée par son **organe de gestion** (OA) et les **membres de l'assemblée générale**.
 
-L’asbl est coordonnée par **Stéphanie van Steenberghe**, encadrée par son **organe de gestion** (CA) et les **membres de l'assemblée générale**.
+Oxybulle est une association belge, autonome, neutre, apolitique, n’appartenant à aucun courant religieux ni philosophique.
 
 - [Rapport d'activité 2022](https://www.oxybulle.org/_files/ugd/50bf4f_e36b66990cbd416aa085d7fc14098490.pdf)
 - [Rapport d’activité 2021](https://www.oxybulle.org/_files/ugd/ed0e86_df758de8d45a4d78a3c397bdabf62c46.pdf)

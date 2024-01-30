@@ -9,7 +9,7 @@ draft: false
 
 Conçues sur mesure selon les besoins et capacités de chaque jeune, les activités récréatives d’Oxybulle visent à créer du lien, à leur faire découvrir leur environnement et vivre de nouvelles expériences de façon ludique. 
 
-Elles ont lieu le plus souvent à l'extérieur des foyers et sont organisées en petits groupes, par tranche d'âge. Au programme : accrobranche, escalade, excursions ludiques et pédagogiques, dans les villes, à la mer, dans les forêts, séances de cinéma, ateliers créatifs de bricolage ou de cuisine, spectacles, bowling, visites de musées, etc. Le but est d'explorer le monde sportif, culturel, artistique et naturel, avec respect tout en s'amusant !
+Elles ont lieu le plus souvent à l'extérieur des foyers et sont organisées en petits groupes, par tranche d'âge. Au programme : accrobranche, escalade, excursions ludiques et pédagogiques, dans les villes, à la mer, dans les forêts, séances de cinéma, ateliers créatifs de bricolage ou de cuisine, spectacles, bowling, visites de musées, etc. Le but est d'explorer le monde sportif, culturel, artistique et naturel avec respect et tout en s'amusant !
 
 Les activités peuvent durer de quelques heures à une journée complète. Elles sont adaptées au fil du temps, selon les affinités et les envies des participants. 
 
