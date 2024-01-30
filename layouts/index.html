@@ -8,9 +8,11 @@
             <h1 class="mb-4">
               {{ .title | markdownify }}
             </h1>
+			<div class="content">
             <p class="mb-8">
-              {{ .content | markdownify }}
+			  {{ .content | markdownify }}
             </p>
+			</div>
             {{ with .button }}
               {{ if .enable }}
                 <a class="btn btn-primary" href="{{ .link | absURL }}">
@@ -47,6 +49,7 @@
             <h2 class="mb-4">
               {{ .title | markdownify }}
             </h2>
+			<div class="content">
             <p class="mb-8 text-lg">
               {{ .content | markdownify }}
             </p>
@@ -58,6 +61,7 @@
                 </li>
               {{ end }}
             </ul>
+			</div>
             {{ with .button }}
               {{ if .enable }}
                 <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
