@@ -1,5 +1,5 @@
 ---
-title: "S'amuser et apprendre"
+title: "Grandir entouré"
 meta_title: "Activités"
 description: "Des **activités** de **loisir** et du **soutien scolaire** sont co-organisées et animées par des volontaires."
 draft: false

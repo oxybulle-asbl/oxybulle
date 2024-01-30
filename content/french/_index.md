@@ -17,7 +17,7 @@ features:
     content: "[**<u>Oxybulle</u>**,](a-propos/) c'est :" 
     bulletpoints:
       - "**une centaine de jeunes** soutenus chaque année"
-      - "**les équipes des 13 maisons d'accueil** partenaires, de la province de Namur"
+      - "**les équipes des 13 maisons d'accueil** partenaires situées dans la province de Namur"
       - "**une vingtaine de volontaires** formidables"
       - "des **mécènes** solidaires"
       - "un **comité de soutien** composé d'une quinzaine de membres enthousiastes et efficaces"
