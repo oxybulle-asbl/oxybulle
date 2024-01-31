@@ -12,7 +12,7 @@ banner:
 features:
   - title: ""
     image: "/images/oxybulle-cover-2.png"
-    contentabove: "**Oxybulle** est née d'un **constat** : de **nombreux [enfants](/a-propos/#jeunes)** hébergés dans les institutions d'accueil **manquent cruellement d'attention** et d'**écoute**, ce qui hypothèque leur épanouissement.<p> Notre **mission** est de leur offrir, à travers des [**activité récréative**](/activites/) ou des séances de [**soutien scolair**e](/activites/), toute la **bienveillance** dont chaque enfant a besoin pour **s'épanouir** et **se construire**.</p><p>Nos [**volontaires**](/a-propos/#volontaires) dévoués **tissent** avec ces enfants une **relation de confiance** faite de</p>"
+    contentabove: "**Oxybulle** est née d'un **constat** : de **nombreux [enfants](/a-propos/#jeunes)** hébergés dans les institutions d'accueil **manquent cruellement d'attention** et d'**écoute**, ce qui hypothèque leur épanouissement.<p> Notre **mission** est de leur offrir, à travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolair**e](/activites/), toute la **bienveillance** dont chaque enfant a besoin pour **s'épanouir** et **se construire**.</p><p>Nos [**volontaires**](/a-propos/#volontaires) dévoués **tissent** avec ces enfants une **relation de confiance** faite de</p>"
     bulletpoints:
     - "**souvenirs positifs**"
     - "**encouragements**"
