@@ -8,11 +8,11 @@
             <h1 class="mb-4">
               {{ .title | markdownify }}
             </h1>
-			<div class="content">
+             <div class="content">
             <p class="mb-8">
-			  {{ .content | markdownify }}
+	{{ .content | markdownify }}
             </p>
-			</div>
+	</div>
             {{ with .button }}
               {{ if .enable }}
                 <a class="btn btn-primary" href="{{ .link | absURL }}">
@@ -49,10 +49,11 @@
             <h2 class="mb-4">
               {{ .title | markdownify }}
             </h2>
-			<div class="content">
+           <div class="content">
             <p class="mb-8 text-lg">
-              {{ .content | markdownify }}
+              {{ .contentabove | markdownify }}
             </p>
+            </div>
             <ul>
               {{ range .bulletpoints }}
                 <li class="relative mb-4 pl-6">
@@ -61,7 +62,11 @@
                 </li>
               {{ end }}
             </ul>
-			</div>
+          <div class="content">
+            <p class="mb-8 text-lg">
+              {{ .contentbottom | markdownify }}
+            </p>
+            </div>	
             {{ with .button }}
               {{ if .enable }}
                 <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
