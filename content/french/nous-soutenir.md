@@ -1,12 +1,12 @@
 ---
 title: "Comment nous soutenir"
 meta_title: "Nous soutenir"
-description: "**Grâce à votre soutien, Oxybulle peut apporter à une centaine d’enfants la bouffée d’oxygène dont ils ont besoin." 
+description: "Grâce à votre soutien, Oxybulle peut apporter à une centaine d’**enfants** la **bouffée d’oxygène** dont ils ont besoin." 
 draft: false
 ---
 {{< image src="images/oxybulle-s.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 <br>
-A ce jour, Oxybulle ne bénéficie d'[**aucun subside récurrent**](/images/oxybulle.pdf). C’est pourquoi votre **aide** nous est **indispensable**. Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
+A ce jour, Oxybulle ne bénéficie d'[aucune subvention publique récurrente](/images/oxybulle.pdf). C’est pourquoi votre **aide** nous est **indispensable**. Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
 
 Pour pouvoir **agir sur le long terme** et **étendre notre action** à davantage de maisons d’accueil et d'enfants, nous devons **renforcer nos équipes** et **consolider nos ressources**.
 
@@ -16,15 +16,15 @@ C’est pourquoi votre aide nous est indispensable :
 
 Vous habitez aux **alentours de Namur**, vous **souhaitez vous engager**, **offrir votre temps et vos talents** pour soutenir nos jeunes ? 
 
-Partager avec enthousiasme ce qui vous anime est une façon d'illuminer le quotidien de ces enfants et adolescents, et de semer les graines de leur épanouissement.
+Partager avec enthousiasme ce qui vous anime est une façon d'**illuminer le **quotidien** de ces **enfants et adolescents**.
 
 - Organisez avec nous des [**activités récréatives**](/activites) qui stimulent la curiosité : ateliers créatifs 🎨, sorties culturelles 🎭, journées sportives ⚽, découverte de la nature 🌳, etc.
 - Offrez le [**soutien scolaire**](/activites) 📚 dont ils et elles ont besoin, avec bienveillance et encouragement, pour restaurer leur confiance en eux.
 - Tissez avec chacun une relation de confiance, d'écoute 👂 et d'attention qui les aidera à avancer et à se construire.
 
-Votre **engagement bénévole** est précieux pour **insuffler à ces jeunes l'énergie positive** nécessaire à leur plein épanouissement. 
+Votre **engagement bénévole** est précieux **pour insuffler** à ces jeunes l'**énergie positive** nécessaire à leur plein épanouissement. 
 
-Les volontaires sont soutenus tout au long de leur engagement. Ils bénéficient de formations et de lieux d’échanges. Les frais relatifs aux activités sont remboursés.
+Les volontaires sont **soutenus** tout au long de leur engagement. Ils bénéficient de formations et de lieux d’échanges. Les **frais** relatifs aux activités sont **remboursés**.
 
 Concrètement, **devenir volontaire** se fait en **plusieurs étapes** : un premier contact permet de répondre à vos questions, puis une rencontre afin d'échanger sur vos motivations et notre démarche. Vous pourrez également rencontrer d'autres volontaires et participer à une journée test. Ensemble, nous définirons si le volontariat est la meilleure façon pour vous de vous investir auprès d'Oxybulle.
 
