@@ -1,14 +1,14 @@
 ---
 title: "Comment nous soutenir"
 meta_title: "Nous soutenir"
-description: "**Ils et elles ont besoin de vous**. Grâce à votre soutien, Oxybulle peut apporter à une centaine d’enfants la bouffée d’oxygène dont ils ont besoin." 
+description: "**Grâce à votre soutien, Oxybulle peut apporter à une centaine d’enfants la bouffée d’oxygène dont ils ont besoin." 
 draft: false
 ---
 {{< image src="images/oxybulle-s.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 <br>
-A ce jour, Oxybulle ne bénéficie d'[aucun subside récurrent](/images/oxybulle.pdf). C’est pourquoi votre aide nous est indispensable. Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
+A ce jour, Oxybulle ne bénéficie d'[**aucun subside récurrent**](/images/oxybulle.pdf). C’est pourquoi votre **aide** nous est **indispensable**. Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
 
-**Pour pouvoir agir** sur le long terme et étendre notre action à davantage de maisons d’accueil, nous devons **renforcer nos équipes et consolider nos ressources**.
+Pour pouvoir **agir sur le long terme** et **étendre notre action** à davantage de maisons d’accueil et d'enfants, nous devons **renforcer nos équipes** et **consolider nos ressources**.
 
 C’est pourquoi votre aide nous est indispensable :
 
@@ -42,7 +42,7 @@ BIC: GKCCBEBB
 
 ***Communication*** : Nom Prénom + adresse et/ou numéro de registre national + Don
 
-Un don de plus de 40 € (annuel) est déductible.
+Un don de plus de 40 € (annuel) est déductible. En 2023, une activité pour un enfant a couté en moyenne 53 EUR (hors frais de coordination). 
 
 ☝️ Il est ***impératif*** de nous laisser en **communication** votre numéro de registre national, et adresse postale ou email. Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
 
