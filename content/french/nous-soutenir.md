@@ -1,12 +1,12 @@
 ---
 title: "Comment nous soutenir"
 meta_title: "Nous soutenir"
-description: "Grâce à votre soutien, Oxybulle peut apporter à une centaine d’**enfants** la **bouffée d’oxygène** dont ils ont besoin." 
+description: "Grâce à votre soutien, Oxybulle peut apporter à une centaine d’**enfants** la **bouffée d’oxygène** dont ils ont **besoin**." 
 draft: false
 ---
 {{< image src="images/oxybulle-s.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 <br>
-A ce jour, Oxybulle ne bénéficie d'[aucune subvention publique récurrente](/images/oxybulle.pdf). C’est pourquoi votre **aide** nous est **indispensable**. Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
+A ce jour, **Oxybulle** ne bénéficie d'[**aucune subvention publique récurrente**](/images/oxybulle.pdf). C’est pourquoi votre **aide** nous est **indispensable**. Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
 
 Pour pouvoir **agir sur le long terme** et **étendre notre action** à davantage de maisons d’accueil et d'enfants, nous devons **renforcer nos équipes** et **consolider nos ressources**.
 

@@ -32,7 +32,7 @@ features:
       link: "nous-soutenir/"
   - title: "Vente d'oeufs de Paques - OxyChoc"
     image: "/images/oxybulle-c-1.png"
-    contentabove: "📑 Organisée par le [**comité de soutien**](/a-propos) <br>📆 Vente du **21 février** au **15 mars 2024**.<br>🚚 Enlevèment du **18** au **29 mars 2024**. <p>Cette année encore, l'**artisan Galler** de Ciney nous offre 🎁 une partie de la marge bénéficiaire de la vente d'**oeufs en chocolat** de sa production. </p><p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes.</p>"
+    contentabove: "📑 Organisée par le [**comité de soutien**](/a-propos)<br>📆 Vente du **21 février** au **15 mars 2024**<br>🚚 Enlevèment du **18** au **29 mars 2024**<p>Cette année encore, l'**artisan Galler** de Ciney nous offre 🎁 une partie de la marge bénéficiaire de la vente d'**oeufs en chocolat** de sa production. </p><p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes.</p>"
     bulletpoints:
       - "[Points de collecte](/oxychoc) à Bruxelles, Namur et dans le Brabant wallon"
       - "Destiné à financer les activités des jeunes"
