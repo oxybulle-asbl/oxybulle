@@ -56,7 +56,7 @@ A ce jour, une vingtaine de membres de tous âges participent selon leurs propre
 
 Oxybulle est parrainée ponctuellement par des fondations et des entreprises mécènes ainsi que par des dons de particuliers. Oxybulle les remercie tout particulièrement.  
 
-{{< image src="images/oxybulle-s1.png" caption="" alt="" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Nos mécènes"  webp="false" >}}
+{{< image src="images/oxybulle-s1.png" caption="" alt="images : logos des mécènes" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Nos mécènes"  webp="false" >}}
 
 #### Organe de gestion
 
