@@ -10,13 +10,13 @@ Notre **mission** est d’**offrir** aux enfants des maisons d'accueil, des **ex
 
 ### Valeurs
 
-Nos **valeurs** de respect, de confiance, d'écoute, de partage et de solidarité fondent notre engagement et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous accordons à chaque jeune et que chaque jeune peut avoir en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
+Nos **valeurs** de **respect**, de **confiance**, d'**écoute**, de **partage** et de **solidarité** fondent notre engagement et guident nos actions. Le **respect** de chaque enfant, de son histoire et de ses besoins. La **confiance** que nous accordons à chaque jeune et que chaque jeune peut avoir en nous. L'**écoute** attentive et bienveillante que nous leur offrons. Le **partage** de nos talents et de notre temps. La **solidarité** dont nous faisons preuve pour les accompagner. 
 
 ### Bulle
 
 Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeunes), de [**volontaires**](#volontaires), du [**personnel éducatif**](#personnel-éducatif-et-maisons-d'acceuil) des foyers d'accueil, de membres d'un [**comité de soutien**](#comité), de [**mécènes**](#mécènes), et d'un [**organe de gestion** ](#gestion).
 
-{{< image src="images/oxybulle-b.png" caption="" alt="Ballade en vélo le long de la Meuse ; spectacle festival Namur en mai-LeDelta ; visite du musée de Tervueren" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Ballade en vélo le long de la Meuse ; Spectacle au Delta dans le cadre du festival Namur en mai ; Visite du musée de Tervueren ; Après-midi sportive accro-branche"  webp="false" >}}
+{{< image src="images/oxybulle-b.png" caption="" alt="images : Ballade en vélo le long de la Meuse ; Spectacle festival Namur en mai - LeDelta ; Visite du musée de Tervueren" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Ballade en vélo le long de la Meuse ; Spectacle au Delta dans le cadre du festival Namur en mai ; Visite du musée de Tervueren ; Après-midi sportive accro-branche"  webp="false" >}}
 
 #### Jeunes
 
