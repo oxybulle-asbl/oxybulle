@@ -12,8 +12,7 @@ banner:
 features:
   - title: ""
     image: "/images/oxybulle-cover-2.png"
-    contentabove: "**Oxybulle** est née du constat suivant : malgré le dévouement des équipes éducatives qui les entourent, les **enfants** placés en institution **manquent** de **moments privilégiés**, entièrement **dédiés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **20** [**volontaires**](/a-propos) leur offrent : à travers des [**activités récréatives**](/activites) ou des séances de [**soutien scolaire**](/activites/), ce sont ainsi plus de **100** [**jeunes**](/a-propos/#jeunes) que nous accompagnons chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p>
-<p>Parce que leur **avenir** est aussi le nôtre, **rejoignez-nous** pour **offrir** à ces jeunes le **tremplin** vers la vie qu’ils méritent !</p>"
+    contentabove: "**Oxybulle** est née du constat suivant : malgré le dévouement des équipes éducatives qui les entourent, les **enfants** placés en institution **manquent** de **moments privilégiés**, entièrement **dédiés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **20** [**volontaires**](/a-propos) leur offrent : à travers des [**activités récréatives**](/activites) ou des séances de [**soutien scolaire**](/activites/), ce sont ainsi plus de **100** [**jeunes**](/a-propos/#jeunes) que nous accompagnons chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Parce que leur **avenir** est aussi le nôtre, **rejoignez-nous** pour **offrir** à ces jeunes le **tremplin** vers la vie qu’ils méritent !</p>"
 #    bulletpoints:
 #    - "**souvenirs positifs**"
 #    - "**encouragements**"
@@ -26,19 +25,19 @@ features:
 #    - "des **mécènes** solidaires"
 #    - "un **comité de soutien** composé d'une quinzaine de membres enthousiastes et efficaces"
 #    - "une **coordinatrice** à 3/5e temps et un **conseil d'administration** passionné et engagé"
-#   contentbottom: "" 
+#    contentbottom: "" 
     button:
       enable: true
       label: "Nous soutenir"
       link: "nous-soutenir/"
   - title: "Vente d'oeufs de Paques - OxyChoc"
     image: "/images/oxybulle-c-1.png"
-    contentabove: "📆 Du **15 février** au **15 mars 2024** <br> 📑 Organisée par le comité de soutien. <p> Cette année encore, l'artisan Galler de Ciney nous offre 🎁 une partie de la marge bénéficiaire de la vente d'oeufs en chocolat de sa production. </p><p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes.</p>"
+    contentabove: "📆 Du **15 février** au **15 mars 2024**<br>📑 Organisée par le [**comité de soutien**](/a-propos).<p>Cette année encore, l'**artisan Galler** de Ciney nous offre 🎁 une partie de la marge bénéficiaire de la vente d'**oeufs en chocolat** de sa production. </p><p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes.</p>"
     bulletpoints:
       - "Points d'enlèvement à Bruxelles, Namur et dans le Brabant wallon"
       - "Destiné à financer les activités des jeunes"
     button:
       enable: true
       label: "Commander en ligne (sécurisé)"
-      link: "oxychoc/"
+      link: "https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr"
 ---
