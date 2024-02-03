@@ -44,7 +44,7 @@ BIC: GKCCBEBB
 
 Un don de plus de 40 € (annuel) est déductible. En 2023, une activité pour un enfant a coûté en moyenne 53 EUR (hors frais de coordination). 
 
-☝️ Il est ***impératif*** de nous laisser en **communication** votre numéro de registre national, et adresse postale ou email. Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
+⚠ Il est ***impératif*** de nous laisser en **communication** votre numéro de registre national, et adresse postale ou email. Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
 
 **Merci** du fond du coeur ❤️ à toutes celles et ceux, parfois anonymes, qui permettent l'association d'exister. 
 
