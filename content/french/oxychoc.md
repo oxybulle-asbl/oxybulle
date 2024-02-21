@@ -1,7 +1,7 @@
 ---
 title: "Vente d'oeufs de Pâques"
 meta_title: "action"
-description: "Cette année encore, nous vous proposons un assortiment d'œufs de l'artisan chocolatier Galler de Marche. <br>Un **chocolat** de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes."
+description: "Cette année encore, nous vous proposons un assortiment d'œufs de l'**artisan chocolatier Galler** de Marche. <br>Un **chocolat** de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes."
 draft: false
 ---
 📑 Organisée par le [**Comité de soutien**](/a-propos) <br>
@@ -11,23 +11,23 @@ draft: false
 
 Le **principe** est **simple**. 
 
-{{< accordion "Pour vous, vos proches et financer les activités avec nos volontaires" >}} 
+{{< accordion "Pour vous, vos proches et soutenir les jeunes" >}} 
 
 Vous commandez en ligne la **quantité souhaitée** en nous communiquant le **point d'enlèvement** de votre choix (voir tableau ci-dessous). Nous vous communiquerons ensuite les horaires et l'adresse où vous pourrez enlever votre commande. 
 
-{{< button label="Commander en ligne (sécurisé)" link="https://us1.mailchimp.com/mctx/clicks?url=https%3A%2F%2Fwww.uningoapp.com%2Fnp_profile%3Forg%3DOxybulle%26tab%3Dshop-tab%26src%3DFev24NLCdS&xid=ac50b818ec&uid=157667598&iid=e2924a232b&pool=cts&v=2&c=1708478136&h=5b32a41b56f0f31504cc878e13a77603305cc94e22b398204f97a67a5336f980" style="solid" >}}
+{{< button label="Commander en ligne (sécurisé)" link="https://www.uningoapp.com/np_profile?org=Oxybulle&tab=shop-tab&src=Fev24NLCdS" style="solid" >}}
 
 {{< /accordion >}}
 
-{{< accordion "Pour les enfants et financer les activités avec nos volontaires" >}} 
+{{< accordion "Pour les jeunes" >}} 
 
 Vous pouvez également participez à la **chasse aux œufs des enfants** des foyers. Oxybulle livrera les œufs aux maisons d'accueil pour leur plus grand plaisir.
 
-{{< button label="Offrir des œufs aux enfants (sécurisé)" link="https://us1.mailchimp.com/mctx/clicks?url=https%3A%2F%2Fwww.uningoapp.com%2Fbasic_form%3Forg%3DOxybulle%26proj%3D138%26src%3DNLCdSFev2024&xid=ac50b818ec&uid=157667598&iid=e2924a232b&pool=cts&v=2&c=1708478136&h=cf304d586a85bfdfd2f1a3f8ac82b42b19c42de664bb7bd975e02af19bb8686e"  style="solid" >}}
+{{< button label="Offrir des œufs aux enfants (sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&proj=138&src=BoutiqueOC24&lang=fr"  style="solid" >}}
 
 {{< /accordion >}}
 
-{{< accordion "Pour vos collaborateurs, vos clients et financer les activités avec nos volontaires" >}} 
+{{< accordion "Pour vos collaborateurs, vos clients et soutenir les jeunes" >}} 
 
 Si vous représentez une **entreprise**, nous vous proposons des colis "entreprise" de 20 sachets de 120 gr  pour **120€** TVAC.
 
