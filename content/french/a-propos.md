@@ -14,7 +14,7 @@ Nos **valeurs** de **respect**, de **confiance**, d'**écoute**, de **partage** 
 
 ### Bulle
 
-Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeunes), de [**volontaires**](#volontaires), du [**personnel éducatif**](#personnel-éducatif-et-maisons-d'acceuil) des foyers d'accueil, de membres d'un [**comité de soutien**](#membres-du-comité-de-soutien), de [**mécènes**](#mécènes), et d'un [**organe de gestion** ](#organe-de-gestion).
+Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeunes), de [**volontaires**](#volontaires), des  [**équipes des maisons d'accueil**](#équipe-des-maisons-d'accueil) des foyers d'accueil, de membres d'un [**comité de soutien**](#membres-du-comité-de-soutien), de [**mécènes**](#mécènes), et d'un [**organe de gestion** ](#organe-de-gestion).
 
 {{< image src="images/oxybulle-b.png" caption="" alt="images : Ballade en vélo le long de la Meuse ; Spectacle festival Namur en mai - LeDelta ; Visite du musée de Tervueren" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Ballade en vélo le long de la Meuse ; Spectacle au Delta dans le cadre du festival Namur en mai ; Visite du musée de Tervueren ; Après-midi sportive accro-branche"  webp="false" >}}
 
@@ -38,11 +38,11 @@ Concrètement, les bénévoles :
 
 Formés et soutenus dans leur accompagnement, les volontaires d’Oxybulle sont des témoins privilégiés du cheminement des jeunes vers l’âge adulte, semant des graines d’humanité sur leur passage.
 
-#### Personnel éducatif et maisons d’accueil 
+#### Equipes des maisons d'accueil 
 
-Educateurs, assistants sociaux, coordinateurs, psychologues, … se relaient auprès des jeunes, 24h sur 24, 365 jours par an, pour les aider à surmonter les épreuves et l’éloignement de leurs cellules familiales respectives. En moyenne, ces foyers accueillent une quinzaine d'enfants et/ou adolescents.
+Assistants sociaux, coordinatrices, psychologues, … des professionnels se relaient auprès des jeunes, 24h sur 24, 365 jours par an, pour les aider à surmonter les épreuves et l’éloignement de leurs cellules familiales respectives. En moyenne, ces foyers accueillent une quinzaine d'enfants et/ou adolescents.
 
-Les moyens financiers et humains mis à disposition par les pouvoirs publics ne sont malheureusement pas suffisants pour répondre aux besoins de sortie et de suivi extrascolaire des enfants. En conséquence, les activités à l'extérieur des foyers sont très réduites, malgré la volonté et le dynamisme des équipes.
+Les moyens financiers et humains mis à disposition par les pouvoirs publics ne sont malheureusement pas suffisants pour répondre aux besoins de sortie et de suivi extrascolaire des enfants. En conséquence, les sorties à l'extérieur des foyers sont beaucoup trop rares, malgré la volonté et le dynamisme des équipes.
 
 Les maisons d’accueil partenaires s’inscrivent dans le cadre du Décret du 4 mars 1991 et du Décret du 18 janvier 2018 portant le Code de l’aide à la jeunesse. Ce sont principalement des Services Résidentiels Généraux (SRG) et des Projets Pédagogiques Particuliers (PPP), situés dans la province de Namur.
 
