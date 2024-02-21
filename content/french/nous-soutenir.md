@@ -40,7 +40,7 @@ Vous pouvez **soutenir** nos activités directement en faisant un [**don en lign
 IBAN : BE47 0689 3772 3780  
 BIC: GKCCBEBB
 
-***Communication*** : Nom Prénom + adresse et/ou numéro de registre national + Don
+***Communication*** : Nom Prénom + adresse et numéro de registre national + Don
 
 Un don de plus de 40 € (annuel) est déductible. En 2023, une activité pour un enfant a coûté en moyenne 53 EUR (hors frais de coordination). 
 
