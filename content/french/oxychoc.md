@@ -12,7 +12,7 @@ draft: false
 
 Le **principe** est **simple**. 
 
-{{< accordion "Pour vous, vos proches et les enfants" >}} 
+{{< accordion "Pour vous, vos proches et financer les activités" >}} 
 
 Vous commandez en ligne la **quantité souhaitée** en nous communiquant le **point d'enlèvement** de votre choix (voir tableau ci-dessous). Nous vous communiquerons ensuite les horaires et l'adresse où vous pourrez enlever votre commande. 
 
@@ -20,7 +20,7 @@ Vous commandez en ligne la **quantité souhaitée** en nous communiquant le **po
 
 {{< /accordion >}}
 
-{{< accordion "Pour les enfants" >}} 
+{{< accordion "Pour les enfants et financer les activités" >}} 
 
 Vous pouvez également participez à la **chasse aux œufs des enfants** des foyers. Oxybulle livrera les œufs aux maisons d'accueil pour leur plus grand plaisir.
 
@@ -30,7 +30,7 @@ Vous pouvez également participez à la **chasse aux œufs des enfants** des foy
 
 {{< /accordion >}}
 
-{{< accordion "Pour vos collaborateurs et vos clients" >}} 
+{{< accordion "Pour vos collaborateurs, vos clients et financer les activités" >}} 
 
 Si vous représentez une **entreprise**, nous vous proposons des colis "entreprise" de 20 sachets de 120 gr  pour **120€** TVAC.
 
