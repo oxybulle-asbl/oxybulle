@@ -1,18 +1,17 @@
 ---
 title: "Vente d'oeufs de Pâques"
 meta_title: "action"
-description: "Cette année encore, nous vous proposons un assortiment d'œufs de l'artisan chocolatier Galler de Marche. <br> Un **chocolat** de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes."
+description: "Cette année encore, nous vous proposons un assortiment d'œufs de l'artisan chocolatier Galler de Marche. <br>Un **chocolat** de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes."
 draft: false
 ---
 📑 Organisée par le [**Comité de soutien**](/a-propos) <br>
 📆 Du **15 mars** au **15 avril 2024** <br>
-🚚 Enlèvement du **18** au **29 mars 2024** (Namur, BW, Bruxelles)<br>
-🍫  Conditionnés par nos soins en **sachets** de **120 gr** (6€) ou de **500 gr** (25€)<br>
-🚀 Bénéfices destinés à **financer** les **activités** des **jeunes**
+🚚 Enlèvement du **18** au **29 mars 2024** <br>
+🍫  En **sachets** de **120 gr** (6€) ou de **500 gr** (25€)<br>
 
 Le **principe** est **simple**. 
 
-{{< accordion "Pour vous, vos proches et financer les activités" >}} 
+{{< accordion "Pour vous, vos proches et financer les activités avec nos volontaires" >}} 
 
 Vous commandez en ligne la **quantité souhaitée** en nous communiquant le **point d'enlèvement** de votre choix (voir tableau ci-dessous). Nous vous communiquerons ensuite les horaires et l'adresse où vous pourrez enlever votre commande. 
 
@@ -20,17 +19,15 @@ Vous commandez en ligne la **quantité souhaitée** en nous communiquant le **po
 
 {{< /accordion >}}
 
-{{< accordion "Pour les enfants et financer les activités" >}} 
+{{< accordion "Pour les enfants et financer les activités avec nos volontaires" >}} 
 
 Vous pouvez également participez à la **chasse aux œufs des enfants** des foyers. Oxybulle livrera les œufs aux maisons d'accueil pour leur plus grand plaisir.
 
 {{< button label="Offrir des œufs aux enfants (sécurisé)" link="https://us1.mailchimp.com/mctx/clicks?url=https%3A%2F%2Fwww.uningoapp.com%2Fbasic_form%3Forg%3DOxybulle%26proj%3D138%26src%3DNLCdSFev2024&xid=ac50b818ec&uid=157667598&iid=e2924a232b&pool=cts&v=2&c=1708478136&h=cf304d586a85bfdfd2f1a3f8ac82b42b19c42de664bb7bd975e02af19bb8686e"  style="solid" >}}
 
-[](https://mcusercontent.com/6379a8a45700ca983e91555ea/images/21f98df1-cd18-54ef-e3ea-d373e751959f.png)
-
 {{< /accordion >}}
 
-{{< accordion "Pour vos collaborateurs, vos clients et financer les activités" >}} 
+{{< accordion "Pour vos collaborateurs, vos clients et financer les activités avec nos volontaires" >}} 
 
 Si vous représentez une **entreprise**, nous vous proposons des colis "entreprise" de 20 sachets de 120 gr  pour **120€** TVAC.
 
