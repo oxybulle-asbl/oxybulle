@@ -2,6 +2,8 @@
 title: "Contact & inscription à la newsletter"
 meta_title: "Contactez-nous"
 description: "N'hésitez pas..."
+description_newsletter: "Pour se tenir au courant de nos actualités et actions, et les partager avec votre entourage.<br>
+              Votre email ne sera jamais communiqué à des tiers. <br>"
 draft: false
 ---
 

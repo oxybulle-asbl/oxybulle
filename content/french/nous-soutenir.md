@@ -8,7 +8,7 @@ draft: false
 <br>
 Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
 
-Pour pouvoir **agir sur le long terme** et **étendre notre action** à davantage de maisons d’accueil et d'enfants, nous devons **renforcer nos équipes** et **consolider nos ressources**. A ce jour, **Oxybulle** ne bénéficie d'[**aucune subvention publique récurrente**](/images/oxybulle.pdf). 
+Pour pouvoir **agir sur le long terme** et **étendre notre action** à davantage de maisons d’accueil et d'enfants, nous devons **renforcer nos équipes** et **consolider nos ressources**. A ce jour, **Oxybulle** ne bénéficie d'[**aucune subvention publique**](/images/oxybulle.pdf). 
 
 C’est pourquoi votre **aide** nous est **indispensable** :
 
@@ -16,7 +16,7 @@ C’est pourquoi votre **aide** nous est **indispensable** :
 
 Vous habitez aux **alentours de Namur**, vous **souhaitez vous engager**, **offrir votre temps et vos talents** pour soutenir nos jeunes ? 
 
-Partager avec enthousiasme ce qui vous anime est une façon d'**illuminer le **quotidien** de ces **enfants et adolescents**.
+Partager avec enthousiasme ce qui vous anime est une façon d'**illuminer** le **quotidien** de ces **enfants et adolescents**.
 
 - Organisez avec nous des [**activités récréatives**](/activites) qui stimulent la curiosité : ateliers créatifs 🎨, sorties culturelles 🎭, journées sportives ⚽, découverte de la nature 🌳, etc.
 - Offrez le [**soutien scolaire**](/activites) 📚 dont ils et elles ont besoin, avec bienveillance et encouragement, pour restaurer leur confiance en eux.
@@ -44,11 +44,11 @@ BIC: GKCCBEBB
 
 Un don de plus de 40 € (annuel) est déductible. En 2023, une activité pour un enfant a coûté en moyenne 53 EUR (hors frais de coordination). 
 
-⚠ Il est ***impératif*** de nous laisser en **communication** votre numéro de registre national, et adresse postale ou email. Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
+⚠ Il est ***impératif*** de nous **communiquer** votre numéro de registre national ainsi que votre adresse postale ou email. Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
 
 **Merci** du fond du coeur ❤️ à toutes celles et ceux, parfois anonymes, qui permettent l'association d'exister. 
 
-Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** une **bulle d'air** à **<u>tous</u> les enfants** des maisons d'accueil situées dans la province de **Namur**. Avec 13 maisons partenaires, on en est seulement à la moitié. On doit donc **doubler** 📈 nos capacités ! Avec vous.  
+Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** une **bulle d'air** à **<u>tous</u> les enfants** des maisons d'accueil situées dans la province de **Namur**. Avec 13 maisons partenaires, on en est seulement à la moitié. Nous devons donc **doubler** 📈 nos capacités ! Avec vous.  
 
 {{< button label="Don en ligne (Sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
 

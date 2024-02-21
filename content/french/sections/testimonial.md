@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "Témoignages de volontaires"
-description: "Nous sommes à la recherche de volontaires."
+description: "Nous sommes à la recherche de [<u>volontaires</u>](/a-propos/#jeunes)."
 
 # Testimonials
 testimonials:
