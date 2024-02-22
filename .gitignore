@@ -6,6 +6,7 @@ Thumbs.db
 .sass-cache
 .obsidian
 .backupy
+.github
 npm-debug.log
 node_modules
 builds
