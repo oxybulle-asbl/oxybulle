@@ -46,17 +46,21 @@ link = "nous-soutenir"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["pages"]
 show_image = true
 show_description = true
 show_tags = true
 show_categories = true
 
+# counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = false
+username = "oxybulleasbl"  # your username
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Oxybulle", "soutien", "enfants", "namur", "foyers", "acceuil", "jeunesse", "aide", "maisons"]
+keywords = ["Oxybulle", "soutien", "enfants", "namur", "foyers", "accueil", "jeunesse", "aide", "maisons"]
 description = "Oxybulle soutient des enfants et adolescents de la province de Namur qui n’ont pas la chance de grandir en famille en leur proposant des activités en petits groupes et du soutien scolaire individuel."
 author = "Oxybulle asbl"
 image = "images/oxybulle-cover-1.png"
