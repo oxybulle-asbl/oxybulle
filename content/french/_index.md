@@ -12,14 +12,14 @@ banner:
 features:
   - title: ""
     image: "/images/oxybulle-cover-2.png"
-    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les **enfants** placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **20** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), plus de **100** [**jeunes**](/a-propos/#jeunes) sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Parce que leur **avenir** est aussi le nôtre, **rejoignez-nous** pour leur **offrir** le **tremplin** vers la **vie** qu’ils et elles méritent !</p>"
+    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les [**enfants**](/a-propos/#jeunes) placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **20** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), plus de **100 jeunes** sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Parce que leur **avenir** est aussi le nôtre, **rejoignez-nous** pour leur **offrir** le **tremplin** vers la **vie** qu’ils et elles méritent !</p>"
     button:
       enable: true
       label: "Nous soutenir"
       link: "nous-soutenir/"
   - title: "Vente d'œufs en chocolat"
     image: "/images/oxybulle-c-1.png"
-    contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes du **21 février** au **15 mars 2024** <br> 🚚 Enlèvement du **18** au **29 mars 2024**<p>Cette année encore, nous vous proposons un **assortiment** d'**œufs** de l'**artisan chocolatier Galler** de Marche. <p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** 🎁 à vos proches et/ou aux jeunes.</p><p> Un colis spécial **entreprise** pour vos collaborateurs et clients est également disponible.</p>"
+    contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes du **21 février** au **15 mars 2024** <br> 🚚 Enlèvement du **18** au **29 mars 2024**<p>Cette année encore, nous vous proposons un **assortiment** d'**œufs** de l'**artisan chocolatier Galler** de Marche. <p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** 🎁 à vos proches et/ou aux jeunes.</p><p> Un colis *entreprise* pour vos collaborateurs et clients est également disponible.</p>"
     button:
       enable: true
       label: "En savoir plus"
