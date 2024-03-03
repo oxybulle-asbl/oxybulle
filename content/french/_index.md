@@ -19,7 +19,7 @@ features:
       link: "nous-soutenir/"
   - title: "Vente d'œufs en chocolat"
     image: "/images/oxybulle-c-1.png"
-    contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes du **15 mars** au **15 avril 2024** <br> 🚚 Enlèvement du **18** au **29 mars 2024**<p>Cette année encore, nous vous proposons un **assortiment** d'**œufs** de l'**artisan chocolatier Galler** de Marche. <p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** 🎁 à vos proches et/ou aux jeunes.</p><p> Un colis spécial **entreprise** pour vos collaborateurs et clients est également disponible.</p>"
+    contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes du **21 février** au **15 mars 2024** <br> 🚚 Enlèvement du **18** au **29 mars 2024**<p>Cette année encore, nous vous proposons un **assortiment** d'**œufs** de l'**artisan chocolatier Galler** de Marche. <p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** 🎁 à vos proches et/ou aux jeunes.</p><p> Un colis spécial **entreprise** pour vos collaborateurs et clients est également disponible.</p>"
     button:
       enable: true
       label: "En savoir plus"
