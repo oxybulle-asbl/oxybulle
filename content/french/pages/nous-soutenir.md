@@ -28,7 +28,7 @@ Les volontaires sont **soutenus** tout au long de leur engagement. Ils bénéfic
 
 Concrètement, **devenir volontaire** se fait en **plusieurs étapes** : un premier contact permet de répondre à vos questions, puis une rencontre afin d'échanger sur vos motivations et notre démarche. Vous pourrez également rencontrer d'autres volontaires et participer à une journée test. Ensemble, nous définirons si le volontariat est la meilleure façon pour vous de vous investir auprès d'Oxybulle.
 
-{{< button label="Contactez-nous pour en discuter" link="contact/" style="solid" >}}
+{{< button label="Nous contacter pour en discuter" link="contact/" style="solid" >}}
 
 {{< /accordion >}}
 
@@ -52,7 +52,7 @@ Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** u
 
 {{< button label="Don en ligne (Sécurisé)" link="https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr" style="solid" >}} 
 
-{{< button label="Contactez-nous et inscrivez-vous à la newsletter" link="contact/" style="solid" >}}
+{{< button label="Nous contacter et s'inscrire à la newsletter" link="contact/" style="solid" >}}
 
 {{< /accordion >}}
 
@@ -67,7 +67,7 @@ Nous sommes à la recherche de :
 - de **points de collecte** pour notre délicieux jus  (octobre novembre) et nos œufs en chocolat (mars-avril) ; 
 - de **sponsors** pour notre **rencontre annuelle** : nourriture, boissons, matériels (tables, chaises), lots de tombola.
 
-{{< button label="Contactez-nous" link="contact/" style="solid" >}}
+{{< button label="Nous contacter" link="contact/" style="solid" >}}
 
 {{< /accordion >}}
 
@@ -99,7 +99,7 @@ Pour être informé 📧 des prochaines actions du comité :
 
 Mariage, anniversaire ou naissance sont de belles occasions de partager votre bonheur. 
 
-{{< button label="Contactez-nous" link="contact/" style="solid" >}}
+{{< button label="Nous contacter" link="contact/" style="solid" >}}
 
 {{< /accordion >}}
 
@@ -108,7 +108,7 @@ Oxybulle est une jeune association qui souhaite grandir, évoluer et promouvoir 
 
 Alors, si vous êtes spécialiste des subsides, des dossiers de sponsoring ou de mécénat, un.e pro de des réseaux sociaux, expert-comptable pro bono, nous serions très heureux de bénéficier occasionnellement de vos compétences.
 
-{{< button label="Contactez-nous " link="contact/" style="solid" >}}
+{{< button label="Nous contacter" link="contact/" style="solid" >}}
 
 {{< /accordion >}}
 
