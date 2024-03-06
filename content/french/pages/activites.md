@@ -2,6 +2,7 @@
 title: "Grandir entouré"
 meta_title: "Activités"
 description: "Des **activités** de **loisir** et du **soutien scolaire** sont co-organisées et animées par des volontaires."
+enableonsingle: true
 draft: false
 ---
 
