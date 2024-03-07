@@ -29,7 +29,7 @@ draft: false
 
 📝 Le contenu est rédigé en Markdown, un format simple et lisible converti en HTML. Markdown facilite et accélère la création et la mise à jour du contenu.
 
-🍪 Aucun cookie utilisé. Le traffic est mesuré par Google Analytics.
+🍪 Aucun cookie utilisé. Le traffic est mesuré par Counter.dev.
 
 🔆 Les utilisateurs peuvent basculer en mode sombre pour réduire la fatigue oculaire et la consommation d’énergie sur écrans OLED.
 

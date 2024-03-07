@@ -60,7 +60,7 @@ enable = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Oxybulle", "soutien", "enfants", "namur", "foyers", "accueil", "jeunesse", "aide", "maisons"]
+keywords = ["Oxybulle", "soutien", "enfants", "namur", "foyers", "accueil", "jeunesse", "aide", "maisons", "province", "activités", "loisirs", "scolaire", "jeunes"]
 description = "Oxybulle soutient des enfants et adolescents de la province de Namur qui n’ont pas la chance de grandir en famille en leur proposant des activités en petits groupes et du soutien scolaire individuel."
 author = "Oxybulle asbl"
 image = "images/oxybulle-cover-1.png"
