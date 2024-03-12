@@ -3,7 +3,6 @@ title: "A propos"
 meta_title: "A propos"
 description: "**Oxybulle** est une **association** sans but lucratif, active **depuis 2018** dans la **province de Namur**."
 draft: false
-redirect: "https://www.oxybulle.org/notre-bulle"
 ---
 ### Mission
 
@@ -37,7 +36,7 @@ Concrètement, les bénévoles :
 - Assurent un soutien scolaire individuel à ceux et celles qui en ont besoin. Il s'agit d'accompagnements réguliers, à raison d’une à deux heures par semaine, qui contribuent à renforcer la confiance de chaque enfant en sa capacité d’apprentissage.
 - Tissent une relation unique avec chaque jeune. L’écoute et l’attention individuelle les aident à grandir dans un cadre convivial et bienveillant.
 
-Formés et soutenus dans leur accompagnement, les volontaires d’Oxybulle sont des témoins privilégiés du cheminement des jeunes vers l’âge adulte, semant des graines d’humanité sur leur passage.
+Formés et soutenus dans leur accompagnement, les volontaires d’Oxybulle sont des témoins privilégiés du cheminement des jeunes vers l’âge adulte, semant des graines d’humanité sur leur passage. 
 
 #### Equipes des maisons d accueil 
 
@@ -57,7 +56,7 @@ A ce jour, une vingtaine de membres de tous âges participent selon leurs propre
 
 Oxybulle est parrainée ponctuellement par des fondations et des entreprises mécènes ainsi que par des dons de particuliers. Oxybulle les remercie chaleureusement.  
 
-Merci à : Fondation Reine Paola, Lions Club Namur-Vauban, Eubelius, Cap 48, Rotary Namur-Citadelle, BNP-Parisbas Fortis Foundation, D'Ieteren Group, 3HR, Spleen Creation, Embuild, Legal Run, Cera, Fondation Madame de Radiguès, Belron Foundation, Twenty4You, Engie, Uningo, Association Femmes d'Europe, Priminfo  
+Merci à : Fondation Reine Paola, Lions Club Namur-Vauban, Eubelius, Cap 48, Rotary Namur-Citadelle, BNP-Paribas Fortis Foundation, D'Ieteren Group, 3HR, Spleen Creation, Embuild, Legal Run, Cera, Fondation Madame de Radiguès, Belron Foundation, Twenty4You, Engie, Uningo, Association Femmes d'Europe, Priminfo  
 
 #### Organe de gestion
 
