@@ -7,15 +7,15 @@ draft: false
 
 ### Oxybulle A.S.B.L.
 
-🏠 10 rue Joseph Saintraint, 5000 Namur <br> 
-💺 15 rue de Haltinne,  5340 Gesves
+🏠 10 rue Joseph Saintraint, 5000 Namur (locaux, bureaux)<br> 
+💺 15 rue de Haltinne,  5340 Gesves (siège social)
 
 💳 IBAN : BE47 0689 3772 3780  
 🗂️ BE 0474.551.284  RPM Namur
 
 **Coordination** : Stéphanie van Steenberghe  
 📬 [oxy@oxybulle.org](mailto:oxy@oxybulle.org) <br>
-📞 0499-826-891
+📞 [+32 499 826-891](tel:+32499826891)
 
 ### Site Web & Cookies (RGPD)
 
