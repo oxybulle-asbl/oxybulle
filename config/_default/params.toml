@@ -61,7 +61,7 @@ enable = true
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Oxybulle", "soutien", "enfants", "namur", "foyers", "accueil", "jeunesse", "aide", "maisons", "province", "activités", "loisirs", "scolaire", "jeunes"]
-description = "Oxybulle soutient des enfants et adolescents de la province de Namur qui n’ont pas la chance de grandir en famille en leur proposant des activités en petits groupes et du soutien scolaire individuel."
+description = "Offrir une bulle d'air à des enfants et adolescents de la province de Namur qui n’ont pas la chance de grandir en famille"
 author = "Oxybulle asbl"
 image = "images/oxybulle-cover-1.png"
 
