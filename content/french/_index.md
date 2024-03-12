@@ -31,4 +31,9 @@ features:
       enable: true
       label: "Reserver vos places"
       link: "https://www.eventbrite.be/e/billets-gala-rotary-club-namur-citadelle-alexonor-chante-brel-747360133277"
+  - title: "S'inscrire à notre newsletter"
+    subscription: 
+      enable: true 
+    image: "/images/oxybulle-n.png"
+    contentabove: "<p>Pour se tenir au courant de nos actualités et actions (pas de spams).<br>Votre email ne sera jamais communiqué à des tiers. <br>Se désinscrire est possible à tout moment.<br><p>"
 ---
