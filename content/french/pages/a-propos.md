@@ -56,7 +56,7 @@ A ce jour, une vingtaine de membres de tous âges participent selon leurs propre
 
 Oxybulle est parrainée ponctuellement par des fondations et des entreprises mécènes ainsi que par des dons de particuliers. Oxybulle les remercie chaleureusement.  
 
-Merci à : Fondation Reine Paola, Lions Club Namur-Vauban, Eubelius, Cap 48, Rotary Namur-Citadelle, BNP-Paribas Fortis Foundation, D'Ieteren Group, 3HR, Spleen Creation, Embuild, Legal Run, Cera, Fondation Madame de Radiguès, Belron Foundation, Twenty4You, Engie, Uningo, Association Femmes d'Europe, Priminfo  
+Merci à : Fondation Reine Paola, Lions Club Namur-Vauban, Eubelius, Cap 48, Rotary Namur-Citadelle, BNP-Paribas Fortis Foundation, D'Ieteren Group, 3HR, Spleen Creation, Embuild, Legal Run, Cera, Fondation Madame de Radiguès, Belron Foundation, Twenty4You, Engie, Uningo, Association Femmes d'Europe, Priminfo, et tous les anonymes.   
 
 #### Organe de gestion
 
@@ -64,9 +64,9 @@ Née d’une initiative privée, l’asbl est coordonnée par une personne emplo
 
 Oxybulle est une association belge, autonome, neutre, apolitique, n’appartenant à aucun courant religieux ni philosophique.
 
-- [Rapport d'activité 2022](https://www.oxybulle.org/_files/ugd/50bf4f_e36b66990cbd416aa085d7fc14098490.pdf)
-- [Rapport d’activité 2021](https://www.oxybulle.org/_files/ugd/ed0e86_df758de8d45a4d78a3c397bdabf62c46.pdf)
-- [Rapport d’activité 2020](https://www.oxybulle.org/_files/ugd/ed0e86_023fbfe41ed740828cb8001f5d8711bf.pdf)
+- [Rapport d'activité 2022]({{< static "/RA-Oxybulle-2022.pdf" >}})
+- [Rapport d'activité 2021]({{< static "/RA-Oxybulle-2021.pdf" >}})
+- [Rapport d'activité 2020]({{< static "/RA-Oxybulle-2020.pdf" >}})
 
 
 
