@@ -5,7 +5,7 @@ description: "Cette année encore, nous vous proposons un assortiment d'œufs de
 draft: false
 ---
 📑 Organisée par le [**Comité de soutien**](/a-propos) <br>
-📆 Du **15 mars** au **15 avril 2024** <br>
+📆 Du **21 février** au **15 mars 2024** <br>
 🚚 Enlèvement du **18** au **29 mars 2024** <br>
 🍫  En **sachets** de **120 gr** (6€) ou de **500 gr** (25€)<br>
 
