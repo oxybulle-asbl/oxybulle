@@ -9,7 +9,7 @@ enable: false
 <br>
 Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
 
-Pour pouvoir **agir sur le long terme** et **étendre notre action** à davantage de maisons d’accueil et d'enfants, nous devons **renforcer nos équipes** et **consolider nos ressources**. A ce jour, **Oxybulle** ne bénéficie d'[**aucune subvention publique**](/images/oxybulle.pdf). 
+Pour pouvoir **agir sur le long terme** et **étendre notre action** à davantage de maisons d’accueil et d'enfants, nous devons **renforcer nos équipes** et **consolider nos ressources**. A ce jour, **Oxybulle** ne bénéficie d'[**aucune subvention publique**]({{< static "/oxybulle.pdf" >}}). 
 
 C’est pourquoi votre **aide** nous est **indispensable** :
 
