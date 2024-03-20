@@ -24,13 +24,13 @@ features:
 #      enable: true
 #      label: "En savoir plus"
 #      link: "/oxychoc"
-  - title: "Concert exceptionnel"
-    image: "/images/oxybulle-concert.png"
-    contentabove: "📑 Organisé par le [**Rotary Namur-Citadelle**](https://namur-citadelle.rotary2160.org/fr/?ce=1)  <br> 🚀 Pour Oxybulle et l'asbl [Main tendue Namur](https://unemaintendue.be)<br> 📆 Dimanche **17 mars 2024** à **17h**  <br> 📍 **LE DELTA** - avenue Golenvaux, 18 - 5000 Namur <h4>Alexonor chante Brel</h4><p>Auteur-compositeur-interprète bruxellois, révélation des Francofolies, coup de cœur de l'Académie Charles Cros et du Prix de l'Alliance Française Internationale, Alexonor fait revivre les plus grands succès de Jacques Brel. Au programme : piano, voix et histoires jubilatoires !</p><p>«&nbsp;*Magistral*&nbsp;», «&nbsp;*Quelle densité*&nbsp;», «&nbsp;*Extraordinaire*&nbsp;», «&nbsp;*Au sommet de son art*&nbsp;».</p><p>Un  moment convivial est prévu après le concert 🥳</p>"
-    button:
-      enable: true
-      label: "Reserver vos places"
-      link: "https://www.eventbrite.be/e/billets-gala-rotary-club-namur-citadelle-alexonor-chante-brel-747360133277"
+#  - title: "Concert exceptionnel"
+#    image: "/images/oxybulle-concert.png"
+#    contentabove: "📑 Organisé par le [**Rotary Namur-Citadelle**](https://namur-citadelle.rotary2160.org/fr/?ce=1)  <br> 🚀 Pour Oxybulle et l'asbl [Main tendue Namur](https://unemaintendue.be)<br> 📆 Dimanche **17 mars 2024** à **17h**  <br> 📍 **LE DELTA** - avenue Golenvaux, 18 - 5000 Namur <h4>Alexonor chante Brel</h4><p>Auteur-compositeur-interprète bruxellois, révélation des Francofolies, coup de cœur de l'Académie Charles Cros et du Prix de l'Alliance Française Internationale, Alexonor fait revivre les plus grands succès de Jacques Brel. Au programme : piano, voix et histoires jubilatoires !</p><p>«&nbsp;*Magistral*&nbsp;», «&nbsp;*Quelle densité*&nbsp;», «&nbsp;*Extraordinaire*&nbsp;», «&nbsp;*Au sommet de son art*&nbsp;».</p><p>Un  moment convivial est prévu après le concert 🥳</p>"
+#    button:
+#      enable: true
+#      label: "Reserver vos places"
+#      link: "https://www.eventbrite.be/e/billets-gala-rotary-club-namur-citadelle-alexonor-chante-brel-747360133277"
   - title: "S'inscrire à notre newsletter"
     subscription: 
       enable: true 
