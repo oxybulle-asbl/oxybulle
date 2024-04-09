@@ -13,6 +13,10 @@ testimonials:
     designation: "Volontaire, soutien scolaire"
     avatar: false
     content: "Joël rechignait à travailler disant qu'il avait déjà tout fait mais je l'ai persuadé de revoir ses verbes et faire la dictée à préparer. Finalement, tout s'est fait sans problème. Après, nous avons parlé, je lui ai dit que mon papa avait fait la guerre et avait été prisonnier des Allemands, nous avons fait une petite leçon d'histoire. Joël se montre toujours très intéressé."
+  - name: "Julie M."
+    designation: "Cheffe educatrice d'un foyer"
+    avatar: false
+    content: "Encore un grand merci pour ces chouettes moments proposés aux jeunes ! Ils reviennent à chaque fois super heureux, avec plein d’histoires à raconter !"
   - name: "Julie"
     designation: "Volontaire, activités de loisir"
     avatar: false

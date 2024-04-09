@@ -60,13 +60,12 @@ Merci à : Fondation Reine Paola, Lions Club Namur-Vauban, Eubelius, Cap 48, Rot
 
 #### Organe de gestion
 
-Née d’une initiative privée, l’asbl est coordonnée par une personne employée à temps partiel, encadrée par son **organe de gestion** (OA) et les **membres de l'assemblée générale**.
+Spinoff de l’asbl [Peluche](https://peluche.org) à Bruxelles, Oxybulle est née d’une initiative citoyenne. 
 
-Oxybulle est une association belge, autonome, neutre, apolitique, n’appartenant à aucun courant religieux ni philosophique.
+L'asbl est coordonnée par une personne employée à temps partiel, encadrée par son **organe de gestion** (OA) et les **membres de l'assemblée générale**.
+
+Oxybulle est une association belge, autonome, neutre, apolitique, n’appartenant à aucun courant religieux ni philosophique. 
 
 - [Rapport d'activité 2022]({{< static "/RA-Oxybulle-2022.pdf" >}})
 - [Rapport d'activité 2021]({{< static "/RA-Oxybulle-2021.pdf" >}})
 - [Rapport d'activité 2020]({{< static "/RA-Oxybulle-2020.pdf" >}})
-
-
-
