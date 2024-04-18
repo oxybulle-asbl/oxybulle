@@ -24,7 +24,7 @@ Les jeunes soutenus, âgés de 3 à 18 ans, vivent des contextes familiaux diffi
 
 La durée de leur séjour dans ces foyers est variable: les enfants y passent quelques jours ou quelques mois, quand d’autres y résident jusqu’à leur majorité. Le maintien du lien familial est aléatoire : si quelques pensionnaires rentrent chez eux le week-end, d’autres ne bénéficient plus de contacts avec leurs proches.
 
-Consciente des leurs besoins spécifiques, Oxybulle leur propose un **espace d’expression** et d’**épanouissement** personnel à travers des [activités](/activites) récréatives **créatrices de liens**, ainsi que des **opportunités d’apprentissage et de découverte du monde extérieur**.
+Consciente de leurs besoins spécifiques, Oxybulle leur propose un **espace d’expression** et d’**épanouissement** personnel à travers des [activités](/activites) récréatives **créatrices de liens**, ainsi que des **opportunités d’apprentissage et de découverte du monde extérieur**.
 
 #### Volontaires
 
