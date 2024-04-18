@@ -17,7 +17,7 @@ features:
       enable: true
       label: "Nous soutenir"
       link: "nous-soutenir/"
-  - title: "OxyART"
+  - title: "Appel aux artistes"
     image: "/images/oxybulle-art.png"
     contentabove: "Le [**Comité de soutien**](/a-propos) d'Oxybulle invite les **artistes** à mettre leurs talents au service des jeunes en participant à **OxyART**. Le principe est simple : vous **créez** et **offrez** une de vos **réalisations** à Oxybulle qui sera **exposée** du **28 novembre** au **1er décembre 2024** puis mise aux enchères par la [**salle de vente Rops**](https://www.rops-online.be) (Namur) du **2** au **8 décembre 2024**.<p> 🤝 **Confirmez** votre participation avant le **15 juin** via le bouton ci-dessous.<br> 📤 **Soumettez** une **photo** de votre œuvre sur notre page [Instagram](https://www.instagram.com/oxyart_by_oxybulle).<br> 📦 **Déposez** votre **œuvre** à Bruxelles ou Namur avant le **10 juillet**.<br> 🍷 **Participez** au vernissage le **29 novembre**.</p>"
     button:
