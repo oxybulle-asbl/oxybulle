@@ -19,11 +19,11 @@ features:
       link: "nous-soutenir/"
   - title: "Appel aux artistes"
     image: "/images/oxybulle-art.png"
-    contentabove: "Le [**Comité de soutien**](/a-propos) d'Oxybulle invite les **artistes** à mettre leurs talents au service des jeunes en participant à **OxyART**. Le principe est simple : vous **créez** et **offrez** une de vos **réalisations** à Oxybulle qui sera **exposée** du **28 novembre** au **1er décembre 2024** puis mise aux enchères par la [**salle de vente Rops**](https://www.rops-online.be) (Namur) du **2** au **8 décembre 2024**.<p> 🤝 **Confirmez** votre participation avant le **15 juin** via le bouton ci-dessous.<br> 📤 **Soumettez** une **photo** de votre œuvre sur notre page [Instagram](https://www.instagram.com/oxyart_by_oxybulle).<br> 📦 **Déposez** votre **œuvre** à Bruxelles ou Namur avant le **10 juillet**.<br> 🍷 **Participez** au vernissage le **29 novembre**.</p>"
+    contentabove: "Le [**Comité de soutien**](/a-propos) d'Oxybulle invite les **artistes** à mettre leurs talents au service des jeunes en participant à **OxyART**. Le principe est simple : vous **créez** et **offrez** une de vos **réalisations** à Oxybulle. Elle sera **exposée** du **28 novembre** au **1er décembre 2024** puis mise aux enchères par la [**salle de vente Rops**](https://www.rops-online.be) (Namur) du **2** au **8 décembre 2024**.<p> 🤝 **Participez** avant le **15 juin**.<br> 📤 **Soumettez** une **photo** de votre œuvre sur notre page [Instagram](https://www.instagram.com/oxyart_by_oxybulle).<br> 📦 **Déposez** votre **œuvre** à Bruxelles ou Namur avant le **10 juillet**.<br> 🍷 **Participez** au vernissage le **29 novembre**.</p>"
     button:
       enable: true
-      label: "Offrir votre oeuvre"
-      link: "https://forms.office.com/Pages/ResponsePage.aspx?id=U2Ns6t-ShUORPGkUwiNsYdDIeidrj6xHmvjmv6A7NEJURUpITDhSREo1WUtBWFdROEpBUDZaTzRFRy4u"
+      label: "Plus d'informations"
+      link: "https://mailchi.mp/50c646dc205d/qo96ekbnth"
 #  - title: "Vente d'œufs en chocolat"
 #    image: "/images/oxybulle-c-1.png"
 #    contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes du **21 février** au **15 mars 2024** <br> 🚚 Enlèvement du **18** au **29 mars 2024# **<p>Cette année encore, nous vous proposons un **assortiment** d'**œufs** de l'**artisan chocolatier Galler** de Marche. <p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** 🎁 à vos proches et/ou aux jeunes.</p><p> Un colis *entreprise* pour vos collaborateurs et clients est également disponible.</p>"
