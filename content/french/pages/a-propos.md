@@ -66,6 +66,7 @@ L'asbl est coordonnée par une personne employée à temps partiel, encadrée pa
 
 Oxybulle est une association belge, autonome, neutre, apolitique, n’appartenant à aucun courant religieux ni philosophique. 
 
+- [Rapport d'activité 2020]({{< static "/RA-Oxybulle-2023.pdf" >}})
 - [Rapport d'activité 2022]({{< static "/RA-Oxybulle-2022.pdf" >}})
 - [Rapport d'activité 2021]({{< static "/RA-Oxybulle-2021.pdf" >}})
 - [Rapport d'activité 2020]({{< static "/RA-Oxybulle-2020.pdf" >}})
