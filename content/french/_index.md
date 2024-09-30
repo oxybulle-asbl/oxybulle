@@ -38,6 +38,18 @@ features:
 #      enable: true
 #      label: "Reserver vos places"
 #      link: "https://www.eventbrite.be/e/billets-gala-rotary-club-namur-citadelle-alexonor-chante-brel-747360133277"
+  - title: "Vente de jus BIO"
+    image: "/images/oxybulle-p.png"
+    contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes jusqu'au **27 octobre 2024** <br> 🚚 Enlèvement à partir du **11 novembre 2024**
+<p>Cette année, en collaboration avec le [Pressoir d’Hortus](https://www.pressoirhortus.be/), nous vous proposons du délicieux jus BIO de pomme et de pommes/poires. <p>Faites le plein de bonnes **vitamines**, offrez-en 🎁 aux jeunes ou à vos proches.</p><p> Points d'enlèvement à Bruxelles, Namur, Bois-de Villers, Eghezée et Luxembourg-Ville.</p>"
+    button:
+      enable: true
+      label: "Commander des jus"
+      link: "https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=OP2024"
+    button1:
+      enable: true
+      label: "Offrir du jus aux enfants (don déductible)"
+      link: "https://www.uningoapp.com/basic_form?org=Oxybulle&proj=164&src=DonOP2024"
   - title: "S'inscrire à notre newsletter"
     subscription: 
       enable: true 
