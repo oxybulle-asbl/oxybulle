@@ -44,11 +44,11 @@ features:
 <p>Cette année, en collaboration avec le [Pressoir d’Hortus](https://www.pressoirhortus.be/), nous vous proposons du délicieux jus BIO de pomme et de pommes/poires. <p>Faites le plein de bonnes **vitamines**, offrez-en 🎁 aux jeunes ou à vos proches.</p><p> Points d'enlèvement à Bruxelles, Namur, Bois-de Villers, Eghezée et Luxembourg-Ville.</p>"
     button:
       enable: true
-      label: "Commander des jus"
+      label: "Commander du jus"
       link: "https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=OP2024"
     button1:
       enable: true
-      label: "Offrir du jus aux enfants (don déductible)"
+      label: "Offrir du jus aux jeunes (don déductible)"
       link: "https://www.uningoapp.com/basic_form?org=Oxybulle&proj=164&src=DonOP2024"
   - title: "S'inscrire à notre newsletter"
     subscription: 
