@@ -41,7 +41,7 @@ features:
   - title: "Vente de jus BIO"
     image: "/images/oxybulle-p.png"
     contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes jusqu'au **27 octobre 2024** <br> 🚚 Enlèvement à partir du **11 novembre 2024**
-<p>Cette année, en collaboration avec le [Pressoir d’Hortus](https://www.pressoirhortus.be/), nous vous proposons du délicieux jus BIO de pomme et de pommes/poires. <p>Faites le plein de bonnes **vitamines**, offrez-en 🎁 aux jeunes ou à vos proches.</p><p> Points d'enlèvement à Bruxelles, Namur, Bois-de Villers, Eghezée et Luxembourg-Ville.</p>"
+<p>Cette année, en collaboration avec le [Pressoir d’Hortus](https://www.pressoirhortus.be/), nous vous proposons du délicieux jus BIO de pommes et de pommes/poires. <p>Faites le plein de bonnes **vitamines**, offrez-en 🎁 aux jeunes ou à vos proches.</p><p> Points d'enlèvement à Bruxelles, Namur, Bois-de Villers, Eghezée et Luxembourg-Ville.</p>"
     button:
       enable: true
       label: "Commander du jus"
