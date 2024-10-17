@@ -1,0 +1,72 @@
+<!-- layouts/partials/popup-image.html -->
+<div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+  <div id="popup-content" class="bg-white rounded-lg overflow-hidden max-w-3xl w-full max-h-[90vh] relative">
+    <div class="absolute top-0 right-0 m-2 z-10">
+      <button id="close-popup" class="bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-all duration-200 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    {{ $image := resources.Get "images/oxyart.png" }}
+    {{ with $image }}
+      <img id="popup-image" src="{{ .Permalink }}" alt="Pop-up Image" class="w-full h-auto">
+    {{ else }}
+      <p class="p-4">Image not found</p>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  #popup-overlay {
+    transition: opacity 0.3s ease-in-out;
+  }
+  #popup-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  #popup-content {
+    transition: transform 0.3s ease-in-out;
+  }
+  #popup-overlay:not(.hidden) #popup-content {
+    transform: scale(1);
+  }
+  #popup-overlay.hidden #popup-content {
+    transform: scale(0.9);
+  }
+  #close-popup {
+    transition: background-opacity 0.2s ease-in-out;
+  }
+
+  @media (max-width: 640px) {
+    #popup-content {
+      width: 95%;
+      max-height: 80vh;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const popup = document.getElementById('popup-overlay');
+    const closePopupBtn = document.getElementById('close-popup');
+    const popupContent = document.getElementById('popup-content');
+
+    function closePopup() {
+      popup.classList.add('hidden');
+    }
+
+    closePopupBtn.addEventListener('click', closePopup);
+
+    popup.addEventListener('click', function(e) {
+      if (e.target === popup) {
+        closePopup();
+      }
+    });
+
+    // Prevent closing when clicking inside the popup content
+    popupContent.addEventListener('click', function(e) {
+      e.stopPropagation();
+    });
+  });
+</script>
