@@ -1,13 +1,19 @@
 <!-- layouts/partials/popup-image.html -->
 <div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+  <!-- Import de la police Open Sans Condensed -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+  
   <div id="popup-content" class="bg-white rounded-lg overflow-hidden max-w-3xl w-full max-h-[90vh] relative">
-    <div class="absolute top-0 right-0 m-2 z-10">
+    <!-- Bouton de fermeture fixe en haut à droite -->
+    <div class="absolute top-2 right-2 z-10">
       <button id="close-popup" class="bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-all duration-200 focus:outline-none">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
     </div>
+
+    <!-- Images -->
     {{ $desktopImage := resources.Get "images/oxyart.png" }}
     {{ $mobileImage := resources.Get "images/oxyart-mobile.png" }}
     {{ with $desktopImage }}
@@ -20,10 +26,48 @@
     {{ else }}
       <p class="p-4 hidden" id="mobile-image-not-found">Mobile image not found</p>
     {{ end }}
+    
+    <!-- Bouton "Toutes les infos" avec position ajustable -->
+    <div class="info-button-container absolute w-full flex justify-center z-10">
+      <a href="https://linktr.ee/oxyart_by_oxybulle" 
+         target="_blank" 
+         class="info-button flex items-center gap-2 bg-gradient-to-r from-yellow-400 via-red-500 via-darkviolet-500 to-green-400 text-white rounded-full px-4 py-2 hover:opacity-90 transition-all duration-200">
+        <!-- Version Regular -->
+        <!-- <span class="font-opensans-condensed-regular text-lg">Toutes les infos</span>
+        <!-- Version Bold (commentée pour l'instant) -->
+        <span class="text-xl">👉</span>
+        <span class="font-opensans-condensed-bold text-lg">TOUTES LES INFOS</span>
+       
+      </a>
+    </div>
   </div>
 </div>
-
 <style>
+  /* Définition des polices personnalisées */
+  @font-face {
+    font-family: 'Open Sans Condensed Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMR7eS2Ao.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Open Sans Condensed Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmDuXMR7eS2Ao.woff2) format('woff2');
+  }
+
+  .font-opensans-condensed-regular {
+    font-family: 'Open Sans Condensed Regular', sans-serif;
+  }
+
+  .font-opensans-condensed-bold {
+    font-family: 'Open Sans Condensed Bold', sans-serif;
+  }
+
   #popup-overlay {
     transition: opacity 0.3s ease-in-out;
   }
@@ -44,6 +88,24 @@
     transition: background-opacity 0.2s ease-in-out;
   }
 
+  /* Animation de pulsation douce */
+  @keyframes gentle-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+  }
+
+  .info-button {
+    animation: gentle-pulse 2s ease-in-out infinite;
+  }
+
+  /* Position par défaut du bouton info (desktop) */
+  .info-button-container {
+    bottom: calc(3.1rem);
+    left: calc(12rem);
+  }
+
+  /* Media query pour mobile */
   @media (max-width: 640px) {
     #popup-content {
       width: 95%;
@@ -55,9 +117,12 @@
     #popup-image-mobile {
       display: block;
     }
+    .info-button-container {
+      bottom: calc(2.3rem);
+      left: calc(2rem);
+    }
   }
 </style>
-
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const popup = document.getElementById('popup-overlay');
@@ -67,15 +132,12 @@
     function closePopup() {
       popup.classList.add('hidden');
     }
-
     closePopupBtn.addEventListener('click', closePopup);
-
     popup.addEventListener('click', function(e) {
       if (e.target === popup) {
         closePopup();
       }
     });
-
     popupContent.addEventListener('click', function(e) {
       e.stopPropagation();
     });
