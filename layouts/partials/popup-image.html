@@ -8,11 +8,17 @@
         </svg>
       </button>
     </div>
-    {{ $image := resources.Get "images/oxyart.png" }}
-    {{ with $image }}
-      <img id="popup-image" src="{{ .Permalink }}" alt="Pop-up Image" class="w-full h-auto">
+    {{ $desktopImage := resources.Get "images/oxyart.png" }}
+    {{ $mobileImage := resources.Get "images/oxyart-mobile.png" }}
+    {{ with $desktopImage }}
+      <img id="popup-image-desktop" src="{{ .Permalink }}" alt="Pop-up Image Desktop" class="w-full h-auto">
     {{ else }}
-      <p class="p-4">Image not found</p>
+      <p class="p-4">Desktop image not found</p>
+    {{ end }}
+    {{ with $mobileImage }}
+      <img id="popup-image-mobile" src="{{ .Permalink }}" alt="Pop-up Image Mobile" class="w-full h-auto hidden">
+    {{ else }}
+      <p class="p-4 hidden" id="mobile-image-not-found">Mobile image not found</p>
     {{ end }}
   </div>
 </div>
@@ -43,6 +49,12 @@
       width: 95%;
       max-height: 80vh;
     }
+    #popup-image-desktop, #mobile-image-not-found {
+      display: none;
+    }
+    #popup-image-mobile {
+      display: block;
+    }
   }
 </style>
 
@@ -64,7 +76,6 @@
       }
     });
 
-    // Prevent closing when clicking inside the popup content
     popupContent.addEventListener('click', function(e) {
       e.stopPropagation();
     });
