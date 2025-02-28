@@ -5,8 +5,8 @@ Pour activer ce popup, ajouter la ligne suivante dans index.html juste après {{
 {{ partial "popup-image.html" . }}
 
 Les images requises doivent être placées dans :
-- assets/images/oxyart.png (version desktop)
-- assets/images/oxyart-mobile.png (version mobile)
+- assets/images/oxychoc.png (version desktop)
+- assets/images/oxychoc-mobile.png (version mobile)
 */}}
 
 <!-- layouts/partials/popup-image.html -->
@@ -25,8 +25,8 @@ Les images requises doivent être placées dans :
     </div>
 
     <!-- Images -->
-    {{ $desktopImage := resources.Get "images/oxyart.png" }}
-    {{ $mobileImage := resources.Get "images/oxyart-mobile.png" }}
+    {{ $desktopImage := resources.Get "images/oxychoc.png" }}
+    {{ $mobileImage := resources.Get "images/oxychoc-mobile.png" }}
     {{ with $desktopImage }}
       <img id="popup-image-desktop" src="{{ .Permalink }}" alt="Pop-up Image Desktop" class="w-full h-auto">
     {{ else }}
@@ -40,14 +40,14 @@ Les images requises doivent être placées dans :
     
     <!-- Bouton "Toutes les infos" avec position ajustable -->
     <div class="info-button-container absolute w-full flex justify-center z-10">
-      <a href="https://linktr.ee/oxyart_by_oxybulle" 
+      <a href="https://oxybulle.org/oxychoc/" 
          target="_blank" 
          class="info-button flex items-center gap-2 bg-gradient-to-r from-yellow-400 via-red-500 via-darkviolet-500 to-green-400 text-white rounded-full px-4 py-2 hover:opacity-90 transition-all duration-200">
         <!-- Version Regular -->
         <!-- <span class="font-opensans-condensed-regular text-lg">Toutes les infos</span>
         <!-- Version Bold (commentée pour l'instant) -->
         <span class="text-xl">👉</span>
-        <span class="font-opensans-condensed-bold text-lg">TOUTES LES INFOS</span>
+        <span class="font-opensans-condensed-bold text-lg">COMMANDES & INFOS</span>
        
       </a>
     </div>
