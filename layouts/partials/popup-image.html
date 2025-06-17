@@ -5,14 +5,12 @@ Pour activer ce popup, ajouter la ligne suivante dans index.html juste après {{
 {{ partial "popup-image.html" . }}
 
 Les images requises doivent être placées dans :
-- assets/images/oxychoc.png (version desktop)
-- assets/images/oxychoc-mobile.png (version mobile)
+- assets/images/insta.png (version desktop)
+- assets/images/insta-mobile.png (version mobile)
 */}}
 
 <!-- layouts/partials/popup-image.html -->
 <div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-  <!-- Import de la police Open Sans Condensed -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
   
   <div id="popup-content" class="bg-white rounded-lg overflow-hidden max-w-3xl w-full max-h-[90vh] relative">
     <!-- Bouton de fermeture fixe en haut à droite -->
@@ -24,96 +22,54 @@ Les images requises doivent être placées dans :
       </button>
     </div>
 
-    <!-- Images -->
-    {{ $desktopImage := resources.Get "images/oxychoc.png" }}
-    {{ $mobileImage := resources.Get "images/oxychoc-mobile.png" }}
+    <!-- Images cliquables vers Instagram -->
+    {{ $desktopImage := resources.Get "images/insta.png" }}
+    {{ $mobileImage := resources.Get "images/insta-mobile.png" }}
+
     {{ with $desktopImage }}
-      <img id="popup-image-desktop" src="{{ .Permalink }}" alt="Pop-up Image Desktop" class="w-full h-auto">
+      <a href="https://www.instagram.com/oxybulle_asbl/" target="_blank" class="block">
+        <img id="popup-image-desktop" src="{{ .Permalink }}" alt="Cliquez pour aller sur Instagram" class="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity duration-200">
+      </a>
     {{ else }}
       <p class="p-4">Desktop image not found</p>
     {{ end }}
+
     {{ with $mobileImage }}
-      <img id="popup-image-mobile" src="{{ .Permalink }}" alt="Pop-up Image Mobile" class="w-full h-auto hidden">
+      <a href="https://www.instagram.com/oxybulle_asbl/" target="_blank" class="block hidden">
+        <img id="popup-image-mobile" src="{{ .Permalink }}" alt="Cliquez pour aller sur Instagram" class="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity duration-200">
+      </a>
     {{ else }}
       <p class="p-4 hidden" id="mobile-image-not-found">Mobile image not found</p>
     {{ end }}
-    
-    <!-- Bouton "Toutes les infos" avec position ajustable -->
-    <div class="info-button-container absolute w-full flex justify-center z-10">
-      <a href="https://oxybulle.org/oxychoc/" 
-         target="_blank" 
-         class="info-button flex items-center gap-2 bg-gradient-to-r from-yellow-400 via-red-500 via-darkviolet-500 to-green-400 text-white rounded-full px-4 py-2 hover:opacity-90 transition-all duration-200">
-        <!-- Version Regular -->
-        <!-- <span class="font-opensans-condensed-regular text-lg">Toutes les infos</span>
-        <!-- Version Bold (commentée pour l'instant) -->
-        <span class="text-xl">👉</span>
-        <span class="font-opensans-condensed-bold text-lg">COMMANDES & INFOS</span>
-       
-      </a>
-    </div>
+
   </div>
 </div>
+
 <style>
-  /* Définition des polices personnalisées */
-  @font-face {
-    font-family: 'Open Sans Condensed Regular';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMR7eS2Ao.woff2) format('woff2');
-  }
-
-  @font-face {
-    font-family: 'Open Sans Condensed Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmDuXMR7eS2Ao.woff2) format('woff2');
-  }
-
-  .font-opensans-condensed-regular {
-    font-family: 'Open Sans Condensed Regular', sans-serif;
-  }
-
-  .font-opensans-condensed-bold {
-    font-family: 'Open Sans Condensed Bold', sans-serif;
-  }
-
+  /* Animations et transitions du popup */
   #popup-overlay {
     transition: opacity 0.3s ease-in-out;
   }
+  
   #popup-overlay.hidden {
     opacity: 0;
     pointer-events: none;
   }
+  
   #popup-content {
     transition: transform 0.3s ease-in-out;
   }
+  
   #popup-overlay:not(.hidden) #popup-content {
     transform: scale(1);
   }
+  
   #popup-overlay.hidden #popup-content {
     transform: scale(0.9);
   }
+  
   #close-popup {
     transition: background-opacity 0.2s ease-in-out;
-  }
-
-  /* Animation de pulsation douce */
-  @keyframes gentle-pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.03); }
-    100% { transform: scale(1); }
-  }
-
-  .info-button {
-    animation: gentle-pulse 2s ease-in-out infinite;
-  }
-
-  /* Position par défaut du bouton info (desktop) */
-  .info-button-container {
-    bottom: calc(2rem);
-    left: calc(0rem);
   }
 
   /* Media query pour mobile */
@@ -122,18 +78,17 @@ Les images requises doivent être placées dans :
       width: 95%;
       max-height: 80vh;
     }
+    
     #popup-image-desktop, #mobile-image-not-found {
       display: none;
     }
+    
     #popup-image-mobile {
       display: block;
     }
-    .info-button-container {
-      bottom: calc(4rem);
-      left: calc(0rem);
-    }
   }
 </style>
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const popup = document.getElementById('popup-overlay');
@@ -143,12 +98,18 @@ Les images requises doivent être placées dans :
     function closePopup() {
       popup.classList.add('hidden');
     }
+
+    // Fermeture par bouton X
     closePopupBtn.addEventListener('click', closePopup);
+    
+    // Fermeture par clic sur l'overlay
     popup.addEventListener('click', function(e) {
       if (e.target === popup) {
         closePopup();
       }
     });
+    
+    // Empêcher la fermeture lors du clic sur le contenu
     popupContent.addEventListener('click', function(e) {
       e.stopPropagation();
     });
