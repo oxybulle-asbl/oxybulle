@@ -35,7 +35,7 @@ Les images requises doivent être placées dans :
     {{ end }}
 
     {{ with $mobileImage }}
-      <a href="https://www.instagram.com/oxybulle_asbl/" target="_blank" class="block hidden">
+      <a href="https://www.instagram.com/oxybulle_asbl/" target="_blank" class="block hidden" id="mobile-link">
         <img id="popup-image-mobile" src="{{ .Permalink }}" alt="Cliquez pour aller sur Instagram" class="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity duration-200">
       </a>
     {{ else }}
@@ -79,12 +79,20 @@ Les images requises doivent être placées dans :
       max-height: 80vh;
     }
     
-    #popup-image-desktop, #mobile-image-not-found {
-      display: none;
+    #popup-image-desktop {
+      display: none !important;
     }
     
     #popup-image-mobile {
-      display: block;
+      display: block !important;
+    }
+    
+    #mobile-link {
+      display: block !important;
+    }
+    
+    #mobile-image-not-found {
+      display: block !important;
     }
   }
 </style>
