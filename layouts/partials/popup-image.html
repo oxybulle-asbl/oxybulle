@@ -1,18 +1,38 @@
 {{/*
 === INSTRUCTIONS POUR UTILISER CE POPUP IMAGE ===
-Pour activer ce popup, ajouter la ligne suivante dans index.html juste après {{ define "main" }} :
 
+1. ACTIVATION :
+Pour activer ce popup, ajouter la ligne suivante dans index.html juste après {{ define "main" }} :
 {{ partial "popup-image.html" . }}
 
-Les images requises doivent être placées dans :
+2. IMAGES REQUISES :
+Les images doivent être placées dans :
 - assets/images/insta.png (version desktop)
 - assets/images/insta-mobile.png (version mobile)
+
+3. CONFIGURATION BACKGROUND :
+Pour changer le fond du popup, modifier la classe dans popup-content :
+
+FONDS DISPONIBLES :
+- popup-bg-auto     → Blanc (défaut)
+- popup-bg-dark     → Sombre (#1a1a1a)
+- popup-bg-transparent → Transparent
+- popup-bg-gradient → Dégradé coloré
+- popup-bg-theme    → Suit le thème du site
+
+EXEMPLE D'USAGE :
+- Image transparente + mode sombre : utiliser "popup-bg-dark"
+- Image transparente + mode clair : utiliser "popup-bg-auto" 
+- Image avec fond intégré : utiliser "popup-bg-transparent"
+- Pour des actions spéciales : utiliser "popup-bg-gradient"
+
+Pour changer : remplacer "popup-bg-auto" par la classe souhaitée dans la div popup-content
 */}}
 
 <!-- layouts/partials/popup-image.html -->
 <div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
   
-  <div id="popup-content" class="bg-white rounded-lg overflow-hidden max-w-3xl w-full max-h-[90vh] relative">
+  <div id="popup-content" class="popup-bg-auto rounded-lg overflow-hidden max-w-3xl w-full max-h-[90vh] relative">
     <!-- Bouton de fermeture fixe en haut à droite -->
     <div class="absolute top-2 right-2 z-10">
       <button id="close-popup" class="bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-all duration-200 focus:outline-none">
@@ -46,6 +66,16 @@ Les images requises doivent être placées dans :
 </div>
 
 <style>
+  /* === CONFIGURATION BACKGROUNDS POPUP === */
+  .popup-bg-auto { background: white; }
+  .popup-bg-dark { background: #1a1a1a; }
+  .popup-bg-transparent { background: transparent; }
+  .popup-bg-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+  .popup-bg-theme { 
+    background: var(--bg-color, white); 
+    color: var(--text-color, black); 
+  }
+
   /* Animations et transitions du popup */
   #popup-overlay {
     transition: opacity 0.3s ease-in-out;
