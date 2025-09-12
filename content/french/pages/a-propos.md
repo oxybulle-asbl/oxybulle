@@ -28,15 +28,15 @@ Consciente de leurs besoins spécifiques, Oxybulle leur propose un **espace d’
 
 #### Volontaires
 
-Les volontaires sont avec les jeunes au cœur de la démarche d’Oxybulle. Agés de 18 à 70 ans (et plus), ces bénévoles offrent de leur temps libre pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées, dans un esprit de curiosité et de partage.
+Les **volontaires** sont avec les **jeunes** au **cœur** de la **démarche** d’Oxybulle. Agés de 18 à 70 ans (et plus), ces bénévoles **offrent** de leur **temps libre** pour accompagner les jeunes et encadrer les [activités](/activites) qui leur sont destinées, dans un **esprit de curiosité et de partage**.
 
 Concrètement, les bénévoles :
 
-- Co-organisent, animent et encadrent des activités récréatives adaptées aux enfants ou aux adolescents : sorties culturelles, journées sportives, ateliers créatifs, découverte de la nature, etc. L’objectif est de leur faire vivre des expériences enrichissantes, sources d’épanouissement.
-- Assurent un soutien scolaire individuel à ceux et celles qui en ont besoin. Il s'agit d'accompagnements réguliers, à raison d’une à deux heures par semaine, qui contribuent à renforcer la confiance de chaque enfant en sa capacité d’apprentissage.
-- Tissent une relation unique avec chaque jeune. L’écoute et l’attention individuelle les aident à grandir dans un cadre convivial et bienveillant.
+- **Co-organisent, animent et encadrent** des activités récréatives adaptées aux enfants ou aux adolescents : sorties culturelles, journées sportives, ateliers créatifs, découverte de la nature, etc. L’objectif est de leur faire vivre des **expériences enrichissantes**, sources d’épanouissement.
+- Assurent un soutien scolaire individuel à ceux et celles qui en ont besoin. Il s'agit d'accompagnements réguliers, à raison d’une à deux heures par semaine, qui contribuent à **renforcer la confiance de chaque enfant** en sa capacité d’apprentissage.
+- **Tissent une relation unique** avec chaque jeune. L’**écoute** et l’**attention individuelle** les **aident à grandir** dans un cadre convivial et bienveillant.
 
-Formés et soutenus dans leur accompagnement, les volontaires d’Oxybulle sont des témoins privilégiés du cheminement des jeunes vers l’âge adulte, semant des graines d’humanité sur leur passage. 
+Formés et soutenus dans leur accompagnement, les volontaires d’Oxybulle sont des témoins privilégiés du cheminement des jeunes vers l’âge adulte, semant des **graines d’humanité** sur leur passage. 
 
 #### Equipes des maisons d accueil 
 
@@ -48,7 +48,7 @@ Les maisons d’accueil partenaires s’inscrivent dans le cadre du Décret du 4
 
 #### Membres du comité de soutien
 
-Des personnes motivées et animées par le désir de contribuer à un meilleur vivre ensemble, forment un comité destiné à soutenir l'association. 
+Des **personnes motivées** et animées par le désir de contribuer à un **meilleur vivre ensemble**, forment un comité destiné à soutenir l'association. 
 
 A ce jour, une vingtaine de membres de tous âges participent selon leurs propres disponibilités. Certains partagent leurs contacts ou idées de mécènes potentiels, d'autres co-organisent des événements et des ventes pour financer les activités extra-scolaires des enfants. 
 
@@ -66,6 +66,9 @@ L'asbl est coordonnée par une personne employée à temps partiel, encadrée pa
 
 Oxybulle est une association belge, autonome, neutre, apolitique, n’appartenant à aucun courant religieux ni philosophique. 
 
+#### Rapports d'activité
+
+- [Rapport d'activité 2024]({{< static "/RA-Oxybulle-2024.pdf" >}})
 - [Rapport d'activité 2023]({{< static "/RA-Oxybulle-2023.pdf" >}})
 - [Rapport d'activité 2022]({{< static "/RA-Oxybulle-2022.pdf" >}})
 - [Rapport d'activité 2021]({{< static "/RA-Oxybulle-2021.pdf" >}})

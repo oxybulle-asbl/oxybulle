@@ -3,17 +3,17 @@
     {
       "name": "facebook",
       "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/oxybulleasbl"
-    },
-    {
-      "name": "linkedin",
-      "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/company/oxybulle-asbl"
+      "link": "https://www.facebook.com/oxybulleasbl/"
     },
     {
       "name": "instagram",
       "icon": "fab fa-instagram",
-      "link": "https://www.instagram.com/oxybulle-asbl"
+      "link": "https://www.instagram.com/oxybulle_asbl/"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/company/oxybulle-asbl/"
     }
   ]
 }

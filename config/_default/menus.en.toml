@@ -1,5 +1,7 @@
 ############# English navigation ##############
 
+############# Oxybulle navigation ##############
+
 # main menu
 [[main]]
 name = "Accueil"
@@ -7,32 +9,32 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "A propos"
-url = "a-propos/"
+name = "À propos"
+url = "/a-propos/"
 weight = 2
 
 [[main]]
 name = "Activités"
-url = "activites/"
+url = "/activites/"
 weight = 3
 
 [[main]]
-weight = 5
 name = "Contact"
-url = "contact"
+url = "/contact/"
+weight = 5
 
 # footer menu
 [[footer]]
-name = "A propos"
-url = "a-propos/"
+name = "À propos"
+url = "/a-propos/"
 weight = 1
 
 [[footer]]
 name = "Nous soutenir"
-url = "nous-soutenir/"
+url = "/nous-soutenir/"
 weight = 2
 
 [[footer]]
 name = "Mentions légales"
-url = "mentionslegales/"
+url = "/mentionslegales/"
 weight = 3
