@@ -12,7 +12,7 @@ banner:
 features:
   - title: ""
     image: "/images/oxybulle-cover-2.png"
-    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les [**enfants**](/a-propos/#jeunes) placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **20** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), plus de **100 jeunes** sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Parce que leur **avenir** est aussi le nôtre, **rejoignez-nous** pour leur **offrir** le **tremplin** vers la **vie** qu’ils et elles méritent !</p>"
+    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les [**enfants**](/a-propos/#jeunes) placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **20** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), plus de **100 jeunes** sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Ensemble, offrons à ces jeunes le tremplin vers la vie qu’ils et elles méritent.</p>"
     button:
       enable: true
       label: "Nous soutenir"
@@ -50,9 +50,9 @@ features:
 #      enable: true
 #      label: "Offrir du jus aux jeunes (don déductible)"
 #      link: "https://www.uningoapp.com/basic_form?org=Oxybulle&proj=164&src=DonOP2024"
-  - title: "Rejoignez-nous"
+  - title: "Notre actualité"
     subscription: 
       enable: true 
     image: "/images/oxybulle-n.png"
-    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre mission. <p>Suivez-nous sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/) ou via notre newsletter (sans spam) : <br></p>"
+    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre mission. <p>Suivez-nous sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Abonnez-vous à notre **Newsletter**<span style='color:red;'>*</span> en remplissant le formulaire: <br></p>"
 ---

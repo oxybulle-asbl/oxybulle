@@ -1,5 +1,5 @@
 ---
 title: "Dernières nouvelles"
 meta_title: ""
-description: "this is meta description"
+description: "Retrouvez ici toutes nos communications : infolettres, annonces d'événements et actions spéciales."
 ---

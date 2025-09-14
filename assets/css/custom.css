@@ -1,1 +1,474 @@
-/* Add your own custom styles here */
+/* ============================================
+   STYLE PLAN DE MÉTRO - NEWSLETTER TIMELINE
+   ============================================ */
+
+/* Variables de couleurs */
+:root {
+  --metro-primary: var(--color-primary, #2563eb);
+  --metro-green: #71AE49;
+  --metro-yellow: #FFC102;
+  --metro-orange: #ED7F34;
+  --metro-bg: #ffffff;
+  --metro-border: #e5e7eb;
+}
+
+[data-theme="dark"] {
+  --metro-bg: #1f2937;
+  --metro-border: #374151;
+}
+
+/* ============================================
+   FILTRES PAR CATÉGORIE
+   ============================================ */
+
+.metro-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: var(--secondary);
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+
+.filter-btn.active {
+  background: var(--secondary);
+  color: var(--primary);;
+  border-color: var(--primary);
+}
+
+.filter-emoji {
+  font-size: 16px;
+}
+
+/* Container principal */
+.metro-timeline {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 2rem 0;
+}
+
+/* Ligne de métro principale */
+.metro-line {
+  position: relative;
+  max-width: 100%;
+}
+
+/* Station de métro */
+.metro-station {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  min-height: 100px;
+  transition: all 0.3s ease;
+}
+
+/* Ligne verticale connectant les stations */
+.metro-station:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  bottom: -20px;
+  width: 4px;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+/* Couleurs des lignes de métro */
+.metro-line-primary::after {
+  background: linear-gradient(180deg, var(--metro-primary) 0%, var(--metro-primary) 70%, transparent 100%);
+}
+
+.metro-line-green::after {
+  background: linear-gradient(180deg, var(--metro-green) 0%, var(--metro-green) 70%, transparent 100%);
+}
+
+.metro-line-yellow::after {
+  background: linear-gradient(180deg, var(--metro-yellow) 0%, var(--metro-yellow) 70%, transparent 100%);
+}
+
+.metro-line-orange::after {
+  background: linear-gradient(180deg, var(--metro-orange) 0%, var(--metro-orange) 70%, transparent 100%);
+}
+
+/* Cercle de station */
+.metro-station-circle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  border: 0px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+/* Couleurs des cercles de station */
+.metro-line-primary .metro-station-circle {
+  background-color: var(--metro-primary);
+}
+
+.metro-line-green .metro-station-circle {
+  background-color: var(--metro-green);
+}
+
+.metro-line-yellow .metro-station-circle {
+  background-color: var(--metro-yellow);
+}
+
+.metro-line-orange .metro-station-circle {
+  background-color: var(--metro-orange);
+}
+
+/* Contenu de la date dans le cercle */
+.metro-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+}
+
+.metro-day {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.metro-month {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 1px;
+}
+
+.metro-year {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* Contenu de la station */
+.metro-station-content {
+  flex: 1;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  min-height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Info de la station */
+.metro-station-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ============================================
+   TITRE ET ACTIONS
+   ============================================ */
+
+/* Nom de la station */
+.metro-station-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Emoji de catégorie (non cliquable) */
+.metro-emoji {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 2px;
+  flex-shrink: 0;
+  pointer-events: none; /* Empêche le clic */
+  user-select: none; /* Empêche la sélection */
+}
+
+/* Lien de station */
+.metro-link {
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  word-break: break-word;
+}
+
+.metro-link:hover {
+  color: var(--metro-primary);
+  text-decoration: underline;
+}
+
+/* Icône de lien externe */
+.metro-external-icon {
+  font-size: 14px;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  margin-left: 4px;
+  flex-shrink: 0;
+}
+
+.metro-link:hover .metro-external-icon {
+  opacity: 1;
+  transform: translate(2px, -2px);
+}
+
+/* ============================================
+   BOUTON DE COPIE SIMPLE
+   ============================================ */
+
+.metro-copy-icon {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.metro-copy-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Description */
+.metro-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  color: #6b7280;
+}
+
+[data-theme="dark"] .metro-description {
+  color: #9ca3af;
+}
+
+/* Date mobile (cachée par défaut) */
+.metro-mobile-date {
+  display: none;
+  font-size: 12px;
+  margin-top: 8px;
+  color: #6b7280;
+}
+
+[data-theme="dark"] .metro-mobile-date {
+  color: #9ca3af;
+}
+
+/* Effets hover */
+.metro-station:hover .metro-station-circle {
+  transform: scale(1.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.metro-line-primary:hover .metro-station-circle {
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.3);
+}
+
+.metro-line-green:hover .metro-station-circle {
+  box-shadow: 0 4px 16px rgba(113, 174, 73, 0.3);
+}
+
+.metro-line-yellow:hover .metro-station-circle {
+  box-shadow: 0 4px 16px rgba(255, 193, 2, 0.3);
+}
+
+.metro-line-orange:hover .metro-station-circle {
+  box-shadow: 0 4px 16px rgba(237, 127, 52, 0.3);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+/* Tablettes */
+@media (max-width: 768px) {
+  .metro-station-circle {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .metro-day {
+    font-size: 8px;
+  }
+  
+  .metro-month {
+    font-size: 14px;
+  }
+  
+  .metro-year {
+    font-size: 10px;
+  }
+  
+  .metro-station:not(:last-child)::after {
+    left: 25px;
+    top: 50px;
+  }
+  
+  .metro-station-name {
+    font-size: 16px;
+  }
+  
+  .metro-emoji {
+    font-size: 18px;
+  }
+  
+  .metro-copy-icon {
+    font-size: 12px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+  .metro-timeline {
+    padding: 1rem 0;
+  }
+  
+  .filter-buttons {
+    gap: 8px;
+  }
+  
+  .filter-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  
+  .filter-emoji {
+    font-size: 14px;
+  }
+  
+  .metro-station-circle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .metro-day {
+    font-size: 7px;
+  }
+  
+  .metro-month {
+    font-size: 12px;
+  }
+  
+  .metro-year {
+    display: none;
+  }
+  
+  .metro-station:not(:last-child)::after {
+    left: 20px;
+    top: 40px;
+    width: 3px;
+  }
+  
+  .metro-station-content {
+    margin-left: 15px;
+  }
+  
+  .metro-station-name {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .metro-description {
+    font-size: 13px;
+  }
+  
+  .metro-emoji {
+    font-size: 16px;
+  }
+  
+  .metro-station-info {
+    gap: 6px;
+  }
+  
+  .metro-mobile-date {
+    display: block;
+  }
+  
+  .metro-copy-icon {
+    font-size: 10px;
+  }
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+/* Animation d'entrée */
+@keyframes metroStationEnter {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.metro-station {
+  animation: metroStationEnter 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.metro-station:nth-child(1) { animation-delay: 0.1s; }
+.metro-station:nth-child(2) { animation-delay: 0.2s; }
+.metro-station:nth-child(3) { animation-delay: 0.3s; }
+.metro-station:nth-child(4) { animation-delay: 0.4s; }
+.metro-station:nth-child(5) { animation-delay: 0.5s; }
+
+/* Animation de la ligne qui se dessine */
+@keyframes metroLineDraw {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.metro-station::after {
+  animation: metroLineDraw 0.8s ease-out;
+  animation-fill-mode: both;
+  animation-delay: 0.3s;
+}

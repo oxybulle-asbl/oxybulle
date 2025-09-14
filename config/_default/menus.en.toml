@@ -23,6 +23,11 @@ name = "Contact"
 url = "/contact/"
 weight = 5
 
+[[main]]
+name = "OxyNews"
+url = "/blog/"
+weight = 4
+
 # footer menu
 [[footer]]
 name = "À propos"

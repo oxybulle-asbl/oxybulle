@@ -1,0 +1,209 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10 xl:col-8">
+          
+          <!-- Filtres par catégorie -->
+          <div class="metro-filters mb-8">
+            <div class="filter-buttons">
+              <button class="filter-btn active" data-filter="all">
+                <span class="filter-emoji">🌟</span>
+                Tout
+              </button>
+              <button class="filter-btn" data-filter="actions">
+                <span class="filter-emoji">🛒</span>
+                Actions
+              </button>
+              <button class="filter-btn" data-filter="évènements">
+                <span class="filter-emoji">🎭</span>
+                Évènements
+              </button>
+              <button class="filter-btn" data-filter="infolettre">
+                <span class="filter-emoji">📧</span>
+                Infolettres
+              </button>
+            </div>
+          </div>
+          
+          <div class="metro-timeline">
+            {{ $paginator := .Paginate .RegularPages }}
+            
+            <!-- Liste des stations métro -->
+            <div class="metro-line">
+              {{ range $index, $page := $paginator.Pages }}
+                {{ $colorIndex := mod $index 4 }}
+                {{ $lineClass := "" }}
+                {{ if eq $colorIndex 0 }}
+                  {{ $lineClass = "metro-line-primary" }}
+                {{ else if eq $colorIndex 1 }}
+                  {{ $lineClass = "metro-line-green" }}
+                {{ else if eq $colorIndex 2 }}
+                  {{ $lineClass = "metro-line-yellow" }}
+                {{ else }}
+                  {{ $lineClass = "metro-line-orange" }}
+                {{ end }}
+                
+                {{ $category := "other" }}
+                {{ if $page.Params.categories }}
+                  {{ $category = index $page.Params.categories 0 | lower }}
+                {{ end }}
+                
+                <div class="metro-station {{ $lineClass }}" data-line="{{ add $colorIndex 1 }}" data-category="{{ $category }}">
+                  
+                  <!-- Station circle avec date -->
+                  <div class="metro-station-circle">
+                    <div class="metro-date">
+                      <span class="metro-day">{{ $page.Date.Format "02" }}</span>
+                      <span class="metro-month">
+                        {{ $page.Date.Format "Jan" | replaceRE "Jan" "JAN" | replaceRE "Feb" "FEV" | replaceRE "Mar" "MAR" | replaceRE "Apr" "AVR" | replaceRE "May" "MAI" | replaceRE "Jun" "JUN" | replaceRE "Jul" "JUL" | replaceRE "Aug" "AOU" | replaceRE "Sep" "SEP" | replaceRE "Oct" "OCT" | replaceRE "Nov" "NOV" | replaceRE "Dec" "DEC" }}
+                      </span>
+                      <span class="metro-year">{{ $page.Date.Format "06" }}</span>
+                    </div>
+                  </div>
+                  
+                  <!-- Contenu de la station -->
+                  <div class="metro-station-content">
+                    <div class="metro-station-info">
+                      <!-- Titre avec emoji et icônes -->
+                      <h3 class="metro-station-name">
+                        <!-- Emoji selon la catégorie (non cliquable) -->
+                        {{ if $page.Params.categories }}
+                          {{ if eq $category "actions" }}
+                            <span class="metro-emoji">🛒</span>
+                          {{ else if eq $category "évènements" }}
+                            <span class="metro-emoji">🎭</span>
+                          {{ else if eq $category "infolettre" }}
+                            <span class="metro-emoji">📧</span>
+                          {{ else }}
+                            <span class="metro-emoji">📄</span>
+                          {{ end }}
+                        {{ end }}
+                        
+                        <!-- Titre cliquable -->
+                        <a 
+                          href="{{ $page.Params.external_link | default $page.Permalink }}" 
+                          class="metro-link"
+                          {{ if $page.Params.external_link }}target="_blank" rel="noopener"{{ end }}
+                          title="{{ $page.Title }}"
+                        >
+                          {{ $page.Title }}
+                          {{ if $page.Params.external_link }}
+                            <span class="metro-external-icon">↗</span>
+                          {{ end }}
+                        </a>
+                        
+                        <!-- Bouton copie à côté -->
+                        <button 
+                          class="metro-copy-icon" 
+                          data-url="{{ $page.Params.external_link | default $page.Permalink }}"
+                          title="Copier le lien"
+                        >
+                          ⧉
+                        </button>
+                      </h3>
+                      
+                      <!-- Description -->
+                      {{ if $page.Content }}
+                        {{ $content := $page.Content | plainify | truncate 200 "..." }}
+                        {{ if $content }}
+                          <span class="metro-description">
+                            {{ $content }}
+                          </span>
+                        {{ end }}
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+          
+          <!-- Pagination -->
+          {{ if gt $paginator.TotalPages 1 }}
+            <div class="mt-16">
+              {{ partial "components/pagination.html" . }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript pour les filtres et la copie -->
+  <script>
+    // Filtres par catégorie
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const stations = document.querySelectorAll('.metro-station');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Mise à jour des boutons actifs
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          this.classList.add('active');
+          
+          const filter = this.getAttribute('data-filter');
+          
+          // Filtrage des stations
+          stations.forEach(station => {
+            const category = station.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              station.style.display = 'flex';
+              setTimeout(() => {
+                station.style.opacity = '1';
+                station.style.transform = 'translateX(0)';
+              }, 50);
+            } else {
+              station.style.opacity = '0';
+              station.style.transform = 'translateX(-20px)';
+              setTimeout(() => {
+                station.style.display = 'none';
+              }, 300);
+            }
+          });
+        });
+      });
+      
+      // Boutons de copie
+      const copyButtons = document.querySelectorAll('.metro-copy-icon');
+      
+      copyButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          const url = this.getAttribute('data-url');
+          
+          navigator.clipboard.writeText(url).then(() => {
+            // Feedback visuel
+            const originalText = this.textContent;
+            this.textContent = '✓';
+            
+            setTimeout(() => {
+              this.textContent = originalText;
+            }, 1500);
+          }).catch(() => {
+            // Fallback pour navigateurs plus anciens
+            const tempInput = document.createElement('input');
+            tempInput.value = url;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            
+            // Feedback visuel
+            const originalText = this.textContent;
+            this.textContent = '✓';
+            
+            setTimeout(() => {
+              this.textContent = originalText;
+            }, 1500);
+          });
+        });
+      });
+    });
+  </script>
+{{ end }}
