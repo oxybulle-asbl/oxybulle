@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 meta_title: "Contactez-nous"
-description: "Suivez nos actualités via notre **newsletter**, sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) ou [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> **Soutenez-nous** par un [**don**](https://www.oxybulle.org/nous-soutenir). **Contactez-nous** pour en savoir plus sur le [**volontariat**](https://www.oxybulle.org/a-propos/#volontaires)."
+description: "Suivez nos actualités via notre [**Newsletter**](/blog), sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) ou [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> **Soutenez-nous** par un [**don**](https://www.oxybulle.org/nous-soutenir). **Contactez-nous** pour en savoir plus sur le [**volontariat**](/a-propos/#volontaires)."
 description_newsletter: "Pour se tenir au courant de nos actualités et actions, et les partager avec votre entourage.<br> Votre email ne sera jamais communiqué à des tiers. <br>"
 draft: false
 ---

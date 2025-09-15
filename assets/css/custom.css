@@ -29,7 +29,7 @@
 }
 
 .filter-btn {
-  @apply inline-flex items-center gap-2 px-4 py-2 border-2 border-transparent rounded-sm bg-light dark:bg-darkmode-light text-text-light dark:text-darkmode-text font-semibold text-sm cursor-pointer transition-all duration-300;
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-light dark:bg-darkmode-light text-text-light dark:text-darkmode-text font-semibold text-sm cursor-pointer transition-all duration-300;
 }
 
 .filter-btn:hover {
@@ -201,7 +201,7 @@
 
 /* Nom de la station */
 .metro-station-name {
-  @apply text-xl font-semibold leading-tight flex items-center gap-2 flex-wrap text-text dark:text-darkmode-text;
+  @apply text-xl leading-tight flex items-center gap-2 flex-wrap text-inherit dark:text-darkmode-text;
   margin: 0;
 }
 
@@ -371,11 +371,11 @@
   }
   
   .metro-station-name {
-    @apply text-base;
+    @apply text-2xl;
   }
   
   .metro-description {
-    @apply text-xs;
+    @apply text-sm;
   }
   
   .metro-emoji {
