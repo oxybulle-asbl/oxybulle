@@ -371,7 +371,7 @@
   }
   
   .metro-station-name {
-    @apply text-2xl;
+    @apply text-xl;
   }
   
   .metro-description {
