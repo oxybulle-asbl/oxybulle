@@ -20,7 +20,7 @@
         "body": "#1c1c1c",
         "border": "#3E3E3E",
         "light": "#222222",
-        "dark": ""
+        "dark": "#fff"
       },
       "text_color": {
         "text": "#B4AFB6",
