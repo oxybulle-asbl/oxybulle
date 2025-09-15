@@ -1,6 +1,6 @@
 ---
-title: "Nos OxyChocs sont disponibles !"
-date: 2025-01-03T00:00:00+01:00
+title: "OxyCHOC : les oeufs sont disponibles !"
+date: 2025-03-01T00:00:00+01:00
 categories: 
   - "action"
 external_link: "http://eepurl.com/i-E5sg"

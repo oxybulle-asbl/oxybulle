@@ -1,5 +1,5 @@
 ---
-title: "Alexonor chante Brel pour Oxybulle"
+title: "Concert : Alexonor chante Brel"
 date: 2024-02-21T00:00:00+01:00
 categories: 
   - "evenement"

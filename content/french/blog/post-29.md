@@ -1,5 +1,5 @@
 ---
-title: "Soirée théâtre avec Marie de Potter. Venez rire avec nous!"
+title: "Théâtre avec Marie de Potter !"
 date: 2023-08-03T00:00:00+01:00
 categories: 
   - "evenement"

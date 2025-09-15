@@ -1,5 +1,5 @@
 ---
-title: "Le 14 mai fêtez les mamans avec le code OXYMUM 💋"
+title: "Le 14 mai fêtez les mamans OxyMUM 💋"
 date: 2023-04-23T00:00:00+01:00
 categories: 
   - "infolettre"

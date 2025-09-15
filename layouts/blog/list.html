@@ -25,21 +25,17 @@
                 <span class="filter-emoji">📌</span>  
                 Actions
               </button>
-              </button>
               <button class="filter-btn" data-filter="presse">
                 <span class="filter-emoji">📰</span>
                 Presse
               </button>
-
             </div>
           </div>
           
           <div class="metro-timeline">
-            {{ $paginator := .Paginate .RegularPages }}
-            
-            <!-- Liste des stations métro -->
+            <!-- Liste complète des stations métro (SANS pagination) -->
             <div class="metro-line">
-              {{ range $index, $page := $paginator.Pages }}
+              {{ range $index, $page := .RegularPages }}
                 {{ $colorIndex := mod $index 4 }}
                 {{ $lineClass := "" }}
                 {{ if eq $colorIndex 0 }}
@@ -129,23 +125,29 @@
             </div>
           </div>
           
-          <!-- Pagination -->
-          {{ if gt $paginator.TotalPages 1 }}
-            <div class="mt-16">
-              {{ partial "components/pagination.html" . }}
-            </div>
-          {{ end }}
+          <!-- Compteur d'éléments visibles -->
+          <div class="metro-counter">
+            <span id="visible-count">{{ len .RegularPages }}</span> / {{ len .RegularPages }} éléments
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- JavaScript pour les filtres et la copie -->
+  <!-- JavaScript amélioré pour les filtres et la copie -->
   <script>
     // Filtres par catégorie
     document.addEventListener('DOMContentLoaded', function() {
       const filterButtons = document.querySelectorAll('.filter-btn');
       const stations = document.querySelectorAll('.metro-station');
+      const visibleCountElement = document.getElementById('visible-count');
+      
+      function updateCounter() {
+        const visibleStations = Array.from(stations).filter(station => 
+          station.style.display !== 'none' && station.offsetParent !== null
+        );
+        visibleCountElement.textContent = visibleStations.length;
+      }
       
       filterButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -155,16 +157,27 @@
           
           const filter = this.getAttribute('data-filter');
           
-          // Filtrage des stations
-          stations.forEach(station => {
+          // Filtrage des stations avec animation
+          let delay = 0;
+          stations.forEach((station, index) => {
             const category = station.getAttribute('data-category');
+            
             if (filter === 'all' || category === filter) {
-              station.style.display = 'flex';
+              // Afficher avec délai pour effet cascade
               setTimeout(() => {
-                station.style.opacity = '1';
-                station.style.transform = 'translateX(0)';
-              }, 50);
+                station.style.display = 'flex';
+                station.style.opacity = '0';
+                station.style.transform = 'translateX(-20px)';
+                
+                // Animation d'entrée
+                setTimeout(() => {
+                  station.style.opacity = '1';
+                  station.style.transform = 'translateX(0)';
+                }, 50);
+              }, delay);
+              delay += 30; // Décalage de 30ms entre chaque élément
             } else {
+              // Masquer immédiatement
               station.style.opacity = '0';
               station.style.transform = 'translateX(-20px)';
               setTimeout(() => {
@@ -172,6 +185,9 @@
               }, 300);
             }
           });
+          
+          // Mettre à jour le compteur après l'animation
+          setTimeout(updateCounter, 400);
         });
       });
       
@@ -185,33 +201,49 @@
           
           const url = this.getAttribute('data-url');
           
+          // Copier dans le presse-papier
           navigator.clipboard.writeText(url).then(() => {
-            // Feedback visuel
-            const originalText = this.textContent;
-            this.textContent = '✓';
-            
-            setTimeout(() => {
-              this.textContent = originalText;
-            }, 1500);
+            showCopyFeedback(this, true);
           }).catch(() => {
             // Fallback pour navigateurs plus anciens
-            const tempInput = document.createElement('input');
-            tempInput.value = url;
-            document.body.appendChild(tempInput);
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
-            
-            // Feedback visuel
-            const originalText = this.textContent;
-            this.textContent = '✓';
-            
-            setTimeout(() => {
-              this.textContent = originalText;
-            }, 1500);
+            try {
+              const tempInput = document.createElement('input');
+              tempInput.value = url;
+              document.body.appendChild(tempInput);
+              tempInput.select();
+              document.execCommand('copy');
+              document.body.removeChild(tempInput);
+              showCopyFeedback(this, true);
+            } catch (err) {
+              showCopyFeedback(this, false);
+            }
           });
         });
       });
+      
+      function showCopyFeedback(button, success) {
+        const originalText = button.textContent;
+        const originalTitle = button.title;
+        
+        if (success) {
+          button.textContent = '✓';
+          button.title = 'Copié !';
+          button.style.color = '#10b981'; // Vert
+        } else {
+          button.textContent = '✗';
+          button.title = 'Erreur de copie';
+          button.style.color = '#ef4444'; // Rouge
+        }
+        
+        setTimeout(() => {
+          button.textContent = originalText;
+          button.title = originalTitle;
+          button.style.color = '';
+        }, 1500);
+      }
+      
+      // Initialiser le compteur
+      updateCounter();
     });
   </script>
 {{ end }}

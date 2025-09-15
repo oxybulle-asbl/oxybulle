@@ -39,11 +39,30 @@
 
 .filter-btn.active {
   @apply bg-primary dark:bg-darkmode-primary text-body dark:text-darkmode-body border-primary dark:border-darkmode-primary;
-
 }
 
 .filter-emoji {
   font-size: 16px;
+}
+
+/* ============================================
+   COMPTEUR D'ÉLÉMENTS
+   ============================================ */
+
+.metro-counter {
+  @apply text-center mt-8 text-sm text-text-light dark:text-darkmode-text;
+  font-family: monospace;
+  padding: 8px 16px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  display: inline-block;
+  margin: 2rem auto 0;
+  width: 100%;
+  text-align: center;
+}
+
+#visible-count {
+  @apply font-bold text-primary dark:text-darkmode-primary;
 }
 
 /* Container principal */
@@ -330,7 +349,7 @@
   }
   
   .metro-day {
-    font-size: none;
+    display: none;
   }
   
   .metro-month {
@@ -338,7 +357,7 @@
   }
   
   .metro-year {
-    display: 7px;
+    font-size: 7px;
   }
   
   .metro-station:not(:last-child)::after {
@@ -373,6 +392,11 @@
   
   .metro-copy-icon {
     font-size: 10px;
+  }
+  
+  .metro-counter {
+    @apply text-xs;
+    padding: 6px 12px;
   }
 }
 
@@ -417,4 +441,9 @@
   animation: metroLineDraw 0.8s ease-out;
   animation-fill-mode: both;
   animation-delay: 0.3s;
+}
+
+/* Animation pour les transitions de filtrage */
+.metro-station {
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }

@@ -1,5 +1,5 @@
 ---
-title: "Votre invitation à l'OxyART24 au profit d'Oxybulle"
+title: "Votre invitation à OxyART24"
 date: 2024-09-11T00:00:00+01:00
 categories: 
   - "evenement"

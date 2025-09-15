@@ -1,5 +1,5 @@
 ---
-title: "Oxybulle dans la Dernière Heure les Sports"
+title: "Oxybulle dans la Dernière Heure"
 date: 2020-11-30T00:00:00+01:00
 categories: 
   - "presse"
