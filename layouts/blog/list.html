@@ -14,17 +14,23 @@
                 Tout
               </button>
               <button class="filter-btn" data-filter="infolettre">
-                <span class="filter-emoji">📧</span>
+                <span class="filter-emoji">📨</span>
                 Infolettres
               </button>
-              <button class="filter-btn" data-filter="évènements">
+              <button class="filter-btn" data-filter="evenement">
                 <span class="filter-emoji">🎭</span>
                 Évènements
               </button>
-              <button class="filter-btn" data-filter="actions">
-                <span class="filter-emoji">🛒</span>
+              <button class="filter-btn" data-filter="action">
+                <span class="filter-emoji">🎈</span>  
                 Actions
               </button>
+              </button>
+              <button class="filter-btn" data-filter="presse">
+                <span class="filter-emoji">📰</span>
+                Presse
+              </button>
+
             </div>
           </div>
           
@@ -71,12 +77,14 @@
                       <h3 class="metro-station-name">
                         <!-- Emoji selon la catégorie (non cliquable) -->
                         {{ if $page.Params.categories }}
-                          {{ if eq $category "actions" }}
-                            <span class="metro-emoji">🛒</span>
-                          {{ else if eq $category "évènements" }}
+                          {{ if eq $category "action" }}
+                            <span class="metro-emoji">📌</span>
+                          {{ else if eq $category "evenement" }}
                             <span class="metro-emoji">🎭</span>
                           {{ else if eq $category "infolettre" }}
-                            <span class="metro-emoji">📧</span>
+                            <span class="metro-emoji">📜</span>
+                          {{ else if eq $category "presse"}}
+                            <span class="metro-emoji">📰</span>
                           {{ else }}
                             <span class="metro-emoji">📄</span>
                           {{ end }}

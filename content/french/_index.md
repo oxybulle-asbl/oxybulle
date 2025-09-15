@@ -54,5 +54,5 @@ features:
     subscription: 
       enable: true 
     image: "/images/oxybulle-n.png"
-    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre mission. <p>Suivez-nous sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Abonnez-vous à notre **Newsletter**<span style='color:red;'>*</span> en remplissant le formulaire: <br></p>"
+    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre mission. <p>Suivez-nous sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Abonnez-vous à notre [**Newsletter**](https://www.oxybulle.org/oxynews/)<span style='color:red;'>*</span> en remplissant le formulaire: <br></p>"
 ---

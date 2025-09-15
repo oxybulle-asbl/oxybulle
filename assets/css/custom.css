@@ -330,7 +330,7 @@
   }
   
   .metro-day {
-    font-size: 7px;
+    font-size: none;
   }
   
   .metro-month {
@@ -338,7 +338,7 @@
   }
   
   .metro-year {
-    display: none;
+    display: 7px;
   }
   
   .metro-station:not(:last-child)::after {
@@ -352,7 +352,7 @@
   }
   
   .metro-station-name {
-    @apply text-sm;
+    @apply text-base;
   }
   
   .metro-description {
