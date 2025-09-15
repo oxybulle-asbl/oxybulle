@@ -1,8 +1,8 @@
 ---
-title: "🎶 ALEXONOR chante BREL pour Oxybulle"
+title: "Alexonor chante Brel pour Oxybulle"
 date: 2024-02-21T00:00:00+01:00
 categories: 
-  - "action"
+  - "evenement"
 external_link: "http://eepurl.com/iJnPRU"
 draft: false
 ---

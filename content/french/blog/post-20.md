@@ -1,5 +1,5 @@
 ---
-title: "🎨 OxyART24 J-4 Le vernissage ce vendredi 29 novembre"
+title: "OxyART24 J-4 Le vernissage ce vendredi 29 novembre"
 date: 2024-11-26T00:00:00+01:00
 categories: 
   - "evenement"

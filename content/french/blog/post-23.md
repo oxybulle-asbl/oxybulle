@@ -1,8 +1,8 @@
 ---
-title: "🎨 OxyART24. La galerie des artistes 😍"
+title: "OxyART24. La galerie des artistes 😍"
 date: 2024-03-31T00:00:00+01:00
 categories: 
-  - "evenement"
+  - "action"
 external_link: "http://eepurl.com/iKv8Ds"
 draft: false
 ---

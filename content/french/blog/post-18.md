@@ -1,5 +1,5 @@
 ---
-title: "⛵ Oxybulle hisse les voiles"
+title: "Oxybulle hisse les voiles"
 date: 2025-06-26T00:00:00+01:00
 categories: 
   - "action"

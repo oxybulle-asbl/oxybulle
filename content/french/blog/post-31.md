@@ -1,5 +1,5 @@
 ---
-title: "✨ Bien commencer 2023 avec Oxybulle"
+title: "Bien commencer 2023 avec Oxybulle"
 date: 2023-01-25T00:00:00+01:00
 categories: 
   - "infolettre"
