@@ -1,5 +1,5 @@
 ---
-title: "OxyCHOC : les oeufs sont disponibles !"
+title: "OxyCHOC : les oeufs sont en vente !"
 date: 2025-03-01T00:00:00+01:00
 categories: 
   - "action"

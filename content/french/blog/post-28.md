@@ -1,5 +1,5 @@
 ---
-title: "Le 14 mai fêtez les mamans OxyMUM 💋"
+title: "Le 14 mai, fêtez les mamans 💋"
 date: 2023-04-23T00:00:00+01:00
 categories: 
   - "infolettre"

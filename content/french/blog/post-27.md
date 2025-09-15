@@ -1,5 +1,5 @@
 ---
-title: "Le 11 juin, fêtez les papas OxyDAD"
+title: "Le 11 juin, fêtez les papas"
 date: 2023-05-22T00:00:00+01:00
 categories: 
   - "action"

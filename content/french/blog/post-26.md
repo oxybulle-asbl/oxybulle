@@ -1,5 +1,5 @@
 ---
-title: "OxyPOM : Commandez notre jus de pomme."
+title: "OxyPOM : Commandez notre jus !"
 date: 2023-04-10T00:00:00+01:00
 categories: 
   - "action"
