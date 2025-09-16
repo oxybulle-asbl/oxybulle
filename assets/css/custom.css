@@ -29,7 +29,7 @@
 }
 
 .filter-btn {
-  @apply inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-light dark:bg-darkmode-light text-text-dark dark:text-darkmode-text font-semibold text-sm cursor-pointer transition-all duration-300;
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-light dark:bg-darkmode-light text-text-dark dark:text-darkmode-text-dark font-semibold text-sm cursor-pointer transition-all duration-300;
 }
 
 .filter-btn:hover {
@@ -38,7 +38,7 @@
 }
 
 .filter-btn.active {
-  @apply bg-primary dark:bg-darkmode-primary text-body dark:text-darkmode-body border-primary dark:border-darkmode-primary;
+  @apply bg-body dark:bg-darkmode-body border text-primary dark:text-darkmode-text-dark border-primary dark:border-darkmode-text-dark;
 }
 
 .filter-emoji {
@@ -201,7 +201,7 @@
 
 /* Nom de la station */
 .metro-station-name {
-  @apply text-lg font-secondary leading-tight flex items-center gap-2 flex-wrap text-text-dark dark:text-darkmode-text;
+  @apply text-lg font-secondary leading-tight flex items-center gap-2 flex-wrap text-text-dark dark:text-darkmode-text-dark;
   margin: 0;
 }
 
@@ -217,12 +217,12 @@
 
 /* Lien de station */
 .metro-link {
-  @apply font-medium transition-all duration-200 inline-flex items-center gap-1.5 text-text-dark dark:text-darkmode-text;
+  @apply font-medium transition-all duration-200 inline-flex items-center gap-1.5 text-text-dark dark:text-darkmode-text-dark;
   word-break: break-word;
 }
 
 .metro-link:hover {
-  @apply text-text-dark dark:text-darkmode-text underline;
+  @apply text-text-dark dark:text-darkmode-text-dark underline;
 }
 
 /* Icône de lien externe */
