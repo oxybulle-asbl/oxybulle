@@ -29,7 +29,7 @@
 }
 
 .filter-btn {
-  @apply inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-light dark:bg-darkmode-light text-text-light dark:text-darkmode-text font-semibold text-sm cursor-pointer transition-all duration-300;
+  @apply inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-light dark:bg-darkmode-light text-text-dark dark:text-darkmode-text font-semibold text-sm cursor-pointer transition-all duration-300;
 }
 
 .filter-btn:hover {
@@ -201,7 +201,7 @@
 
 /* Nom de la station */
 .metro-station-name {
-  @apply text-xl leading-tight flex items-center gap-2 flex-wrap text-inherit dark:text-darkmode-text;
+  @apply text-xl leading-tight flex items-center gap-2 flex-wrap text-text-dark dark:text-darkmode-text;
   margin: 0;
 }
 
@@ -217,12 +217,12 @@
 
 /* Lien de station */
 .metro-link {
-  @apply no-underline transition-all duration-200 inline-flex items-center gap-1.5 text-text dark:text-darkmode-text;
+  @apply no-underline transition-all duration-200 inline-flex items-center gap-1.5 text-text-dark dark:text-darkmode-text;
   word-break: break-word;
 }
 
 .metro-link:hover {
-  @apply text-primary dark:text-darkmode-primary underline;
+  @apply text-text-dark dark:text-darkmode-primary underline;
 }
 
 /* Icône de lien externe */
@@ -254,7 +254,7 @@
 
 /* Description */
 .metro-description {
-  @apply text-sm text-current leading-relaxed m-0 text-text-light dark:text-darkmode-text;
+  @apply text-sm leading-relaxed m-0 text-text-dark dark:text-darkmode-text;
 }
 
 /* Date mobile (cachée par défaut) */
@@ -357,7 +357,7 @@
   }
   
   .metro-year {
-    font-size: 7px;
+    font-size: 9px;
   }
   
   .metro-station:not(:last-child)::after {
