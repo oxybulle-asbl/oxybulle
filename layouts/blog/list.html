@@ -70,7 +70,7 @@
                   <div class="metro-station-content">
                     <div class="metro-station-info">
                       <!-- Titre avec emoji et icônes -->
-                      <h3 class="metro-station-name">
+                      <span class="metro-station-name">
                         <!-- Emoji selon la catégorie (non cliquable) -->
                         {{ if $page.Params.categories }}
                           {{ if eq $category "action" }}
@@ -95,7 +95,7 @@
                         >
                           {{ $page.Title }}
                           {{ if $page.Params.external_link }}
-                            <span class="metro-external-icon">↗</span>
+                            <span class="metro-external-icon"><i class="fa fa-external-link"></i></span>
                           {{ end }}
                         </a>
                         
@@ -107,7 +107,7 @@
                         >
                           ⧉
                         </button>
-                      </h3>
+                      </span>
                       
                       <!-- Description -->
                       {{ if $page.Content }}

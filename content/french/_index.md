@@ -10,13 +10,29 @@ banner:
     link: "/soutenir"
 # Features
 features:
-  - title: ""
+  - title: "Ce qui nous anime"
     image: "/images/oxybulle-cover-2.png"
-    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les [**enfants**](/a-propos/#jeunes) placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **20** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), plus de **100 jeunes** sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Ensemble, offrons à ces jeunes le tremplin vers la vie qu’ils et elles méritent.</p>"
+    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les [**enfants**](/a-propos/#jeunes) placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **35** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), plus de **100 jeunes** sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Votre aide concrétise directement notre action sur le terrain.</p>"
     button:
       enable: true
       label: "Nous soutenir"
       link: "nous-soutenir/"
+  - title: "Suivez-nous"
+    subscription: 
+      enable: true 
+    image: "/images/oxybulle-n.png"
+    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre action. <p>Nous sommes aussi sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Notre [**Newsletter**](https://www.oxybulle.org/blog/)<span style='color:red;'>*</span> vous tient informé par email : <br></p>"
+# À ajouter dans votre _index.md après la section "Notre actualité"
+  - title: "Au fil du temps"
+    image: "/images/oxybulle-m.png"  # Changez par votre image
+    contentabove: "Découvrez nos **initiatives** et nos **activités**.<p></p>"
+    button:
+      enable: true
+      label: "Voir toutes nos actualités"
+      link: "/blog/"
+    contentbottom: ""
+    blog_preview:
+      enable: true
 #  - title: "Appel aux artistes"
 #    image: "/images/oxybulle-art.png"
 #    contentabove: "Le [**Comité de soutien**](/a-propos) d'Oxybulle invite les **artistes** à mettre leurs talents au service des jeunes en participant à **OxyART**. Le principe est simple : vous **créez** et **offrez** une de vos **réalisations** à Oxybulle. Elle sera **exposée** du **28 novembre** au **1er décembre 2024** puis mise aux enchères par la [**salle de vente Rops**](https://www.rops-online.be) (Namur) du **2** au **8 décembre 2024**.<p> 🤝 **Participez** avant le **15 juin**.<br> 📤 **Soumettez** une **photo** de votre œuvre sur notre page [Instagram](https://www.instagram.com/oxyart_by_oxybulle).<br> 📦 **Déposez** votre **œuvre** à Bruxelles ou Namur avant le **10 juillet**.<br> 🍷 **Participez** au vernissage le **29 novembre**.</p>"
@@ -50,21 +66,6 @@ features:
 #      enable: true
 #      label: "Offrir du jus aux jeunes (don déductible)"
 #      link: "https://www.uningoapp.com/basic_form?org=Oxybulle&proj=164&src=DonOP2024"
-  - title: "Suivez notre mission"
-    subscription: 
-      enable: true 
-    image: "/images/oxybulle-n.png"
-    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre mission. <p>Suivez-nous sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Abonnez-vous à notre [**Newsletter**](https://www.oxybulle.org/blog/)<span style='color:red;'>*</span> à l'aide du formulaire : <br></p>"
-# À ajouter dans votre _index.md après la section "Notre actualité"
-  - title: "Au fil du temps"
-    image: "/images/oxybulle-m.png"  # Changez par votre image
-    contentabove: "Découvrez nos **dernières infolettres**, **événements** et **actions** menées pour les jeunes. Chaque initiative contribue à créer des **moments privilégiés** et des **souvenirs positifs** avec les enfants que nous accompagnons.<p></p>"
-    button:
-      enable: true
-      label: "Voir toutes nos actualités"
-      link: "/blog/"
-    contentbottom: ""
-    blog_preview:
-      enable: true
+
 
 ---
