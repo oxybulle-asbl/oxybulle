@@ -50,9 +50,21 @@ features:
 #      enable: true
 #      label: "Offrir du jus aux jeunes (don déductible)"
 #      link: "https://www.uningoapp.com/basic_form?org=Oxybulle&proj=164&src=DonOP2024"
-  - title: "Notre actualité"
+  - title: "Suivez notre mission"
     subscription: 
       enable: true 
     image: "/images/oxybulle-n.png"
     contentabove: "Chaque forme d'engagement nous aide à poursuivre notre mission. <p>Suivez-nous sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Abonnez-vous à notre [**Newsletter**](https://www.oxybulle.org/blog/)<span style='color:red;'>*</span> à l'aide du formulaire : <br></p>"
+# À ajouter dans votre _index.md après la section "Notre actualité"
+  - title: "Au fil du temps"
+    image: "/images/oxybulle-m.png"  # Changez par votre image
+    contentabove: "Découvrez nos **dernières infolettres**, **événements** et **actions** menées pour les jeunes. Chaque initiative contribue à créer des **moments privilégiés** et des **souvenirs positifs** avec les enfants que nous accompagnons.<p></p>"
+    button:
+      enable: true
+      label: "Voir toutes nos actualités"
+      link: "/blog/"
+    contentbottom: ""
+    blog_preview:
+      enable: true
+
 ---

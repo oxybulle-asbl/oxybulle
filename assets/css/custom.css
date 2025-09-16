@@ -447,3 +447,72 @@
 .metro-station {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
+
+/* ============================================
+   TIMELINE PREVIEW POUR PAGE D'ACCUEIL
+   ============================================ */
+
+.metro-timeline-preview {
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.metro-timeline-preview .metro-station {
+  margin-bottom: 0rem;
+}
+
+.metro-timeline-preview .metro-station-name {
+  @apply text-lg; /* Plus petit que sur la page liste */
+}
+
+.metro-timeline-preview .metro-station-circle {
+  width: 50px;
+  height: 50px;
+}
+
+.metro-timeline-preview .metro-day {
+  font-size: 8px;
+}
+
+.metro-timeline-preview .metro-month {
+  font-size: 14px;
+}
+
+.metro-timeline-preview .metro-year {
+  font-size: 10px;
+}
+
+.metro-timeline-preview .metro-station:not(:last-child)::after {
+  left: 25px;
+  top: 50px;
+}
+
+.metro-timeline-preview .metro-description {
+  @apply text-sm opacity-90;
+}
+
+/* Mobile - Timeline preview */
+@media (max-width: 480px) {
+  .metro-timeline-preview .metro-station-circle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .metro-timeline-preview .metro-month {
+    font-size: 12px;
+  }
+  
+  .metro-timeline-preview .metro-year {
+    font-size: 9px;
+  }
+  
+  .metro-timeline-preview .metro-station:not(:last-child)::after {
+    left: 20px;
+    top: 40px;
+  }
+  
+  .metro-timeline-preview .metro-station-name {
+    @apply text-base;
+  }
+}

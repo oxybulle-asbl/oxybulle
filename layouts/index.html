@@ -38,7 +38,7 @@
           <div class="{{ if not (modBool $i 2) }}md:order-1{{ end }} md:col-7 lg:col-6">
             <h2 class="mb-4">
               {{ .title | markdownify }}
-              {{ if .title }}<span style="color: #FFC000">*</span>{{ end }}
+              {{ if .title }}{{ end }}
             </h2>
             <div class="content">
               <p class="mb-8 text-lg">{{ .contentabove | markdownify }}</p>
@@ -54,6 +54,97 @@
             <div class="content">
               <p class="mb-8 text-lg">{{ .contentbottom | markdownify }}</p>
             </div>
+
+            <!-- Blog preview (timeline métro) -->
+            {{ with .blog_preview }}
+              {{ if .enable }}
+                {{ $blogSection := site.GetPage "section" "blog" }}
+                {{ with $blogSection }}
+                  <div class="metro-timeline-preview mt-8">
+                    <div class="metro-line">
+                      {{ range $index, $page := first 3 .RegularPages }}
+                        {{ $colorIndex := mod $index 4 }}
+                        {{ $lineClass := "" }}
+                        {{ if eq $colorIndex 0 }}
+                          {{ $lineClass = "metro-line-primary" }}
+                        {{ else if eq $colorIndex 1 }}
+                          {{ $lineClass = "metro-line-green" }}
+                        {{ else if eq $colorIndex 2 }}
+                          {{ $lineClass = "metro-line-yellow" }}
+                        {{ else }}
+                          {{ $lineClass = "metro-line-orange" }}
+                        {{ end }}
+                        
+                        {{ $category := "other" }}
+                        {{ if $page.Params.categories }}
+                          {{ $category = index $page.Params.categories 0 | lower }}
+                        {{ end }}
+                        
+                        <div class="metro-station {{ $lineClass }}" data-category="{{ $category }}">
+                          
+                          <!-- Station circle avec date -->
+                          <div class="metro-station-circle">
+                            <div class="metro-date">
+                              <span class="metro-day">{{ $page.Date.Format "02" }}</span>
+                              <span class="metro-month">
+                                {{ $page.Date.Format "Jan" | replaceRE "Jan" "JAN" | replaceRE "Feb" "FEV" | replaceRE "Mar" "MAR" | replaceRE "Apr" "AVR" | replaceRE "May" "MAI" | replaceRE "Jun" "JUN" | replaceRE "Jul" "JUL" | replaceRE "Aug" "AOU" | replaceRE "Sep" "SEP" | replaceRE "Oct" "OCT" | replaceRE "Nov" "NOV" | replaceRE "Dec" "DEC" }}
+                              </span>
+                              <span class="metro-year">{{ $page.Date.Format "06" }}</span>
+                            </div>
+                          </div>
+                          
+                          <!-- Contenu de la station -->
+                          <div class="metro-station-content">
+                            <div class="metro-station-info">
+                              <!-- Titre avec emoji et icônes -->
+                              <h4 class="metro-station-name">
+                                <!-- Emoji selon la catégorie -->
+                                {{ if $page.Params.categories }}
+                                  {{ if eq $category "action" }}
+                                    <span class="metro-emoji">📌</span>
+                                  {{ else if eq $category "evenement" }}
+                                    <span class="metro-emoji">🎭</span>
+                                  {{ else if eq $category "infolettre" }}
+                                    <span class="metro-emoji">📜</span>
+                                  {{ else if eq $category "presse"}}
+                                    <span class="metro-emoji">📰</span>
+                                  {{ else }}
+                                    <span class="metro-emoji">📄</span>
+                                  {{ end }}
+                                {{ end }}
+                                
+                                <!-- Titre cliquable -->
+                                <a 
+                                  href="{{ $page.Params.external_link | default $page.Permalink }}" 
+                                  class="metro-link"
+                                  {{ if $page.Params.external_link }}target="_blank" rel="noopener"{{ end }}
+                                  title="{{ $page.Title }}"
+                                >
+                                  {{ $page.Title }}
+                                  {{ if $page.Params.external_link }}
+                                    <span class="metro-external-icon">↗</span>
+                                  {{ end }}
+                                </a>
+                              </h4>
+                              
+                              <!-- Description -->
+                              {{ if $page.Content }}
+                                {{ $content := $page.Content | plainify | truncate 120 "..." }}
+                                {{ if $content }}
+                                  <span class="metro-description">
+                                    {{ $content }}
+                                  </span>
+                                {{ end }}
+                              {{ end }}
+                            </div>
+                          </div>
+                        </div>
+                      {{ end }}
+                    </div>
+                  </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
 
             <!-- Feature-specific buttons -->
             {{ with .button }}
@@ -112,8 +203,6 @@
                 {{ end }}
               {{ end }}
             {{ end }}
-
-            
           </div>
         </div>
       </div>
