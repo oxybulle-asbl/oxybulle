@@ -359,7 +359,7 @@
   }
   
   .metro-station:not(:last-child)::after {
-    left: 25px;
+    left: 19px;
     top: 40px;
     width: 3px;
   }
@@ -369,7 +369,7 @@
   }
   
   .metro-station-name {
-    @apply text-xl;
+    @apply text-2xl;
   }
   
   .metro-description {
