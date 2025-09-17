@@ -311,7 +311,7 @@
   }
   
   .metro-station-name {
-    @apply text-base;
+    @apply text-xl;
   }
   
   .metro-emoji {
@@ -359,7 +359,7 @@
   }
   
   .metro-station:not(:last-child)::after {
-    left: 20px;
+    left: 25px;
     top: 40px;
     width: 3px;
   }
@@ -470,7 +470,7 @@
 }
 
 .metro-timeline-preview .metro-station:not(:last-child)::after {
-  left: 25px;
+  left: 23px;
   top: 50px;
 }
 
@@ -489,8 +489,13 @@
     font-size: 9px;
   }
   
+  .metro-timeline-preview .metro-station-name {
+    @apply text-xl;
+  }
+
+
   .metro-timeline-preview .metro-station:not(:last-child)::after {
-    left: 20px;
+    left: 19px;
     top: 40px;
   }
   
