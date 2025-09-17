@@ -97,7 +97,7 @@
                           <div class="metro-station-content">
                             <div class="metro-station-info">
                               <!-- Titre avec emoji et icônes -->
-                              <h4 class="metro-station-name">
+                              <span class="metro-station-name">
                                 <!-- Emoji selon la catégorie -->
                                 {{ if $page.Params.categories }}
                                   {{ if eq $category "action" }}
@@ -125,7 +125,7 @@
                                     <span class="metro-external-icon"><i class="fa fa-external-link"></i></span>
                                   {{ end }}
                                 </a>
-                              </h4>
+                              </span>
                               
                               <!-- Description -->
                               {{ if $page.Content }}
