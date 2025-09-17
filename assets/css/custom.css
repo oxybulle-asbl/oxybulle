@@ -201,7 +201,7 @@
 
 /* Nom de la station */
 .metro-station-name {
-  @apply text-lg font-secondary leading-tight flex items-center gap-2 flex-wrap text-text-dark dark:text-darkmode-text-dark;
+  @apply text-xl font-secondary leading-tight flex items-center gap-2 flex-wrap text-text-dark dark:text-darkmode-text-dark;
   margin: 0;
 }
 
@@ -463,7 +463,7 @@
 }
 
 .metro-timeline-preview .metro-station-name {
-  @apply text-lg; /* Plus petit que sur la page liste */
+  @apply text-xl; /* Plus petit que sur la page liste */
 }
 
 .metro-timeline-preview .metro-station-circle {
