@@ -25,11 +25,3 @@ Le soutien scolaire prend la forme de séances hebdomadaires individuelles entre
 L’**objectif** consiste **éveiller la curiosité** des jeunes, à prendre confiance en soi. Il s'agit de **stimuler l'envie d'apprendre** via des méthodes ludiques **valorisant davantage l'effort que le résultat**.
 
 Concrètement, au sein des maisons d'accueil et dans un local adapté, garantissant la tranquillité, un accompagnement sur-mesure est proposé à chaque jeune. La dimension individuelle de ce suivi permet de leur offrir un **cadre confidentiel et complice**.
-
-### Rapports d'activité
-
-- [Rapport d'activité 2024]({{< static "/RA-Oxybulle-2024.pdf" >}})
-- [Rapport d'activité 2023]({{< static "/RA-Oxybulle-2023.pdf" >}})
-- [Rapport d'activité 2022]({{< static "/RA-Oxybulle-2022.pdf" >}})
-- [Rapport d'activité 2021]({{< static "/RA-Oxybulle-2021.pdf" >}})
-- [Rapport d'activité 2020]({{< static "/RA-Oxybulle-2020.pdf" >}})

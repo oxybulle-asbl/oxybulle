@@ -22,7 +22,7 @@
                 Évènements
               </button>
               <button class="filter-btn" data-filter="action">
-                <span class="filter-emoji">📌</span>  
+                <span class="filter-emoji">📢</span>  
                 Actions
               </button>
               <button class="filter-btn" data-filter="presse">
@@ -86,18 +86,39 @@
                           {{ end }}
                         {{ end }}
                         
-                        <!-- Titre cliquable -->
-                        <a 
-                          href="{{ $page.Params.external_link | default $page.Permalink }}" 
-                          class="metro-link"
-                          {{ if $page.Params.external_link }}target="_blank" rel="noopener"{{ end }}
-                          title="{{ $page.Title }}"
-                        >
-                          {{ $page.Title }}
-                          {{ if $page.Params.external_link }}
+                        <!-- Titre cliquable avec gestion des liens internes et externes -->
+                        {{ $linkUrl := "" }}
+                        {{ $hasCustomLink := false }}
+                        {{ $isExternal := false }}
+                        
+                        {{ if $page.Params.external_link }}
+                          {{ $linkUrl = $page.Params.external_link }}
+                          {{ $hasCustomLink = true }}
+                          {{ $isExternal = true }}
+                        {{ else if $page.Params.internal_link }}
+                          {{ $linkUrl = $page.Params.internal_link | relURL }}
+                          {{ $hasCustomLink = true }}
+                        {{ end }}
+                        
+                        {{ if $hasCustomLink }}
+                          <a 
+                            href="{{ $linkUrl }}" 
+                            class="metro-link"
+                            {{ if $isExternal }}target="_blank" rel="noopener"{{ end }}
+                            title="{{ $page.Title }}"
+                          >
+                            {{ $page.Title }}
                             <span class="metro-external-icon"><i class="fa fa-external-link"></i></span>
-                          {{ end }}
-                        </a>
+                          </a>
+                        {{ else }}
+                          <a 
+                            href="{{ $page.Permalink }}" 
+                            class="metro-link"
+                            title="{{ $page.Title }}"
+                          >
+                            {{ $page.Title }}
+                          </a>
+                        {{ end }}
                         
                       </span>
                       

@@ -41,7 +41,10 @@
             </li>
           </ul>
           <div class="content mb-10">
-            {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
+            <!-- Table of Contents - conditionnelle basée sur le paramètre TOC -->
+            {{ if .Params.toc }}
+              {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
+            {{ end }}
             {{ .Content }}
           </div>
           <div class="row items-start justify-between">
@@ -62,13 +65,13 @@
                 </ul>
               </div>
             {{ end }}
-            <div class="lg:col-6 flex items-center lg:justify-end">
+            <div class="lg:col-6 flex items-center">
               <h5>{{ T "share" }} :</h5>
-              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
+              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "X" false "Telegram" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
             </div>
           </div>
-          <!-- comments -->
-          {{ if site.Config.Services.Disqus.Shortname }}
+          <!-- Comments - conditionnels basés sur le paramètre Discuss ET la config Disqus -->
+          {{ if and .Params.discuss site.Config.Services.Disqus.Shortname }}
             <div class="mt-20">
               {{ template "_internal/disqus.html" . }}
             </div>
