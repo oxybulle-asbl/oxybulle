@@ -2,7 +2,7 @@
 title: "Oxybulle dans Vers l'Avenir"
 date: 2022-06-12T00:00:00+01:00
 categories: 
-  - "action"
+  - "presse"
 external_link: "https://www.oxybulle.org/Article_20220408_Avenir.pdf"
 draft: false
 ---
