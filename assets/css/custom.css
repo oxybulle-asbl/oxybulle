@@ -117,6 +117,15 @@
   background: linear-gradient(180deg, var(--metro-orange) 0%, var(--metro-orange) 70%, transparent 100%);
 }
 
+.metro-station.last-visible::after,
+.metro-station.metro-line-primary.last-visible::after,
+.metro-station.metro-line-green.last-visible::after,
+.metro-station.metro-line-yellow.last-visible::after,
+.metro-station.metro-line-orange.last-visible::after {
+  display: none !important;
+}
+
+
 /* Cercle de station */
 .metro-station-circle {
   position: relative;

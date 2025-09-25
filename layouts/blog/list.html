@@ -155,114 +155,194 @@
 
   <!-- JavaScript amélioré pour les filtres et la copie -->
   <script>
-    // Filtres par catégorie
-    document.addEventListener('DOMContentLoaded', function() {
-      const filterButtons = document.querySelectorAll('.filter-btn');
-      const stations = document.querySelectorAll('.metro-station');
-      const visibleCountElement = document.getElementById('visible-count');
-      
-      function updateCounter() {
-        const visibleStations = Array.from(stations).filter(station => 
-          station.style.display !== 'none' && station.offsetParent !== null
-        );
-        visibleCountElement.textContent = visibleStations.length;
-      }
-      
-      filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
-          // Mise à jour des boutons actifs
-          filterButtons.forEach(btn => btn.classList.remove('active'));
-          this.classList.add('active');
-          
-          const filter = this.getAttribute('data-filter');
-          
-          // Filtrage des stations avec animation
-          let delay = 0;
-          stations.forEach((station, index) => {
-            const category = station.getAttribute('data-category');
-            
-            if (filter === 'all' || category === filter) {
-              // Afficher avec délai pour effet cascade
-              setTimeout(() => {
-                station.style.display = 'flex';
-                station.style.opacity = '0';
-                station.style.transform = 'translateX(-20px)';
-                
-                // Animation d'entrée
-                setTimeout(() => {
-                  station.style.opacity = '1';
-                  station.style.transform = 'translateX(0)';
-                }, 50);
-              }, delay);
-              delay += 30; // Décalage de 30ms entre chaque élément
-            } else {
-              // Masquer immédiatement
-              station.style.opacity = '0';
-              station.style.transform = 'translateX(-20px)';
-              setTimeout(() => {
-                station.style.display = 'none';
-              }, 300);
-            }
-          });
-          
-          // Mettre à jour le compteur après l'animation
-          setTimeout(updateCounter, 400);
-        });
-      });
-      
-      // Boutons de copie
-      const copyButtons = document.querySelectorAll('.metro-copy-icon');
-      
-      copyButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
-          e.preventDefault();
-          e.stopPropagation();
-          
-          const url = this.getAttribute('data-url');
-          
-          // Copier dans le presse-papier
-          navigator.clipboard.writeText(url).then(() => {
-            showCopyFeedback(this, true);
-          }).catch(() => {
-            // Fallback pour navigateurs plus anciens
-            try {
-              const tempInput = document.createElement('input');
-              tempInput.value = url;
-              document.body.appendChild(tempInput);
-              tempInput.select();
-              document.execCommand('copy');
-              document.body.removeChild(tempInput);
-              showCopyFeedback(this, true);
-            } catch (err) {
-              showCopyFeedback(this, false);
-            }
-          });
-        });
-      });
-      
-      function showCopyFeedback(button, success) {
-        const originalText = button.textContent;
-        const originalTitle = button.title;
-        
-        if (success) {
-          button.textContent = '✓';
-          button.title = 'Copié !';
-          button.style.color = '#10b981'; // Vert
-        } else {
-          button.textContent = '✗';
-          button.title = 'Erreur de copie';
-          button.style.color = '#ef4444'; // Rouge
-        }
-        
-        setTimeout(() => {
-          button.textContent = originalText;
-          button.title = originalTitle;
-          button.style.color = '';
-        }, 1500);
-      }
-      
-      // Initialiser le compteur
-      updateCounter();
+
+// Script métro timeline - Version propre et optimisée
+document.addEventListener('DOMContentLoaded', function() {
+  
+  // === ÉLÉMENTS DOM ===
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const allStations = document.querySelectorAll('.metro-station');
+  const counterElement = document.getElementById('visible-count');
+  
+  // === ÉTAT INITIAL ===
+  let currentFilter = 'all';
+  let isAnimating = false;
+  
+  // === FONCTIONS UTILITAIRES ===
+  
+  /**
+   * Obtient toutes les stations correspondant au filtre
+   */
+  function getStationsForFilter(filter) {
+    if (filter === 'all') {
+      return Array.from(allStations);
+    }
+    return Array.from(allStations).filter(station => 
+      station.getAttribute('data-category') === filter
+    );
+  }
+  
+  /**
+   * Met à jour le compteur d'éléments
+   */
+  function updateCounter(count) {
+    const total = allStations.length;
+    counterElement.textContent = count;
+  }
+  
+  /**
+   * Gère la classe last-visible pour arrêter la ligne métro
+   */
+  function updateMetroLine(visibleStations) {
+    // Retirer la classe de toutes les stations
+    allStations.forEach(station => station.classList.remove('last-visible'));
+    
+    // Ajouter la classe à la dernière station visible
+    if (visibleStations.length > 0) {
+      const lastStation = visibleStations[visibleStations.length - 1];
+      lastStation.classList.add('last-visible');
+    }
+  }
+  
+  /**
+   * Réinitialise toutes les stations (les rend visibles)
+   */
+  function resetAllStations() {
+    allStations.forEach(station => {
+      station.style.display = 'flex';
+      station.style.opacity = '1';
+      station.style.transform = 'translateX(0)';
     });
+  }
+  
+  /**
+   * Masque les stations non filtrées
+   */
+  function hideStations(stationsToHide) {
+    stationsToHide.forEach(station => {
+      station.style.opacity = '0';
+      station.style.transform = 'translateX(-20px)';
+      setTimeout(() => {
+        station.style.display = 'none';
+      }, 200);
+    });
+  }
+  
+  /**
+   * Affiche les stations filtrées avec animation en cascade
+   */
+  function showStations(stationsToShow) {
+    stationsToShow.forEach((station, index) => {
+      setTimeout(() => {
+        station.style.display = 'flex';
+        station.style.opacity = '0';
+        station.style.transform = 'translateX(-20px)';
+        
+        // Animation d'entrée
+        setTimeout(() => {
+          station.style.opacity = '1';
+          station.style.transform = 'translateX(0)';
+        }, 50);
+      }, index * 30); // Délai de 30ms entre chaque station
+    });
+  }
+  
+  /**
+   * Applique le filtre sélectionné
+   */
+  function applyFilter(selectedFilter) {
+    if (isAnimating) return;
+    
+    isAnimating = true;
+    currentFilter = selectedFilter;
+    
+    // Obtenir les stations à afficher selon le filtre
+    const stationsToShow = getStationsForFilter(selectedFilter);
+    const stationsToHide = Array.from(allStations).filter(
+      station => !stationsToShow.includes(station)
+    );
+    
+    // Mettre à jour immédiatement le compteur
+    updateCounter(stationsToShow.length);
+    
+    if (selectedFilter === 'all') {
+      // Cas spécial "Tout" : réinitialiser toutes les stations
+      resetAllStations();
+      updateMetroLine(stationsToShow);
+      setTimeout(() => {
+        isAnimating = false;
+      }, 300);
+    } else {
+      // Masquer les stations non filtrées
+      hideStations(stationsToHide);
+      
+      // Attendre que le masquage soit terminé, puis afficher les bonnes stations
+      setTimeout(() => {
+        showStations(stationsToShow);
+        updateMetroLine(stationsToShow);
+        
+        // Animation terminée
+        setTimeout(() => {
+          isAnimating = false;
+        }, stationsToShow.length * 30 + 200);
+      }, 250);
+    }
+  }
+  
+  /**
+   * Met à jour l'état actif des boutons de filtre
+   */
+  function updateActiveButton(activeButton) {
+    filterButtons.forEach(btn => btn.classList.remove('active'));
+    activeButton.classList.add('active');
+  }
+  
+  // === ÉVÉNEMENTS ===
+  
+  /**
+   * Gestion des clics sur les boutons de filtre
+   */
+  filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      if (isAnimating) return; // Empêcher les clics multiples
+      
+      const filter = this.getAttribute('data-filter');
+      
+      // Ne rien faire si c'est déjà le filtre actuel
+      if (filter === currentFilter) return;
+      
+      updateActiveButton(this);
+      applyFilter(filter);
+    });
+  });
+  
+  // === INITIALISATION ===
+  
+  /**
+   * Initialise l'état par défaut
+   */
+  function initialize() {
+    // S'assurer que toutes les stations sont visibles au départ
+    resetAllStations();
+    
+    // Mettre à jour le compteur initial
+    updateCounter(allStations.length);
+    
+    // Gérer la ligne métro initiale
+    updateMetroLine(Array.from(allStations));
+    
+    // S'assurer que le bouton "Tout" est actif
+    const allButton = document.querySelector('.filter-btn[data-filter="all"]');
+    if (allButton) {
+      updateActiveButton(allButton);
+    }
+  }
+  
+  // Lancer l'initialisation
+  initialize();
+  
+});
+
+
   </script>
 {{ end }}
