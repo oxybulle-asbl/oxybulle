@@ -198,25 +198,35 @@
    ============================================ */
 
 /* Nom de la station */
+/* Conteneur principal du nom de station */
 .metro-station-name {
-  @apply text-xl font-secondary leading-tight flex items-center gap-2 flex-wrap text-text-dark dark:text-darkmode-text-dark;
+  @apply text-xl font-secondary leading-tight text-text-dark dark:text-darkmode-text-dark;
   margin: 0;
+  display: block;
+}
+
+/* Wrapper pour emoji + titre avec hanging indent */
+.metro-title-wrapper {
+  padding-left: 28px; /* Espace pour l'emoji + gap */
+  text-indent: -28px; /* Ramène la première ligne vers la gauche */
+  line-height: 1.2;
 }
 
 /* Emoji de catégorie (non cliquable) */
 .metro-emoji {
   font-size: 20px;
-  display: inline-block;
-  margin-right: 2px;
-  flex-shrink: 0;
+  display: inline;
   pointer-events: none;
   user-select: none;
+  margin-right: 4px;
 }
 
 /* Lien de station */
 .metro-link {
-  @apply font-medium transition-all duration-200 inline-flex items-center gap-1.5 text-text-dark dark:text-darkmode-text-dark;
+  @apply font-medium transition-all duration-200 text-text-dark dark:text-darkmode-text-dark;
+  display: inline;
   word-break: break-word;
+  hyphens: auto; /* Permet la coupure de mots avec tirets */
 }
 
 .metro-link:hover {
@@ -229,7 +239,7 @@
   opacity: 0.7;
   transition: all 0.2s ease;
   margin-left: 4px;
-  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .metro-link:hover .metro-external-icon {
@@ -334,7 +344,7 @@
   }
   
   .filter-btn {
-    @apply px-3 py-2 text-xs;
+    @apply px-3 py-2 text-lg;
   }
   
   .filter-emoji {
@@ -369,7 +379,7 @@
   }
   
   .metro-station-name {
-    @apply text-2xl;
+    @apply text-xl;
   }
   
   .metro-description {
@@ -396,6 +406,7 @@
     @apply text-xs;
     padding: 6px 12px;
   }
+  
 }
 
 /* ============================================
@@ -498,5 +509,11 @@
     left: 19px;
     top: 40px;
   }
-  
+
+}
+
+@media (max-width: 480px) {
+  .content li {
+    font-size: 1.25rem;
+  }
 }
