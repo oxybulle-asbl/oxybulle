@@ -47,7 +47,7 @@ Un don de plus de 40 € (annuel) est déductible. En 2023, une activité pour u
 
 ⚠ Il est ***impératif*** de nous **communiquer** votre numéro de registre national ainsi que votre adresse postale ou email. Sans quoi, nous ne serons pas en capacité de vous envoyer la fiche fiscale, ni de vous remercier ! Les addresses n’apparaissent pas sur les extraits de compte.
 
-**Merci** du fond du coeur ❤️ à toutes celles et ceux, parfois anonymes, qui permettent l'association d'exister. 
+**Merci** du fond du coeur ❤️ à toutes celles et ceux, parfois anonymes, qui permettent à l'association d'exister. 
 
 Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** une **bulle d'air** à **<u>tous</u> les enfants** des maisons d'accueil situées dans la province de **Namur**. Avec 13 maisons partenaires, on en est seulement à la moitié. Nous devons donc **doubler** 📈 nos capacités ! Avec vous.  
 
