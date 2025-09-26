@@ -1,7 +1,7 @@
 ---
 title: "Grandir entouré"
 meta_title: "Activités"
-description: "Des **activités** de **loisir** et du **soutien scolaire** sont co-organisées et animées par des volontaires."
+description: "Des **activités** de **loisir** et du **soutien scolaire** sont co-organisés et animés par des volontaires."
 enableonsingle: true
 draft: false
 ---
@@ -22,6 +22,6 @@ Une présence régulière des volontaires est encouragée pour établir un lien 
 
 Le soutien scolaire prend la forme de séances hebdomadaires individuelles entre jeunes et volontaires. Ce sont des **moments privilégiés et calmes**, où les enfants et les adolescents bénéficient d'une **écoute attentive et d'une attention personnalisée** propice au progrès.
 
-L’**objectif** consiste **éveiller la curiosité** des jeunes, à prendre confiance en soi. Il s'agit de **stimuler l'envie d'apprendre** via des méthodes ludiques **valorisant davantage l'effort que le résultat**.
+L’**objectif** est d'**éveiller la curiosité** des jeunes, construire/renforcer la confiance en eux. L'**envie d'apprendre** est stimulée via des méthodes ludiques **valorisant davantage l'effort que le résultat**.
 
 Concrètement, au sein des maisons d'accueil et dans un local adapté, garantissant la tranquillité, un accompagnement sur-mesure est proposé à chaque jeune. La dimension individuelle de ce suivi permet de leur offrir un **cadre confidentiel et complice**.

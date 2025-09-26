@@ -12,7 +12,7 @@ banner:
 features:
   - title: "Ce qui nous anime"
     image: "/images/oxybulle-cover-2.png"
-    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les [**enfants**](/a-propos/#jeunes) placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **35** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), plus de **100 jeunes** sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Votre aide concrétise directement notre action sur le terrain.</p>"
+    contentabove: "**Oxybulle** est née du **constat** suivant : malgré le dévouement des équipes éducatives qui les entourent, les [**enfants**](/a-propos/#jeunes) placés en institution **manquent** de **moments privilégiés**, entièrement **consacrés** à leur **épanouissement personnel**.<p>C’est ce temps précieux que nos **35** [**volontaires**](/a-propos) leur offrent. A travers des [**activités récréatives**](/activites/) ou des séances de [**soutien scolaire**](/activites), **150 jeunes** sont accompagnés chaque année.</p><p>Ensemble, nous **tissons** avec ces enfants et adolescents marqués par les épreuves des **liens de confiance** faits de **complicité**, d’**encouragements** et de **souvenirs positifs**.</p><p>Votre aide concrétise directement notre action sur le terrain.</p>"
     button:
       enable: true
       label: "Nous soutenir"
@@ -21,7 +21,7 @@ features:
     subscription: 
       enable: true 
     image: "/images/oxybulle-n.png"
-    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre action. <p>Nous sommes aussi sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Notre [**Newsletter**](https://www.oxybulle.org/blog/)<span style='color:red;'>*</span> vous tient informé par email : <br></p>"
+    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre action. <p>Nous sommes aussi sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Notre [**Newsletter**](https://www.oxybulle.org/blog/)<span style='color:red;'>*</span> vous tient informé·e par email : <br></p>"
 # À ajouter dans votre _index.md après la section "Notre actualité"
   - title: "Au fil du temps"
     image: "/images/oxybulle-m.png"  # Changez par votre image
