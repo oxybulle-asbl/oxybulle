@@ -21,7 +21,7 @@ features:
     subscription: 
       enable: true 
     image: "/images/oxybulle-n.png"
-    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre action. <p>Nous sommes aussi sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<br> Notre [**Newsletter**](https://www.oxybulle.org/blog/)<span style='color:red;'>*</span> vous tient informé·e par email : <br></p>"
+    contentabove: "Chaque forme d'engagement nous aide à poursuivre notre action. <p>Nous sommes aussi sur [**Instagram**](https://www.instagram.com/oxybulle_asbl/), [**Facebook**](https://www.facebook.com/oxybulleasbl/) et [**Linkedin**](https://www.linkedin.com/company/oxybulle-asbl/).<p> Notre [**Newsletter**](https://www.oxybulle.org/blog/)<span style='color:red;'>*</span> vous tient informé·e par email :</p>"
 # À ajouter dans votre _index.md après la section "Notre actualité"
   - title: "Au fil du temps"
     image: "/images/oxybulle-m.png"  # Changez par votre image

@@ -100,54 +100,11 @@
                               <span class="metro-station-name">
                                 <!-- Emoji selon la catégorie -->
                                 {{ if $page.Params.categories }}
-                                  {{ if eq $category "action" }}
-                                    <span class="metro-emoji">📢</span>
-                                  {{ else if eq $category "evenement" }}
-                                    <span class="metro-emoji">🎭</span>
-                                  {{ else if eq $category "infolettre" }}
-                                    <span class="metro-emoji">📜</span>
-                                  {{ else if eq $category "rapport"}}
-                                    <span class="metro-emoji">📊</span>
-                                  {{ else if eq $category "presse"}}
-                                    <span class="metro-emoji">📰</span>
-                                  {{ else }}
-                                    <span class="metro-emoji">📄</span>
-                                  {{ end }}
+                                  <span class="metro-emoji">{{ partial "metro-filters.html" $category }}</span>
                                 {{ end }}
                                 
-                                <!-- Titre cliquable avec gestion des liens internes et externes -->
-                                {{ $linkUrl := "" }}
-                                {{ $hasCustomLink := false }}
-                                {{ $isExternal := false }}
-                                
-                                {{ if $page.Params.external_link }}
-                                  {{ $linkUrl = $page.Params.external_link }}
-                                  {{ $hasCustomLink = true }}
-                                  {{ $isExternal = true }}
-                                {{ else if $page.Params.internal_link }}
-                                  {{ $linkUrl = $page.Params.internal_link | relURL }}
-                                  {{ $hasCustomLink = true }}
-                                {{ end }}
-                                
-                                {{ if $hasCustomLink }}
-                                  <a 
-                                    href="{{ $linkUrl }}" 
-                                    class="metro-link"
-                                    {{ if $isExternal }}target="_blank" rel="noopener"{{ end }}
-                                    title="{{ $page.Title }}"
-                                  >
-                                    {{ $page.Title }}
-                                    <span class="metro-external-icon"><i class="fa fa-external-link"></i></span>
-                                  </a>
-                                {{ else }}
-                                  <a 
-                                    href="{{ $page.Permalink }}" 
-                                    class="metro-link"
-                                    title="{{ $page.Title }}"
-                                  >
-                                    {{ $page.Title }}
-                                  </a>
-                                {{ end }}
+                                <!-- Lien optimisé -->
+                                {{ partial "metro-link.html" $page }}
                               </span>
                               
                               <!-- Description -->

@@ -3,7 +3,6 @@ title: "Oxybulle recrute"
 date: 2025-09-24T00:00:00+01:00
 categories: 
   - "action"
-internal_link: "/blog/post-40/"
 draft: false
 toc: false
 discuss: false

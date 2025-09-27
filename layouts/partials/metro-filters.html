@@ -1,0 +1,33 @@
+{{/* Configuration centralisée des catégories */}}
+{{ $categories := slice 
+  (dict "key" "all" "emoji" "🌟" "label" "Tout")
+  (dict "key" "infolettre" "emoji" "📜" "label" "Infolettres") 
+  (dict "key" "evenement" "emoji" "🎭" "label" "Événements")
+  (dict "key" "action" "emoji" "📢" "label" "Actions")
+  (dict "key" "rapport" "emoji" "📊" "label" "Rapports")
+  (dict "key" "presse" "emoji" "📰" "label" "Presse")
+}}
+
+{{/* Si appelé avec une chaîne simple, retourner juste l'emoji */}}
+{{ if and . (eq (printf "%T" .) "string") }}
+  {{/* Recherche de l'emoji pour la catégorie */}}
+  {{ $categoryToFind := . }}
+  {{ $found := false }}
+  {{ range $categories }}
+    {{ if eq .key $categoryToFind }}{{ .emoji }}{{ $found = true }}{{ end }}
+  {{ end }}
+  {{ if not $found }}📄{{ end }}
+{{ else }}
+  {{/* Sinon, générer les filtres complets */}}
+  <!-- Filtres par catégorie -->
+  <div class="metro-filters mb-8">
+    <div class="filter-buttons">
+      {{ range $i, $cat := $categories }}
+        <button class="filter-btn{{ if eq $cat.key "all" }} active{{ end }}" data-filter="{{ $cat.key }}">
+          <span class="filter-emoji">{{ $cat.emoji }}</span>
+          {{ $cat.label }}
+        </button>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

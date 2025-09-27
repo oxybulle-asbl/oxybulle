@@ -1,0 +1,16 @@
+{{ $isExternal := .Params.external_link }}
+{{ $linkUrl := .Permalink }}
+{{ $linkTarget := "" }}
+
+{{ if $isExternal }}
+  {{ $linkUrl = .Params.external_link }}
+  {{ $linkTarget = `target="_blank" rel="noopener"` }}
+{{ end }}
+
+<a href="{{ $linkUrl }}" 
+   class="metro-link"
+   {{ $linkTarget | safeHTMLAttr }}
+   title="{{ .Title }}">
+  {{ .Title }}
+  <span class="metro-external-icon"><i class="fa fa-external-link"></i></span>
+</a>
