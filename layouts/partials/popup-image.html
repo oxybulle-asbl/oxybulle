@@ -30,126 +30,70 @@ Pour changer : remplacer "popup-bg-auto" par la classe souhaitée dans la div po
 */}}
 
 <!-- layouts/partials/popup-image.html -->
-<div id="popup-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-  
-  <div id="popup-content" class="popup-bg-transparent rounded-lg overflow-hidden max-w-3xl w-full max-h-[90vh] relative">
-    <!-- Bouton de fermeture fixe en haut à droite -->
-    <div class="absolute top-2 right-2 z-10">
-      <button id="close-popup" class="bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-all duration-200 focus:outline-none">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
-    </div>
+<div id="popup-overlay" class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+  <div id="popup-content" class="relative max-w-3xl w-full max-h-[90vh] -translate-y-6 rounded-2xl overflow-hidden">
+<button id="close-popup" 
+        class="absolute top-4 left-4 z-30 bg-black/60 text-white rounded-full p-2 hover:bg-black/80 transition-all">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+  </svg>
+</button>
 
-    <!-- Images cliquables vers Instagram -->
-    {{ $desktopImage := resources.Get "images/oxypom.png" }}
-    {{ $mobileImage := resources.Get "images/oxypom-mobile.png" }}
-
+    <!-- Desktop -->
+    {{ $desktopImage := resources.Get "images/oxypom.jpg" }}
     {{ with $desktopImage }}
-      <a href="https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=NLOP2025" target="_blank" class="block">
-        <img id="popup-image-desktop" src="{{ .Permalink }}" alt="Cliquez sur l'image pour commander" class="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity duration-200">
+      <a href="https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=NLOP2025" target="_blank">
+        <img src="{{ .Permalink }}" alt="Cliquez pour commander" class="w-full h-auto hidden sm:block object-cover">
       </a>
-    {{ else }}
-      <p class="p-4">Desktop image not found</p>
     {{ end }}
 
+    <!-- Mobile -->
+    {{ $mobileImage := resources.Get "images/oxypom-mobile.jpg" }}
     {{ with $mobileImage }}
-      <a href="https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=NLOP2025" target="_blank" class="block hidden" id="mobile-link">
-        <img id="popup-image-mobile" src="{{ .Permalink }}" alt="Cliquez sur l'image pour commander" class="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity duration-200">
+      <a href="https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=NLOP2025" target="_blank">
+        <img src="{{ .Permalink }}" alt="Cliquez pour commander" class="w-full h-auto block sm:hidden object-cover">
       </a>
-    {{ else }}
-      <p class="p-4 hidden" id="mobile-image-not-found">Mobile image not found</p>
     {{ end }}
-
   </div>
 </div>
 
+
 <style>
-  /* === CONFIGURATION BACKGROUNDS POPUP === */
-  .popup-bg-auto { background: white; }
-  .popup-bg-dark { background: #1a1a1a; }
-  .popup-bg-transparent { background: transparent; }
-  .popup-bg-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-  .popup-bg-theme { 
-    background: var(--bg-color, white); 
-    color: var(--text-color, black); 
+  /* fallback CSS pour forcer le border-radius s'il y a des overrides */
+  .popup-image-wrap {
+    border-radius: 1rem;               /* same as rounded-2xl / adjust if needed */
+    overflow: hidden;                  /* clip the image */
   }
 
-  /* Animations et transitions du popup */
-  #popup-overlay {
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  #popup-overlay.hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  #popup-content {
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  #popup-overlay:not(.hidden) #popup-content {
-    transform: scale(1);
-  }
-  
-  #popup-overlay.hidden #popup-content {
-    transform: scale(0.9);
-  }
-  
-  #close-popup {
-    transition: background-opacity 0.2s ease-in-out;
+  /* s'assure que l'image hérite bien du radius (plus spécifique) */
+  .popup-image-wrap img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: inherit !important;
+    -webkit-border-radius: inherit !important;
   }
 
-  /* Media query pour mobile */
-  @media (max-width: 640px) {
-    #popup-content {
-      width: 95%;
-      max-height: 80vh;
-    }
-    
-    #popup-image-desktop {
-      display: none !important;
-    }
-    
-    #popup-image-mobile {
-      display: block !important;
-    }
-    
-    #mobile-link {
-      display: block !important;
-    }
-    
-    #mobile-image-not-found {
-      display: block !important;
-    }
-  }
+  /* animation optionnelle pour l'ouverture (supprime si pas voulu) */
+  #popup-overlay { transition: opacity .25s ease, transform .25s ease; }
+  #popup-content { transition: transform .25s ease, opacity .25s ease; }
 </style>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const popup = document.getElementById('popup-overlay');
-    const closePopupBtn = document.getElementById('close-popup');
-    const popupContent = document.getElementById('popup-content');
+    const closeBtn = document.getElementById('close-popup');
 
-    function closePopup() {
+    // affiche au chargement
+    popup.classList.remove('hidden');
+
+    // fermeture par X
+    closeBtn.addEventListener('click', function() {
       popup.classList.add('hidden');
-    }
-
-    // Fermeture par bouton X
-    closePopupBtn.addEventListener('click', closePopup);
-    
-    // Fermeture par clic sur l'overlay
-    popup.addEventListener('click', function(e) {
-      if (e.target === popup) {
-        closePopup();
-      }
-    });
-    
-    // Empêcher la fermeture lors du clic sur le contenu
-    popupContent.addEventListener('click', function(e) {
-      e.stopPropagation();
     });
   });
 </script>
+
+
+
+
