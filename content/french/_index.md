@@ -1,4 +1,10 @@
 ---
+# Popup image
+popup:
+  enable: true
+  desktop: "/images/oxypom.jpg"
+  mobile: "/images/oxypom-mobile.jpg"
+  link: "https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=NLOP2025"
 # Banner
 banner:
   title: "Offrir une bulle d'air<br>à des enfants et des ados"

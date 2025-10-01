@@ -1,99 +1,45 @@
-{{/*
-=== INSTRUCTIONS POUR UTILISER CE POPUP IMAGE ===
-
-1. ACTIVATION :
-Pour activer ce popup, ajouter la ligne suivante dans index.html juste après {{ define "main" }} :
-{{ partial "popup-image.html" . }}
-
-2. IMAGES REQUISES :
-Les images doivent être placées dans :
-- assets/images/insta.png (version desktop)
-- assets/images/insta-mobile.png (version mobile)
-
-3. CONFIGURATION BACKGROUND :
-Pour changer le fond du popup, modifier la classe dans popup-content :
-
-FONDS DISPONIBLES :
-- popup-bg-auto     → Blanc (défaut)
-- popup-bg-dark     → Sombre (#1a1a1a)
-- popup-bg-transparent → Transparent
-- popup-bg-gradient → Dégradé coloré
-- popup-bg-theme    → Suit le thème du site
-
-EXEMPLE D'USAGE :
-- Image transparente + mode sombre : utiliser "popup-bg-dark"
-- Image transparente + mode clair : utiliser "popup-bg-auto" 
-- Image avec fond intégré : utiliser "popup-bg-transparent"
-- Pour des actions spéciales : utiliser "popup-bg-gradient"
-
-Pour changer : remplacer "popup-bg-auto" par la classe souhaitée dans la div popup-content
-*/}}
-
 <!-- layouts/partials/popup-image.html -->
+{{ if .Params.popup.enable }}
+{{ $desktop := .Params.popup.desktop | default "images/insta.png" }}
+{{ $mobile  := .Params.popup.mobile  | default "images/insta-mobile.png" }}
+{{ $link    := .Params.popup.link    | default "https://www.instagram.com/oxybulle-asbl/" }}
+
 <div id="popup-overlay" class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-  <div id="popup-content" class="relative max-w-3xl w-full max-h-[90vh] -translate-y-6 rounded-2xl overflow-hidden">
-<button id="close-popup" 
-        class="absolute top-4 left-4 z-30 bg-black/60 text-white rounded-full p-2 hover:bg-black/80 transition-all">
-  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-  </svg>
-</button>
+  <div id="popup-content" class="relative max-w-3xl w-full max-h-[90vh] -translate-y-5 rounded-lg overflow-hidden">
+    
+    <!-- bouton X -->
+    <button id="close-popup" class="absolute top-4 right-4 z-30 bg-black/60 text-white rounded-full p-2 hover:bg-black/80 transition-all">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
 
     <!-- Desktop -->
-    {{ $desktopImage := resources.Get "images/oxypom.jpg" }}
-    {{ with $desktopImage }}
-      <a href="https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=NLOP2025" target="_blank">
-        <img src="{{ .Permalink }}" alt="Cliquez pour commander" class="w-full h-auto hidden sm:block object-cover">
+    {{ with resources.Get $desktop }}
+      <a href="{{ $link }}" target="_blank">
+        <img src="{{ .Permalink }}" alt="Popup desktop" class="w-full h-auto hidden sm:block object-cover">
       </a>
     {{ end }}
 
     <!-- Mobile -->
-    {{ $mobileImage := resources.Get "images/oxypom-mobile.jpg" }}
-    {{ with $mobileImage }}
-      <a href="https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=NLOP2025" target="_blank">
-        <img src="{{ .Permalink }}" alt="Cliquez pour commander" class="w-full h-auto block sm:hidden object-cover">
+    {{ with resources.Get $mobile }}
+      <a href="{{ $link }}" target="_blank">
+        <img src="{{ .Permalink }}" alt="Popup mobile" class="w-full h-auto block sm:hidden object-cover">
       </a>
     {{ end }}
   </div>
 </div>
-
-
-<style>
-  /* fallback CSS pour forcer le border-radius s'il y a des overrides */
-  .popup-image-wrap {
-    border-radius: 1rem;               /* same as rounded-2xl / adjust if needed */
-    overflow: hidden;                  /* clip the image */
-  }
-
-  /* s'assure que l'image hérite bien du radius (plus spécifique) */
-  .popup-image-wrap img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: inherit !important;
-    -webkit-border-radius: inherit !important;
-  }
-
-  /* animation optionnelle pour l'ouverture (supprime si pas voulu) */
-  #popup-overlay { transition: opacity .25s ease, transform .25s ease; }
-  #popup-content { transition: transform .25s ease, opacity .25s ease; }
-</style>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const popup = document.getElementById('popup-overlay');
     const closeBtn = document.getElementById('close-popup');
 
-    // affiche au chargement
+    // affiche le popup au chargement
     popup.classList.remove('hidden');
 
     // fermeture par X
-    closeBtn.addEventListener('click', function() {
-      popup.classList.add('hidden');
-    });
+    closeBtn.addEventListener('click', () => popup.classList.add('hidden'));
   });
 </script>
-
-
-
-
+{{ end }}
