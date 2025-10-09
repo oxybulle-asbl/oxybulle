@@ -9,6 +9,7 @@
 
 :root {
   /* Couleurs métro */
+  --metro-blue: #1D4E89;
   --metro-green: #71AE49;
   --metro-yellow: #FFC102;
   --metro-orange: #ED7F34;
@@ -60,6 +61,10 @@
   --metro-shadow-green: 0 4px 16px rgba(113, 174, 73, 0.3);
   --metro-shadow-yellow: 0 4px 16px rgba(255, 193, 2, 0.3);
   --metro-shadow-orange: 0 4px 16px rgba(237, 127, 52, 0.3);
+}
+
+.dark {
+  --metro-blue: #5B9BD5;
 }
 
 /* ============================================
@@ -175,7 +180,7 @@
 }
 
 .metro-line-primary:not(:last-child)::after {
-  @apply bg-gradient-to-b from-primary to-primary/70;
+  background: linear-gradient(180deg, var(--metro-blue) 0%, var(--metro-blue) 70%, transparent 100%);
 }
 
 .metro-line-green:not(:last-child)::after {
@@ -213,7 +218,7 @@
 }
 
 .metro-line-primary .metro-station-circle {
-  @apply bg-primary dark:bg-darkmode-primary;
+  background-color: var(--metro-blue);
 }
 
 .metro-line-green .metro-station-circle {
