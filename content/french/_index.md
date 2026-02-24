@@ -2,8 +2,8 @@
 # Popup image
 popup:
   enable: true
-  desktop: "/images/oxychoc.png"
-  mobile: "/images/oxychoc-mobile.png"
+  desktop: "/images/oxychoc.jpg"
+  mobile: "/images/oxychoc-mobile.jpg"
   link: "https://www.uningoapp.com/np_profile?org=Oxybulle&tab=shop-tab&src=NLOC26"
 # Banner
 banner:
