@@ -1,5 +1,5 @@
 ---
-title: "OxyChoc, c'est parti!"
+title: "OxyChoc, c'est parti !"
 date: 2026-02-24T00:00:00+01:00
 categories: 
   - "action"
