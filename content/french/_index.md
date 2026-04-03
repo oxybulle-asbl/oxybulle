@@ -1,7 +1,7 @@
 ---
 # Popup image
 popup:
-  enable: true
+  enable: false
   desktop: "/images/oxychoc.jpg"
   mobile: "/images/oxychoc-mobile.jpg"
   link: "https://www.uningoapp.com/np_profile?org=Oxybulle&tab=shop-tab&src=NLOC26"
