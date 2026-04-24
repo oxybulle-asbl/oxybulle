@@ -68,6 +68,7 @@ Oxybulle est une association belge, autonome, neutre, apolitique, n’appartenan
 
 #### Rapports d'activité
 
+- [Rapport d'activité 2025]({{< static "/RA-Oxybulle-2025.pdf" >}})
 - [Rapport d'activité 2024]({{< static "/RA-Oxybulle-2024.pdf" >}})
 - [Rapport d'activité 2023]({{< static "/RA-Oxybulle-2023.pdf" >}})
 - [Rapport d'activité 2022]({{< static "/RA-Oxybulle-2022.pdf" >}})
