@@ -1,6 +1,6 @@
 ---
 title: "Oxybulle recrute à nouveau"
-date: 2026-03-17T00:00:00+01:00
+date: 2026-06-11T00:00:00+01:00
 categories: 
   - "action"
 draft: false
@@ -14,4 +14,4 @@ Nous sommes donc à la recherche de la perle rare pour lui succéder.
 
 L'offre est par ici 👇
 
-[PDF](/Oxybulle_OffreEmploi_mars2026.pdf)
+[PDF](/Oxybulle_OffreEmploi_juin2026.pdf)
