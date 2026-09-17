@@ -2,8 +2,8 @@
 # Popup image
 popup:
   enable: true
-  desktop: "/images/volontariat2026.png"
-  mobile: "/images/volontariat2026-mobile.png"
+  desktop: "/images/volontariat2026.jpg"
+  mobile: "/images/volontariat2026-mobile.jpg"
   link: "https://www.oxybulle.org/contact/"
 # Banner
 banner:
