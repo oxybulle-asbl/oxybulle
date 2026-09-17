@@ -1,10 +1,10 @@
 ---
 # Popup image
 popup:
-  enable: false
-  desktop: "/images/oxychoc.jpg"
-  mobile: "/images/oxychoc-mobile.jpg"
-  link: "https://www.uningoapp.com/np_profile?org=Oxybulle&tab=shop-tab&src=NLOC26"
+  enable: true
+  desktop: "/images/volontariat2026.png"
+  mobile: "/images/volontariat2026-mobile.png"
+  link: "https://www.oxybulle.org/contact/"
 # Banner
 banner:
   title: "Offrir une bulle d'air<br>à des enfants et des ados"

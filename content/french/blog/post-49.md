@@ -15,3 +15,5 @@ Nous sommes donc à la recherche de la perle rare pour lui succéder.
 L'offre est par ici 👇
 
 [PDF](/Oxybulle_OffreEmploi_juin2026.pdf)
+
+-- OFFRE D'EMPLOI CLOTUREE -- Merci à toutes et tous pour votre enthousiasme. Nous avons reçu plus de 200 candidatures. 
