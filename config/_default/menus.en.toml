@@ -21,12 +21,17 @@ weight = 3
 [[main]]
 name = "Contact"
 url = "/contact/"
-weight = 5
+weight = 6
 
 [[main]]
 name = "OxyNews"
 url = "/blog/"
 weight = 4
+
+[[main]]
+name = "Boutique"
+url = "https://oxybulle.shop"
+weight = 5
 
 # footer menu
 [[footer]]
