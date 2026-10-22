@@ -13,12 +13,12 @@ draft: false
 📞 +32-499-826-891 Stéphanie (téléphone, sms, whatsapp) <br>
 📍 [Carte Google Maps](https://maps.app.goo.gl/2aWCcsY1AvD8Rvey5)
 
-{{< image src="images/oxybulle-contact.png" 
+{{< image src="images/oxybulle-contact.webp" 
    caption="" 
    height="" 
    width="" 
    position="center" 
    command="fill" 
-   option="q100" 
+   option="q85" 
    class="img-fluid glightbox" 
    webp="false" >}}

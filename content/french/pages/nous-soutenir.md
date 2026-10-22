@@ -5,7 +5,7 @@ description: "Grâce à **votre soutien**, Oxybulle peut apporter à une centain
 draft: false
 enable: false
 ---
-{{< image src="images/oxybulle-s.png" caption="" alt="images : Visite d'une ferme pédagogique ; Ballade le long de la Meuse ; Journée à la mer" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Visite d'une ferme pédagogique ; Ballade le long de la Meuse ; Journée à la mer"  webp="false" >}}
+{{< image src="images/oxybulle-s.webp" caption="" alt="images : Visite d'une ferme pédagogique ; Ballade le long de la Meuse ; Journée à la mer" height="" width="" position="center" command="fill" option="q85" class="img-fluid" title="Visite d'une ferme pédagogique ; Ballade le long de la Meuse ; Journée à la mer"  webp="false" >}}
 <br>
 Ensemble, nous avons déjà fait beaucoup. Mais l’aventure ne fait que commencer ! 
 

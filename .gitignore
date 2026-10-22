@@ -1,22 +1,27 @@
+# OS
 Thumbs.db
 .DS_Store
-.dist
-.tmp
-.lock
-.sass-cache
+
+# Editors / local tools
 .obsidian
-.backupy
-.github
 .vscode
-npm-debug.log
+.backupy
+.copies
+
+# Dependencies
 node_modules
-builds
-package-lock.json
+npm-debug.log
+yarn.lock
+
+# Hugo build output and caches (regenerated on every build)
 public
 resources
 .hugo_build.lock
-jsconfig.json
 hugo_stats.json
-go.sum
-yarn.lock
-.copies
+builds
+.dist
+.tmp
+.sass-cache
+
+# Misc
+jsconfig.json

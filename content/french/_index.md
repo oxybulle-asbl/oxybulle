@@ -46,7 +46,7 @@ features:
 #      label: "Plus d'informations"
 #      link: "https://mailchi.mp/50c646dc205d/qo96ekbnth"
 #  - title: "Vente d'œufs en chocolat"
-#    image: "/images/oxybulle-c-1.png"
+#    image: "/images/oxybulle-c-1.webp"
 #    contentabove: "📑 Organisée par le [**Comité de soutien**](/a-propos) <br> 🚀 Pour **financer** les **activités** des **jeunes** <br> 📆 Commandes du **21 février** au **15 mars 2024** <br> 🚚 Enlèvement du **18** au **29 mars 2024# **<p>Cette année encore, nous vous proposons un **assortiment** d'**œufs** de l'**artisan chocolatier Galler** de Marche. <p>Un chocolat de **qualité** pour vous faire **plaisir** ou comme **cadeau** 🎁 à vos proches et/ou aux jeunes.</p><p> Un colis *entreprise* pour vos collaborateurs et clients est également disponible.</p>"
 #    button:
 #      enable: true

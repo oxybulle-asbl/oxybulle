@@ -7,6 +7,8 @@ title = "Oxybulle"
 theme = "hugoplate"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Europe/Brussels"
+# generate robots.txt from layouts/robots.txt
+enableRobotsTXT = true
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # disable language
@@ -22,9 +24,6 @@ defaultContentLanguageInSubdir = false
 [services]
 [services.googleAnalytics]
 ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
-
-[services.disqus]
-shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
 ########################## Permalinks ############################
 [permalinks.page]
@@ -140,9 +139,6 @@ lazy = false
 link = "plugins/swiper/swiper-bundle.js"
 lazy = false
 [[params.plugins.js]]
-link = "plugins/cookie.js"
-lazy = false
-[[params.plugins.js]]
 link = "plugins/glightbox/glightbox.js"
 lazy = true
 [[params.plugins.js]]
@@ -150,13 +146,4 @@ link = "js/gallery-slider.js"
 lazy = true
 [[params.plugins.js]]
 link = "js/accordion.js"
-lazy = true
-[[params.plugins.js]]
-link = "js/tab.js"
-lazy = true
-[[params.plugins.js]]
-link = "js/modal.js"
-lazy = true
-[[params.plugins.js]]
-link = "plugins/youtube-lite.js"
 lazy = true

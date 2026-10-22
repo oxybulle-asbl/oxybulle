@@ -46,4 +46,4 @@ Si vous représentez une **entreprise**, nous vous proposons des colis "entrepri
 |Chez Céline|Eghezée centre|5310 Eghezée|
 |Chez Stéphanie|Gesves/Haltinne/Coutisse|5340 Gesves|
 
-{{< image src="images/oxybulle-c-1.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+{{< image src="images/oxybulle-c-1.webp" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q85" class="img-fluid" title="image title"  webp="false" >}}

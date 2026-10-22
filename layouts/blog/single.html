@@ -35,10 +35,6 @@
             </li>
           </ul>
           <div class="content mb-10">
-            <!-- Table of Contents - conditionnelle basée sur le paramètre TOC -->
-            {{ if .Params.toc }}
-              {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
-            {{ end }}
             {{ .Content }}
           </div>
           <div class="row items-start justify-between">
@@ -64,12 +60,6 @@
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "X" false "Telegram" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
             </div>
           </div>
-          <!-- Comments - conditionnels basés sur le paramètre Discuss ET la config Disqus -->
-          {{ if and .Params.discuss site.Config.Services.Disqus.Shortname }}
-            <div class="mt-20">
-              {{ template "_internal/disqus.html" . }}
-            </div>
-          {{ end }}
         </article>
       </div>
 

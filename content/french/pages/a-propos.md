@@ -16,7 +16,7 @@ Nos **valeurs** de **respect**, de **confiance**, d'**écoute**, de **partage** 
 
 Notre **bulle d'air 🎈 et de coeur ❤️** est composée de [**jeunes**](#jeunes), de [**volontaires**](#volontaires), des  [**équipes des maisons d'accueil**](#équipes-des-maisons-d-accueil), de [**membres du comité de soutien**](#membres-du-comité-de-soutien), de [**mécènes**](#mécènes), et d'un [**organe de gestion** ](#organe-de-gestion).
 
-{{< image src="images/oxybulle-b.png" caption="" alt="images : Ballade en vélo le long de la Meuse ; Spectacle festival Namur en mai - LeDelta ; Visite du musée de Tervueren" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Ballade en vélo le long de la Meuse ; Spectacle au Delta dans le cadre du festival Namur en mai ; Visite du musée de Tervueren ; Après-midi sportive accro-branche"  webp="false" >}}
+{{< image src="images/oxybulle-b.webp" caption="" alt="images : Ballade en vélo le long de la Meuse ; Spectacle festival Namur en mai - LeDelta ; Visite du musée de Tervueren" height="" width="" position="center" command="fill" option="q85" class="img-fluid" title="Ballade en vélo le long de la Meuse ; Spectacle au Delta dans le cadre du festival Namur en mai ; Visite du musée de Tervueren ; Après-midi sportive accro-branche"  webp="false" >}}
 
 #### Jeunes
 

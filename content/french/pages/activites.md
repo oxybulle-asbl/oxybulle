@@ -16,7 +16,7 @@ Les activités peuvent durer de **quelques heures à une journée complète**. E
 
 Une présence régulière des volontaires est encouragée pour établir un lien de confiance avec les enfants et ainsi, les accompagner dans la **découverte** et le **partage de souvenirs positifs**.
 
-{{< image src="images/oxybulle-a.png" caption="" alt="images : Séance de soutien scolaire ; Ballade accompagnée par un âne ; Après-midi Concert à la Citadelle ; Atelier paléolithique au PréhistoMuseum de Flemalle" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="Séance de soutien scolaire ; Ballade accompagnée par un âne ; Après-midi Concert à la Citadelle ; Atelier paléolithique au PréhistoMuseum de Flemalle"  webp="false" >}}
+{{< image src="images/oxybulle-a.webp" caption="" alt="images : Séance de soutien scolaire ; Ballade accompagnée par un âne ; Après-midi Concert à la Citadelle ; Atelier paléolithique au PréhistoMuseum de Flemalle" height="" width="" position="center" command="fill" option="q85" class="img-fluid" title="Séance de soutien scolaire ; Ballade accompagnée par un âne ; Après-midi Concert à la Citadelle ; Atelier paléolithique au PréhistoMuseum de Flemalle"  webp="false" >}}
 
 ### Le soutien scolaire
 
