@@ -51,7 +51,7 @@ Un don de plus de 40 € (annuel) est déductible. En 2023, une activité pour u
 
 Nous souhaiterions **aller encore plus loin**. Notre objectif est d'**offrir** une **bulle d'air** à **<u>tous</u> les enfants** des maisons d'accueil situées dans la province de **Namur**. Avec 13 maisons partenaires, on en est seulement à la moitié. Nous devons donc **doubler** 📈 nos capacités ! Avec vous.  
 
-{{< button label="Don en ligne (Sécurisé)" link="https://oxybulle.s2.yapla.com/fr/campaign-17268/detail/activites-de-loisir-et-soutien-scolaire/17268](https://oxybulle.s2.yapla.com/fr/campaign-17268/detail/activites-de-loisir-et-soutien-scolaire/17268" >}} 
+{{< button label="Don en ligne (Sécurisé)" link="https://oxybulle.s2.yapla.com/fr/campaign-17268/detail/activites-de-loisir-et-soutien-scolaire/17268" >}} 
 
 {{< button label="Nous contacter et s'inscrire à la newsletter" link="contact/" style="solid" >}}
 

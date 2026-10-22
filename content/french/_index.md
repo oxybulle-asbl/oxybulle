@@ -66,11 +66,9 @@ features:
 #    button:
 #      enable: true
 #      label: "Commander du jus"
-#      link: "https://www.uningoapp.com/np_profile?org=Oxybulle&lang=fr&tab=shop-tab&src=OP2024"
 #    button1:
 #      enable: true
 #      label: "Offrir du jus aux jeunes (don déductible)"
-#      link: "https://www.uningoapp.com/basic_form?org=Oxybulle&proj=164&src=DonOP2024"
 
 
 ---

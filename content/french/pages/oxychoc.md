@@ -2,7 +2,7 @@
 title: "Vente d'oeufs de Pâques"
 meta_title: "action"
 description: "Cette année encore, nous vous proposons un assortiment d'œufs de l'**artisan chocolatier Galler** de Marche. <br>Un **chocolat** de **qualité** pour vous faire **plaisir** ou comme **cadeau** à vos proches et/ou aux jeunes."
-draft: false
+draft: true
 ---
 📆 Du **1er** au **31 mars 2025** <br>
 🚚 Enlèvement du **8** au **19 avril 2025** <br>
