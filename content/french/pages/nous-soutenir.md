@@ -35,7 +35,7 @@ Concrètement, **devenir volontaire** se fait en **plusieurs étapes** : un prem
 
 {{< accordion "Don déductible : particuliers et entreprises" >}}
 
-Vous pouvez **soutenir** nos activités directement en faisant un [**don en ligne**](https://www.uningoapp.com/basic_form?org=Oxybulle&lang=fr) ou par **virement** à
+Vous pouvez **soutenir** nos activités directement en faisant un [**don en ligne**](https://oxybulle.s2.yapla.com/fr/campaign-17268/detail/activites-de-loisir-et-soutien-scolaire/17268) ou par **virement** à
 
 **Oxybulle asbl**<br>
 IBAN : BE47 0689 3772 3780  
